@@ -6,7 +6,7 @@
       "description": "What have you learned?",
       "author": [],
       "contents": "\n\nContents\nAssessment\nMultiple choice questions\n\n\nPhoto by Annie Spratt on UnsplashAssessment\nThe assessment will consist of an open-book exam involving 20 multiple-choice questions (see below). All questions will be in English.\nThe exam will take place over EvaExam on 25.05.2021, between 16:15 and 17:45. Additional information about the EvaExam system will be provided closer to the exam date.\nThe grades will be communicated by email about two weeks after the exam (i.e., 07.06.2021) and students who would like to view their exam results should write an email to the instructor to communicate that they will attend the in-person meeting scheduled for 15.06.2021 (16:00-17:00).\nMultiple choice questions\nMultiple-choice questions will be of the type K-Prim: No correct answer, or several correct answers.\nEach question or incomplete statement is followed by four possible responses or statements. For each response or statement, a decision must be made as to whether it is right or wrong. Regardless of whether the question is grammatically formulated in the singular or the plural, one, two, three, four or even none of the answers may be correct. For each question, four correct answers equal 1 point, three correct equal .5 points, and less than 3 correct answers equal 0 points.\n\n\n\n",
-      "last_modified": "2021-03-02T15:58:05+01:00"
+      "last_modified": "2021-03-02T16:00:47+01:00"
     },
     {
       "path": "index.html",
@@ -14,7 +14,7 @@
       "description": "Welcome to the website for *Evidence-based decision making* FS21 ([11230-01](https://vorlesungsverzeichnis.unibas.ch/de/home?id=254148))\n\nInstructor: [Rui Mata](https://psychologie.unibas.ch/de/personen/rui-mata/about-me/), University of Basel\n",
       "author": [],
       "contents": "\n\nContents\nSession information\nWhat is this course about?\nWhat can you expect to learn?\nBy completing the course you can expect to LEARN…\nyou will NOT, however, receive training in…\n\nHow should you use this website?\nVideo recordings and SWITCHtube\n\nPhoto by Cesar Carlevarino Aragon on UnsplashSession information\nSessions take place Tuesdays, 16.15-17.45, on Zoom. The link to the Zoom sessions is available on ADAM.\n\n#\nDate\nTopic\n1\n02.03.2021\nIntroduction\n2\n09.03.2021\nThe Scientific Method(s)\n3\n16.03.2021\nAlgorithms\n4\n23.03.2021\nAlgorithms\n5\n30.03.2021\nConsensus\n6\n06.04.2021\nConsensus\n7\n13.04.2021\nCounterfactuals\n8\n20.04.2021\nCounterfactuals\n9\n27.04.2021\nSynthesis\n10\n04.05.2021\nSynthesis\n11\n11.05.2021\nInterventions\n12\n18.05.2021\nInterventions\n13\n25.05.2021\nExam\n\nWhat is this course about?\nAs the name implies, this course is about evidence-based decision making. The main premise of the course is that informed decisions require the use of data and evidence.\nThe behavioral sciences, such as psychology and economics, have developed a number of concepts and techniques - a methodological toolbox - designed to transfrom data into evidence. This course aims to unpack some of these tools and showcase how they can be used in practice.\nThe overarching theme of the course is that evidence-based decision making uses the tools of science to help us make better, informed decisions. This theme is reflected in the structure of the course: After the first two introductory sessions, the course is divided into modules covering 5 different scientific “methods”, specifically, the benefits and limits of formalization (Algorithms), the discussion and amalgamation of diverse opinions (Consensus), the use of experiments and other methods to infer causality (Counterfactuals), the comprehensive and unbiased summary of multiple studies (Synthesis), and the establishment of guidelines and interventions based on the best possible evidence (Interventions).\nWhat can you expect to learn?\nThe course will cover broad theoretical principles of evidence-based decision making. The principles will be illustrated with examples, a few simple tutorials with example code in R, and other recommended exercises designed to facilitate understanding of the underlying concepts.\nBy completing the course you can expect to LEARN…\ncentral concepts in evidence-based decision making\ngeneral principles of causal inference\nbasic statistical concepts (e.g., aggregation, bias)\nguidelines for conducting and reporting scientific procedures\na taxonomy of behavioral interventions\nmany practical and positive examples of evidence-based practices\nyou will NOT, however, receive training in…\nmathematical analysis\nadvanced programming skills\nHow should you use this website?\nThis website is designed to help course participants get an overview of the course and access most course materials (e.g., recommended background readings and videos, additional non-mandatory readings). A number of other resources, however, are available. An FAQ forum is available on ADAM. The portions of the online sessions involving presentation by the instructor will be recorded and made available after each session on SWITCHtube. Information about the exam is available on the Exam tab on this webpage.\nCourse materials, such as readings or suggested preparation exercises, will be made available about one week before each session. Videos of the online sessions and associated slides will be posted after each session.\nVideo recordings and SWITCHtube\nThe online sessions involving presentation by the instructor will be recorded and made available after each session on SWITCHtube. The instrutor will make efforts to ensure student anonymity and that discussion between the instructor and students is not part of the recorded videos (unless desired by the student). All recordings will be deleted at the end of the semester. According to University of Basel’s regulations these recordings are for personal use only and should not be further distributed in any form.\n\n\n\n",
-      "last_modified": "2021-03-02T15:58:05+01:00"
+      "last_modified": "2021-03-02T16:00:48+01:00"
     },
     {
       "path": "session10.html",
@@ -22,7 +22,7 @@
       "description": "How does one conduct and report a meta-analysis?",
       "author": [],
       "contents": "\nPhoto by William Warby on Unsplash\n\n\n",
-      "last_modified": "2021-03-02T15:58:06+01:00"
+      "last_modified": "2021-03-02T16:00:48+01:00"
     },
     {
       "path": "session11.html",
@@ -30,7 +30,7 @@
       "description": "A taxonomy of interventions",
       "author": [],
       "contents": "\n\nContents\nRecommended Reading\n\nPhoto by Christina Victoria Craft on UnsplashRecommended Reading\nMichie, S., van Stralen, M. M., & West, R. (2011). The behaviour change wheel: A new method for characterising and designing behaviour change interventions. Implementation Science, 6(1), 42. http://doi.org/10.1186/1748-5908-6-42\n\n\n\n",
-      "last_modified": "2021-03-02T15:58:07+01:00"
+      "last_modified": "2021-03-02T16:00:49+01:00"
     },
     {
       "path": "session12.html",
@@ -38,7 +38,7 @@
       "description": "How can interventions be implemented in real-world contexts?",
       "author": [],
       "contents": "\nPhoto by Glenn Carstens-Peters on Unsplash\n\n\n",
-      "last_modified": "2021-03-02T15:58:07+01:00"
+      "last_modified": "2021-03-02T16:00:50+01:00"
     },
     {
       "path": "session2.html",
@@ -46,7 +46,7 @@
       "description": "Is there such a thing as THE scientific method?",
       "author": [],
       "contents": "\n\nContents\nWhat is the scientific method? And can we trust it?\nWhat should we do to fix (psychological) science?\nRecommended Reading\nFurther Suggestions\n\n\nSometimes it is good to start with a question or two… Photo by Jon Tyson on UnsplashWhat is the scientific method? And can we trust it?\nWhat do YOU think? Do you trust science and scientists? If so, why?\nPlease watch Naomi Oreskes’ TED talk “Why we should trust scientists” (ca. 20 minutes) to learn more about the scientific method(s) and her thoughts on whether this ensures the trustworthiness of science and scientists.\nThe video will serve as a starting point for a discussion on the methods of science in the 09.03.2021 session.\n\n\nWhat should we do to fix (psychological) science?\nAs discussed in the introductory session, the behavioral sciences, such as psychology, have been in the news in the past few years for wrong reasons - think “replication crisis”! But what should we be doing to change the status quo? Read the paper by Munafò et al. (2017) (ca. 60 minutes) to learn about some emerging solutions. The 09.03.2021 session will focus on some of these solutions.\nRecommended Reading\nMunafò, M. R., Nosek, B. A., Bishop, D. V. M., Button, K. S., Chambers, C. D., Sert, du, N. P., et al. (2017). A manifesto for reproducible science. Nature Human Behaviour, 1, 1–9. http://doi.org/10.1038/s41562-016-0021\nFurther Suggestions\nAre you interested in reading more about these topics? These books could be for you…\nOreskes, N. (2019). Why trust science? Princeton: Oxford. Princeton University Press. https://www.jstor.org/stable/j.ctvfjczxx\nRitchie, S. (2020). Science fictions: Exposing fraud, bias, negligence and hype in science. London: Bodley Head. https://www.sciencefictions.org\nRosling, H. (2018). Factfulness. Ten reasons we’re wrong about the world - and why things are better than you think. Sceptre: London. https://www.gapminder.org/factfulness-book/\n\n\n\n",
-      "last_modified": "2021-03-02T15:58:08+01:00"
+      "last_modified": "2021-03-02T16:00:50+01:00"
     },
     {
       "path": "session3.html",
@@ -54,7 +54,7 @@
       "description": "Can algorithms make better decisions than humans?",
       "author": [],
       "contents": "\n\nContents\nRecommended Reading\n\nPhoto by Alexander Sinn on UnsplashRecommended Reading\nDawes, R. M., Faust, D., & Meehl, P. E. (1989). Clinical versus actuarial judgment. Science, 243(4899), 1668–1674. http://doi.org/10.2307/1703476\n\n\n\n",
-      "last_modified": "2021-03-02T15:58:08+01:00"
+      "last_modified": "2021-03-02T16:00:51+01:00"
     },
     {
       "path": "session4.html",
@@ -62,7 +62,7 @@
       "description": "What are the limits of algorithmic decision-making? And how can we get decision-makers to use them?",
       "author": [],
       "contents": "\nPhoto by Mina FC on Unsplash\n\n\n",
-      "last_modified": "2021-03-02T15:58:09+01:00"
+      "last_modified": "2021-03-02T16:00:51+01:00"
     },
     {
       "path": "session5.html",
@@ -70,7 +70,7 @@
       "description": "The ignorance and wisdom of the crowd",
       "author": [],
       "contents": "\nPhoto by CHUTTERSNAP on Unsplash\n\n\n",
-      "last_modified": "2021-03-02T15:58:09+01:00"
+      "last_modified": "2021-03-02T16:00:52+01:00"
     },
     {
       "path": "session6.html",
@@ -78,7 +78,7 @@
       "description": "The wisdom of experts",
       "author": [],
       "contents": "\n\nContents\nRecommended Reading\n\nPhoto by Rita Morais on UnsplashRecommended Reading\nMannes, A. E., Soll, J. B., & Larrick, R. P. (2014). The wisdom of select crowds. Journal of Personality and Social Psychology, 107(2), 276–299. http://doi.org/10.1037/a0036677\n\n\n\n",
-      "last_modified": "2021-03-02T15:58:10+01:00"
+      "last_modified": "2021-03-02T16:00:53+01:00"
     },
     {
       "path": "session7.html",
@@ -86,7 +86,7 @@
       "description": "How should one conduct and report experiments?",
       "author": [],
       "contents": "\nPhoto by CHUTTERSNAP on Unsplash\n\n\n",
-      "last_modified": "2021-03-02T15:58:11+01:00"
+      "last_modified": "2021-03-02T16:00:53+01:00"
     },
     {
       "path": "session8.html",
@@ -94,7 +94,7 @@
       "description": "What alternatives do we have to experiments?",
       "author": [],
       "contents": "\n\nContents\nRecommended Reading\n\nPhoto by Edi Libedinsky on UnsplashRecommended Reading\nVarian, H. R. (2016). Causal inference in economics and marketing. Proceedings of the National Academy of Sciences of the United States of America, 113(27), 7310–7315. http://doi.org/10.1073/pnas.1510479113\n\n\n\n",
-      "last_modified": "2021-03-02T15:58:11+01:00"
+      "last_modified": "2021-03-02T16:00:54+01:00"
     },
     {
       "path": "session9.html",
@@ -102,7 +102,7 @@
       "description": "How does one conduct and report a systematic review?",
       "author": [],
       "contents": "\n\nContents\nRecommended Reading\n\nPhoto by Luis Tosta on UnsplashRecommended Reading\nGurevitch, J., Koricheva, J., Nakagawa, S., & Stewart, G. (2018). Meta-analysis and the science of research synthesis. Nature, 555(7695), 175–182. http://doi.org/10.1038/nature25753\n\n\n\n",
-      "last_modified": "2021-03-02T15:58:12+01:00"
+      "last_modified": "2021-03-02T16:00:54+01:00"
     }
   ],
   "collections": []
