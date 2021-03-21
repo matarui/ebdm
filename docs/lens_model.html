@@ -86,29 +86,29 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>EBDM</title>
+  <title>EBDM: Exercise: Policy Capturing</title>
 
-  <meta property="description" itemprop="description" content="Welcome to the website for *Evidence-based decision making* FS21 ([11230-01](https://vorlesungsverzeichnis.unibas.ch/de/home?id=254148))&#10;&#10;Instructor: [Rui Mata](https://psychologie.unibas.ch/de/personen/rui-mata/about-me/), University of Basel&#10;&#10;**Last updated:** Sun Mar 21 13:11:16 2021"/>
+  <meta property="description" itemprop="description" content="Can algorithms help YOU make better decisions?"/>
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="EBDM"/>
+  <meta property="og:title" content="EBDM: Exercise: Policy Capturing"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Welcome to the website for *Evidence-based decision making* FS21 ([11230-01](https://vorlesungsverzeichnis.unibas.ch/de/home?id=254148))&#10;&#10;Instructor: [Rui Mata](https://psychologie.unibas.ch/de/personen/rui-mata/about-me/), University of Basel&#10;&#10;**Last updated:** Sun Mar 21 13:11:16 2021"/>
+  <meta property="og:description" content="Can algorithms help YOU make better decisions?"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="EBDM"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="EBDM"/>
-  <meta property="twitter:description" content="Welcome to the website for *Evidence-based decision making* FS21 ([11230-01](https://vorlesungsverzeichnis.unibas.ch/de/home?id=254148))&#10;&#10;Instructor: [Rui Mata](https://psychologie.unibas.ch/de/personen/rui-mata/about-me/), University of Basel&#10;&#10;**Last updated:** Sun Mar 21 13:11:16 2021"/>
+  <meta property="twitter:title" content="EBDM: Exercise: Policy Capturing"/>
+  <meta property="twitter:description" content="Can algorithms help YOU make better decisions?"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","site"]}},"value":[{"type":"character","attributes":{},"value":["EBDM"]},{"type":"character","attributes":{},"value":["Welcome to the website for *Evidence-based decision making* FS21 ([11230-01](https://vorlesungsverzeichnis.unibas.ch/de/home?id=254148))\n\nInstructor: [Rui Mata](https://psychologie.unibas.ch/de/personen/rui-mata/about-me/), University of Basel\n\n**Last updated:** Sun Mar 21 13:11:16 2021\n"]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["Exercise: Policy Capturing"]},{"type":"character","attributes":{},"value":["Can algorithms help YOU make better decisions?"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2053,7 +2053,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"EBDM","description":"Welcome to the website for *Evidence-based decision making* FS21 ([11230-01](https://vorlesungsverzeichnis.unibas.ch/de/home?id=254148))\n\nInstructor: [Rui Mata](https://psychologie.unibas.ch/de/personen/rui-mata/about-me/), University of Basel\n\n**Last updated:** Sun Mar 21 13:11:16 2021","authors":[]}
+{"title":"Exercise: Policy Capturing","description":"Can algorithms help YOU make better decisions?","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2134,12 +2134,10 @@ Interventions
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>EBDM</h1>
+<h1>Exercise: Policy Capturing</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Welcome to the website for <em>Evidence-based decision making</em> FS21 (<a href="https://vorlesungsverzeichnis.unibas.ch/de/home?id=254148">11230-01</a>)</p>
-<p>Instructor: <a href="https://psychologie.unibas.ch/de/personen/rui-mata/about-me/">Rui Mata</a>, University of Basel</p>
-<p><strong>Last updated:</strong> Sun Mar 21 13:11:16 2021</p></p>
+<p><p>Can algorithms help YOU make better decisions?</p></p>
 </div>
 
 
@@ -2148,142 +2146,259 @@ Interventions
 <nav class="l-text toc figcaption" id="TOC">
 <h3>Contents</h3>
 <ul>
-<li><a href="#session-information">Session information</a></li>
-<li><a href="#what-is-this-course-about">What is this course about?</a></li>
-<li><a href="#what-can-you-expect-to-learn">What can you expect to learn?</a>
-<ul>
-<li><a href="#by-completing-the-course-you-can-expect-to-learn">By completing the course you can expect to LEARN…</a></li>
-<li><a href="#you-will-not-however-receive-training-in">you will NOT, however, receive training in…</a></li>
-</ul></li>
-<li><a href="#how-should-you-use-this-website">How should you use this website?</a></li>
-<li><a href="#video-recordings-and-switchtube">Video recordings and SWITCHtube</a></li>
+<li><a href="#loading-packages">Loading packages</a></li>
+<li><a href="#reading-in-the-data">Reading in the data</a></li>
+<li><a href="#plotting-all-data">Plotting all data</a></li>
+<li><a href="#selecting-your-data">Selecting YOUR data</a></li>
+<li><a href="#modeling-the-environment">Modeling the ENVIRONMENT</a></li>
+<li><a href="#so-can-you-answer-these-questions">So, can you answer these questions?</a></li>
 </ul>
 </nav>
 </div>
-<figure>
-<img src="photos/cesar-carlevarino-aragon-NL_DF0Klepc-unsplash.jpg" alt="Photo by Cesar Carlevarino Aragon on Unsplash" /><figcaption aria-hidden="true"><span>Photo by <a href="https://unsplash.com/@carlevarino?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Cesar Carlevarino Aragon</a> on <a href="https://unsplash.com/s/photos/tools?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></figcaption>
-</figure>
-<h1 id="session-information">Session information</h1>
-<p>Sessions take place Tuesdays, 16.15-17.45, on Zoom. The link to the Zoom sessions is available on <a href="https://adam.unibas.ch/goto_adam_crs_1008691.html">ADAM</a>.</p>
-<div class="l-body">
+<p>This exercise aims to help you learn about Brunswick’s lens model and policy capturing. The goal is to use linear regression to model your own judgments so that you can answer the questions at the bottom of this page. If you didn’t participate in the experiment you can still complete the exercise using one of your colleague’s data.</p>
+<p>You can type the commands below into a new R file to load the necessary R libraries and retrieve the data (please note that copy and pasting may not always work because incorrect characters are copied in this process). After that, you will have to write your own code to use regression to model your own ratings (but I provide some example code below)…</p>
+<h2 id="loading-packages">Loading packages</h2>
+<p>You will need a couple of R packages to do some data wrangling and plot things. For this you will have to load them using the command library(PACKAGENAME).</p>
+<p>NOTE: If you never used tidyverse before, you will have to install it first by using install.package(“PACKAGENAME”). Once you have installed the packages, it will be sufficent to use library(PACKAGENAME) at the start of each R session - no need to install it again each time.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='http://tidyverse.tidyverse.org'>tidyverse</a></span><span class='op'>)</span>
+<span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://yihui.org/knitr/'>knitr</a></span><span class='op'>)</span>
+</code></pre>
+</div>
+</div>
+<h2 id="reading-in-the-data">Reading in the data</h2>
+<p>I have uploaded the data on github so R can read the file directly from there.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>data</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/utils/read.table.html'>read.csv</a></span><span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/connections.html'>url</a></span><span class='op'>(</span><span class='st'>"https://github.com/matarui/ebdm/raw/main/docs/materials/data.csv"</span><span class='op'>)</span><span class='op'>)</span>
+</code></pre>
+</div>
+</div>
+<h2 id="plotting-all-data">Plotting all data</h2>
+<p>Perhaps it is helpful to see all the data in one plot. The figure below plots the actual criterion on the x-axis against your ratings on the y-axis? Can you find the subplot with your own data? How did you do?</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>ggplot</span><span class='op'>(</span><span class='va'>data</span>,<span class='fu'>aes</span><span class='op'>(</span>x<span class='op'>=</span><span class='va'>crit</span>,y<span class='op'>=</span><span class='va'>prediction</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span>
+  <span class='fu'>geom_point</span><span class='op'>(</span><span class='op'>)</span> <span class='op'>+</span>
+  <span class='fu'>theme_minimal</span><span class='op'>(</span><span class='op'>)</span> <span class='op'>+</span>
+  <span class='fu'>facet_wrap</span><span class='op'>(</span><span class='op'>~</span><span class='va'>code</span><span class='op'>)</span>
+</code></pre>
+</div>
+<p><img src="lens_model_files/figure-html5/unnamed-chunk-3-1.png" width="624" /></p>
+</div>
+<h2 id="selecting-your-data">Selecting YOUR data</h2>
+<p>You can select your own data and plot it. In the example below I use the data from participant “JW2648”</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>mydata</span><span class='op'>&lt;-</span><span class='va'>data</span> <span class='op'>%&gt;%</span> 
+  <span class='fu'><a href='https://rdrr.io/r/stats/filter.html'>filter</a></span><span class='op'>(</span><span class='va'>code</span><span class='op'>==</span><span class='st'>"JW2648"</span><span class='op'>)</span> 
+
+<span class='fu'>ggplot</span><span class='op'>(</span><span class='va'>mydata</span>,<span class='fu'>aes</span><span class='op'>(</span>x<span class='op'>=</span><span class='va'>crit</span>,y<span class='op'>=</span><span class='va'>prediction</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span>
+  <span class='fu'>geom_point</span><span class='op'>(</span><span class='op'>)</span> <span class='op'>+</span>
+  <span class='fu'>theme_minimal</span><span class='op'>(</span><span class='op'>)</span>
+</code></pre>
+</div>
+<p><img src="lens_model_files/figure-html5/unnamed-chunk-4-1.png" width="624" /></p>
+</div>
+<h2 id="modeling-the-environment">Modeling the ENVIRONMENT</h2>
+<p>Before you continue with modeling your data, perhaps it is helpful to understand the problem you were given (and recall how to run a regression in R). Each job candidate was described on 4 cues: Data skills, Language skills, Social skills, and Experience. On each cue, a candidate could score either “Ok” (0) or “Great” (1). Now, one can use a regression model to estimate the weight associated with each cue. In the model below, I am using a linear regression to assess how much weight to give each cue.</p>
+<p>NOTE: I’m cheating a little bit because I’m taking out the intercept in the model (this is what the “-1” does in the formula below; I actually know (because I constructed this example) that the intercept is 0 and can be ignored - and removing the intercept (i.e., setting it to 0) is helpful later when modeling the data because the cues are more easily interpretable.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>model_env</span><span class='op'>=</span><span class='fu'><a href='https://rdrr.io/r/stats/lm.html'>lm</a></span><span class='op'>(</span><span class='va'>crit</span><span class='op'>~</span><span class='op'>-</span><span class='fl'>1</span><span class='op'>+</span><span class='va'>Data</span><span class='op'>+</span><span class='va'>Language</span><span class='op'>+</span><span class='va'>Social</span><span class='op'>+</span><span class='va'>Experience</span>,data<span class='op'>=</span><span class='va'>mydata</span><span class='op'>)</span>
+<span class='fu'><a href='https://rdrr.io/r/base/summary.html'>summary</a></span><span class='op'>(</span><span class='va'>model_env</span><span class='op'>)</span>
+</code></pre>
+</div>
+<pre><code>
+Call:
+lm(formula = crit ~ -1 + Data + Language + Social + Experience, 
+    data = mydata)
+
+Residuals:
+       Min         1Q     Median         3Q        Max 
+-2.474e-15 -3.177e-16  6.174e-17  3.099e-16  9.148e-16 
+
+Coefficients:
+            Estimate Std. Error   t value Pr(&gt;|t|)    
+Data       4.000e+00  3.865e-16 1.035e+16   &lt;2e-16 ***
+Language   3.000e+00  3.865e-16 7.761e+15   &lt;2e-16 ***
+Social     2.000e+00  3.865e-16 5.174e+15   &lt;2e-16 ***
+Experience 1.000e+00  3.865e-16 2.587e+15   &lt;2e-16 ***
+---
+Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+
+Residual standard error: 8.643e-16 on 12 degrees of freedom
+Multiple R-squared:      1, Adjusted R-squared:      1 
+F-statistic: 1.74e+32 on 4 and 12 DF,  p-value: &lt; 2.2e-16</code></pre>
+</div>
+<p>Can you interpret the coefficients presented above? What does the 4.000e+00 mean?</p>
+<p>Please note that you can also get a “prediction” from the model, that is, the rating that the model suggests each candidate should obtain given the candidate’s cue profile - I do this below when I use the function predict(). Then, one can correlate the criterion (the values stored in mydata as the column “crit”) and the prediction from the model - for which I use the function cor() below.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>prediction</span><span class='op'>&lt;-</span><span class='fu'><a href='https://rdrr.io/r/stats/predict.html'>predict</a></span><span class='op'>(</span><span class='va'>model_env</span><span class='op'>)</span>
+
+<span class='fu'><a href='https://rdrr.io/r/stats/cor.html'>cor</a></span><span class='op'>(</span><span class='va'>mydata</span><span class='op'>$</span><span class='va'>crit</span>,<span class='va'>prediction</span><span class='op'>)</span>
+</code></pre>
+</div>
+<pre><code>[1] 1</code></pre>
+</div>
+<p>The correlation between the model prediction and the criterion is 1! This suggests that the linear model captures the environment perfectly (perhaps you noticed above that R even gives you a warning “essentially perfect fit: summary may be unreliable”). Why is this?</p>
+<p>Well, I picked an “easy” environment in which each cue gives you a round number of rating points (say 4 for the cue Data, as indicated in the coefficient estimated at 4.000e+00; with the other cues receiving the weight 3, 2, and 1). Further, there is no noise around this criterion: As you can seen in the table below, the worst candidate, Joana, has 0 points, while the best candidate, Tina, with “Great” on all four cues (4+3+2+1), gets exactly 10 points. Everyone else gets something in between…</p>
+<div class="layout-chunk" data-layout="l-body">
 <table>
 <thead>
 <tr class="header">
-<th>#</th>
-<th>Date</th>
-<th>Topic</th>
-<th>Slides</th>
+<th style="text-align: left;">names</th>
+<th style="text-align: right;">Data</th>
+<th style="text-align: right;">Language</th>
+<th style="text-align: right;">Social</th>
+<th style="text-align: right;">Experience</th>
+<th style="text-align: right;">crit</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
-<td>02.03.2021</td>
-<td><a href="index.html">Introduction</a></td>
-<td><a href="https://github.com/matarui/ebdm/raw/main/docs/presentations/EBDM_session1.pdf">pdf</a></td>
+<td style="text-align: left;">Joana</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
 </tr>
 <tr class="even">
-<td>2</td>
-<td>09.03.2021</td>
-<td><a href="session2.html">The Scientific Method(s)</a></td>
-<td><a href="https://github.com/matarui/ebdm/raw/main/docs/presentations/EBDM_session2.pdf">pdf</a></td>
+<td style="text-align: left;">Filipa</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">4</td>
 </tr>
 <tr class="odd">
-<td>3</td>
-<td>16.03.2021</td>
-<td><a href="session3.html">Algorithms</a></td>
-<td><a href="https://github.com/matarui/ebdm/raw/main/docs/presentations/EBDM_session3.pdf">pdf</a></td>
+<td style="text-align: left;">Simone</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">3</td>
 </tr>
 <tr class="even">
-<td>4</td>
-<td>23.03.2021</td>
-<td><a href="session4.html">Algorithms</a></td>
-<td><a href="index.html">pdf</a></td>
+<td style="text-align: left;">Ulrike</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">7</td>
 </tr>
 <tr class="odd">
-<td>5</td>
-<td>30.03.2021</td>
-<td><a href="session5html">Consensus</a></td>
-<td><a href="index.html">pdf</a></td>
+<td style="text-align: left;">Ute</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2</td>
 </tr>
 <tr class="even">
-<td>6</td>
-<td>06.04.2021</td>
-<td><a href="session6.html">Consensus</a></td>
-<td><a href="index.html">pdf</a></td>
+<td style="text-align: left;">Rita</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">6</td>
 </tr>
 <tr class="odd">
-<td>7</td>
-<td>13.04.2021</td>
-<td><a href="session7.html">Counterfactuals</a></td>
-<td><a href="index.html">pdf</a></td>
+<td style="text-align: left;">Bettina</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">5</td>
 </tr>
 <tr class="even">
-<td>8</td>
-<td>20.04.2021</td>
-<td><a href="session8.html">Counterfactuals</a></td>
-<td><a href="index.html">pdf</a></td>
+<td style="text-align: left;">Guilia</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">9</td>
 </tr>
 <tr class="odd">
-<td>9</td>
-<td>27.04.2021</td>
-<td><a href="session9.html">Synthesis</a></td>
-<td><a href="index.html">pdf</a></td>
+<td style="text-align: left;">Fernande</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
 </tr>
 <tr class="even">
-<td>10</td>
-<td>04.05.2021</td>
-<td><a href="session10.html">Synthesis</a></td>
-<td><a href="index.html">pdf</a></td>
+<td style="text-align: left;">Maria</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">5</td>
 </tr>
 <tr class="odd">
-<td>11</td>
-<td>11.05.2021</td>
-<td><a href="session11.html">Interventions</a></td>
-<td><a href="index.html">pdf</a></td>
+<td style="text-align: left;">Bela</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">4</td>
 </tr>
 <tr class="even">
-<td>12</td>
-<td>18.05.2021</td>
-<td><a href="session12.html">Interventions</a></td>
-<td><a href="index.html">pdf</a></td>
+<td style="text-align: left;">Salome</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">8</td>
 </tr>
 <tr class="odd">
-<td>13</td>
-<td>25.05.2021</td>
-<td><a href="exam.html">Exam</a></td>
-<td></td>
+<td style="text-align: left;">Manuela</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Dominque</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Jule</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">6</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Tina</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">10</td>
 </tr>
 </tbody>
 </table>
 </div>
-<h1 id="what-is-this-course-about">What is this course about?</h1>
-<p>As the name implies, this course is about <strong>evidence-based decision making</strong>. The main premise of the course is that informed decisions require the use of data and evidence.</p>
-<p>The behavioral sciences, such as psychology and economics, have developed a number of concepts and techniques - a methodological toolbox - designed to transfrom data into evidence. This course aims to unpack some of these tools and showcase how they can be used in practice.</p>
-<p>The overarching theme of the course is that evidence-based decision making uses the tools of science to help us make better, informed decisions. This theme is reflected in the structure of the course: After the first two introductory sessions, the course is divided into modules covering 5 different scientific “methods”, specifically, the benefits and limits of formalization (<strong>Algorithms</strong>), the discussion and amalgamation of diverse opinions (<strong>Consensus</strong>), the use of experiments and other methods to infer causality (<strong>Counterfactuals</strong>), the comprehensive and unbiased summary of multiple studies (<strong>Synthesis</strong>), and the establishment of guidelines and interventions based on the best possible evidence (<strong>Interventions</strong>).</p>
-<h1 id="what-can-you-expect-to-learn">What can you expect to learn?</h1>
-<p>The course will cover broad theoretical principles of evidence-based decision making. The principles will be illustrated with examples, a few simple tutorials with example code in <a href="https://www.r-project.org">R</a>, and other recommended exercises designed to facilitate understanding of the underlying concepts.</p>
-<h3 id="by-completing-the-course-you-can-expect-to-learn">By completing the course you can expect to LEARN…</h3>
-<ul>
-<li>central concepts in evidence-based decision making</li>
-<li>general principles of causal inference</li>
-<li>basic statistical concepts (e.g., aggregation, bias)</li>
-<li>guidelines for conducting and reporting scientific procedures<br />
-</li>
-<li>a taxonomy of behavioral interventions</li>
-<li>many practical and positive examples of evidence-based practices</li>
-</ul>
-<h3 id="you-will-not-however-receive-training-in">you will NOT, however, receive training in…</h3>
-<ul>
-<li>mathematical analysis</li>
-<li>advanced programming skills</li>
-</ul>
-<h1 id="how-should-you-use-this-website">How should you use this website?</h1>
-<p>This website is designed to help course participants get an overview of the course and access most course materials (e.g., recommended background readings and videos, additional non-mandatory readings). A number of other resources, however, are available. An <a href="https://adam.unibas.ch/goto_adam_crs_1008691.html">FAQ</a> forum is available on ADAM. The portions of the online sessions involving presentation by the instructor will be recorded and made available after each session on <a href="https://tube.switch.ch/channels/0661df59">SWITCHtube</a>. Information about the exam is available on the <a href="exam.html">Exam</a> tab on this webpage.</p>
-<p>Course materials, such as readings or suggested preparation exercises, will be made available about one week before each session. Videos of the online sessions and associated slides will be posted <strong>after</strong> each session.</p>
-<h1 id="video-recordings-and-switchtube">Video recordings and SWITCHtube</h1>
-<p>The online sessions involving presentation by the instructor will be recorded and made available after each session on <a href="https://tube.switch.ch/channels/0661df59">SWITCHtube</a>. The instrutor will make efforts to ensure student anonymity and that discussion between the instructor and students is not part of the recorded videos (unless desired by the student). All recordings will be deleted at the end of the semester. According to University of Basel’s <a href="https://www.unibas.ch/dam/jcr:9e482656-e333-42ec-bbd3-4639dedd3dc7/R_Ton-Bildaufnahmen_00.pdf">regulations</a> these <strong>recordings</strong> are for <strong>personal use</strong> only and should <strong>not be further distributed</strong> in any form.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<h2 id="so-can-you-answer-these-questions">So, can you answer these questions?</h2>
+<p>Now, if you use the logic above (and similar code) using your ratings, can you answer the following three questions?</p>
+<ol type="1">
+<li>How well did YOUR “clinical” judgment do overall, that is, what is the correlation between your ratings and the criterion?</li>
+<li>How much weight did YOU give each cue?</li>
+<li>How much better/worse does a regression model of YOUR judgments, an “actuarial model”, do relative to your “clinical” judgment? In other words, what is the correlation between the predictions of a model based on your ratings and the criterion?</li>
+</ol>
+<p>If you’re able to answer the questions above, you could try doing the same based on data from a few other students, do you get similar or different results?</p>
+<p>NOTE: It’s quite common to get some error messages when starting to use R, if you don’t understand R’s error messages, search Google for answers and potential solutions - it’s what data analysts do ALL THE TIME! Of course, let me know through the FAQ on ADAM if you get stuck - I’ll come to the rescue or walk you through it during one of the next sessions!!!</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
