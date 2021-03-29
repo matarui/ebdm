@@ -2163,17 +2163,17 @@ Interventions
 <h2 id="load-data">Load data</h2>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>data</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/utils/read.table.html'>read.csv</a></span><span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/connections.html'>url</a></span><span class='op'>(</span><span class='st'>"https://matarui.github.io/evidencebaseddm/data/data.csv"</span><span class='op'>)</span><span class='op'>)</span>
+<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>data</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/utils/read.table.html'>read.csv</a></span><span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/connections.html'>url</a></span><span class='op'>(</span><span class='st'>"https://github.com/matarui/ebdm/raw/main/docs/materials/data.csv"</span><span class='op'>)</span><span class='op'>)</span>
 </code></pre>
 </div>
 </div>
 Here’s the data we’re modeling…
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>ggplot</span><span class='op'>(</span><span class='va'>data</span>,<span class='fu'>aes</span><span class='op'>(</span>x<span class='op'>=</span><span class='va'>crit</span>,y<span class='op'>=</span><span class='va'>rating</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span>
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>ggplot</span><span class='op'>(</span><span class='va'>data</span>,<span class='fu'>aes</span><span class='op'>(</span>x<span class='op'>=</span><span class='va'>crit</span>,y<span class='op'>=</span><span class='va'>prediction</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span>
   <span class='fu'>geom_point</span><span class='op'>(</span><span class='op'>)</span> <span class='op'>+</span>
   <span class='fu'>theme_minimal</span><span class='op'>(</span><span class='op'>)</span> <span class='op'>+</span>
-  <span class='fu'>facet_wrap</span><span class='op'>(</span><span class='op'>~</span><span class='va'>participant</span><span class='op'>)</span>
+  <span class='fu'>facet_wrap</span><span class='op'>(</span><span class='op'>~</span><span class='va'>code</span><span class='op'>)</span>
 </code></pre>
 </div>
 <p><img src="lens_model_solutions_files/figure-html5/unnamed-chunk-3-1.png" width="624" /></p>
@@ -2181,372 +2181,85 @@ Here’s the data we’re modeling…
 <h2 id="calculate-performance-and-fit-paramorphic-model-per-participant">Calculate performance and fit paramorphic model per participant</h2>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='co'># create vector with a list of participants</span>
-<span class='va'>participants</span><span class='op'>&lt;-</span><span class='fu'><a href='https://rdrr.io/r/base/unique.html'>unique</a></span><span class='op'>(</span><span class='va'>data</span><span class='op'>$</span><span class='va'>participant</span><span class='op'>)</span>
-
-<span class='co'># prepare data.frame that will contain all results</span>
-<span class='va'>results</span><span class='op'>&lt;-</span><span class='fu'><a href='https://rdrr.io/r/base/data.frame.html'>data.frame</a></span><span class='op'>(</span>participant<span class='op'>=</span><span class='va'>participants</span>,
-                   achievement<span class='op'>=</span><span class='cn'>NA</span>,
-                   responselinearity<span class='op'>=</span><span class='cn'>NA</span>,
-                   bootstrapping<span class='op'>=</span><span class='cn'>NA</span>,
-                   weight1<span class='op'>=</span><span class='cn'>NA</span>,
-                   weight2<span class='op'>=</span><span class='cn'>NA</span>,
-                   weight3<span class='op'>=</span><span class='cn'>NA</span>,
-                   weight4<span class='op'>=</span><span class='cn'>NA</span>,
-                   stringsAsFactors<span class='op'>=</span><span class='cn'>F</span><span class='op'>)</span>
-
-<span class='kw'>for</span> <span class='op'>(</span><span class='va'>counter</span> <span class='kw'>in</span> <span class='fl'>1</span><span class='op'>:</span><span class='fu'><a href='https://rdrr.io/r/base/length.html'>length</a></span><span class='op'>(</span><span class='va'>participants</span><span class='op'>)</span><span class='op'>)</span>
-<span class='op'>{</span>
-  <span class='co'># select data for a participant</span>
-  <span class='va'>subdata</span><span class='op'>&lt;-</span><span class='fu'><a href='https://rdrr.io/r/base/subset.html'>subset</a></span><span class='op'>(</span><span class='va'>data</span>,<span class='va'>participant</span><span class='op'>==</span><span class='va'>participants</span><span class='op'>[</span><span class='va'>counter</span><span class='op'>]</span><span class='op'>)</span>
-
-  <span class='co'># run the linear regression model</span>
-  <span class='va'>model_bootstrap</span><span class='op'>&lt;-</span><span class='fu'><a href='https://rdrr.io/r/stats/lm.html'>lm</a></span><span class='op'>(</span><span class='va'>rating</span><span class='op'>~</span><span class='op'>-</span><span class='fl'>1</span><span class='op'>+</span><span class='va'>Data</span><span class='op'>+</span><span class='va'>Language</span><span class='op'>+</span><span class='va'>Social</span><span class='op'>+</span><span class='va'>Experience</span>,data<span class='op'>=</span><span class='va'>subdata</span><span class='op'>)</span>
-
-  <span class='co'># obtain model predictions</span>
-  <span class='va'>prediction</span><span class='op'>&lt;-</span><span class='fu'><a href='https://rdrr.io/r/stats/predict.html'>predict</a></span><span class='op'>(</span><span class='va'>model_bootstrap</span>,newdata<span class='op'>=</span><span class='va'>subdata</span><span class='op'>)</span> 
-  
-  <span class='co'># save model predictions in data</span>
-  <span class='va'>data</span><span class='op'>[</span><span class='va'>data</span><span class='op'>$</span><span class='va'>participant</span><span class='op'>==</span><span class='va'>participants</span><span class='op'>[</span><span class='va'>counter</span><span class='op'>]</span>,<span class='st'>"pred"</span><span class='op'>]</span><span class='op'>&lt;-</span><span class='va'>prediction</span>
-  
-  <span class='co'># Estimate ACHIEVEMENT (ra)</span>
-  <span class='va'>results</span><span class='op'>[</span><span class='va'>counter</span>,<span class='st'>"achievement"</span><span class='op'>]</span><span class='op'>&lt;-</span><span class='fu'><a href='https://rdrr.io/r/stats/cor.html'>cor</a></span><span class='op'>(</span><span class='va'>subdata</span><span class='op'>$</span><span class='va'>crit</span>,<span class='va'>subdata</span><span class='op'>$</span><span class='va'>rating</span><span class='op'>)</span>
-  
-  <span class='co'># Estimate RESPONSE LINEARITY/CONSISTENCY (Rs)</span>
-  <span class='va'>results</span><span class='op'>[</span><span class='va'>counter</span>,<span class='st'>"responselinearity"</span><span class='op'>]</span><span class='op'>&lt;-</span><span class='fu'><a href='https://rdrr.io/r/stats/cor.html'>cor</a></span><span class='op'>(</span><span class='va'>subdata</span><span class='op'>$</span><span class='va'>rating</span>,<span class='va'>prediction</span><span class='op'>)</span>
-  
-  <span class='co'># Estimate BOOTSTRAPPING (GRe)</span>
-  <span class='va'>results</span><span class='op'>[</span><span class='va'>counter</span>,<span class='st'>"bootstrapping"</span><span class='op'>]</span><span class='op'>&lt;-</span><span class='fu'><a href='https://rdrr.io/r/stats/cor.html'>cor</a></span><span class='op'>(</span><span class='va'>subdata</span><span class='op'>$</span><span class='va'>crit</span>,<span class='va'>prediction</span><span class='op'>)</span>
-  
-  <span class='co'># Save WEIGHTS</span>
-  <span class='va'>results</span><span class='op'>[</span><span class='va'>counter</span>,<span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"weight1"</span>,<span class='st'>"weight2"</span>,<span class='st'>"weight3"</span>,<span class='st'>"weight4"</span><span class='op'>)</span><span class='op'>]</span><span class='op'>&lt;-</span><span class='fu'><a href='https://rdrr.io/r/stats/coef.html'>coef</a></span><span class='op'>(</span><span class='va'>model_bootstrap</span><span class='op'>)</span>
-  
-<span class='op'>}</span>
+<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>results</span><span class='op'>&lt;-</span><span class='va'>data</span> <span class='op'>%&gt;%</span> 
+  <span class='fu'>group_by</span><span class='op'>(</span><span class='va'>code</span><span class='op'>)</span> <span class='op'>%&gt;%</span> 
+  <span class='fu'>mutate</span><span class='op'>(</span>model<span class='op'>=</span><span class='fu'><a href='https://rdrr.io/r/stats/predict.html'>predict</a></span><span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/stats/lm.html'>lm</a></span><span class='op'>(</span><span class='va'>prediction</span><span class='op'>~</span><span class='va'>Data</span><span class='op'>+</span><span class='va'>Language</span><span class='op'>+</span><span class='va'>Social</span><span class='op'>+</span><span class='va'>Experience</span><span class='op'>)</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>%&gt;%</span> 
+  <span class='fu'>summarize</span><span class='op'>(</span>achievement<span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/stats/cor.html'>cor</a></span><span class='op'>(</span><span class='va'>prediction</span>,<span class='va'>crit</span><span class='op'>)</span>,
+            responselinearity<span class='op'>=</span><span class='fu'><a href='https://rdrr.io/r/stats/cor.html'>cor</a></span><span class='op'>(</span><span class='va'>prediction</span>,<span class='va'>model</span><span class='op'>)</span>,
+            bootstrapping<span class='op'>=</span><span class='fu'><a href='https://rdrr.io/r/stats/cor.html'>cor</a></span><span class='op'>(</span><span class='va'>model</span>,<span class='va'>crit</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>%&gt;%</span> 
+  <span class='fu'>mutate</span><span class='op'>(</span>diff<span class='op'>=</span><span class='va'>bootstrapping</span><span class='op'>-</span><span class='va'>achievement</span><span class='op'>)</span> <span class='op'>%&gt;%</span> 
+  <span class='fu'>ungroup</span><span class='op'>(</span><span class='op'>)</span>
 </code></pre>
 </div>
 </div>
 Here are everyone’s results…
 <div class="layout-chunk" data-layout="l-body">
 <table>
-<colgroup>
-<col style="width: 14%" />
-<col style="width: 13%" />
-<col style="width: 20%" />
-<col style="width: 15%" />
-<col style="width: 8%" />
-<col style="width: 8%" />
-<col style="width: 8%" />
-<col style="width: 8%" />
-</colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">participant</th>
+<th style="text-align: left;">code</th>
 <th style="text-align: right;">achievement</th>
 <th style="text-align: right;">responselinearity</th>
 <th style="text-align: right;">bootstrapping</th>
-<th style="text-align: right;">weight1</th>
-<th style="text-align: right;">weight2</th>
-<th style="text-align: right;">weight3</th>
-<th style="text-align: right;">weight4</th>
+<th style="text-align: right;">diff</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">AFLI9</td>
-<td style="text-align: right;">0.68</td>
+<td style="text-align: left;">0.o</td>
+<td style="text-align: right;">0.96</td>
 <td style="text-align: right;">0.97</td>
-<td style="text-align: right;">0.73</td>
-<td style="text-align: right;">2.30</td>
-<td style="text-align: right;">1.30</td>
-<td style="text-align: right;">2.55</td>
-<td style="text-align: right;">4.30</td>
+<td style="text-align: right;">0.99</td>
+<td style="text-align: right;">0.03</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">AM99</td>
-<td style="text-align: right;">0.86</td>
-<td style="text-align: right;">0.94</td>
+<td style="text-align: left;">14897</td>
 <td style="text-align: right;">0.92</td>
-<td style="text-align: right;">2.70</td>
-<td style="text-align: right;">1.95</td>
-<td style="text-align: right;">1.70</td>
-<td style="text-align: right;">2.45</td>
+<td style="text-align: right;">0.97</td>
+<td style="text-align: right;">0.94</td>
+<td style="text-align: right;">0.02</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">G206</td>
-<td style="text-align: right;">0.83</td>
-<td style="text-align: right;">0.93</td>
+<td style="text-align: left;">abc</td>
 <td style="text-align: right;">0.89</td>
-<td style="text-align: right;">2.50</td>
-<td style="text-align: right;">2.75</td>
-<td style="text-align: right;">2.00</td>
-<td style="text-align: right;">3.00</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">chlo.oe</td>
-<td style="text-align: right;">1.00</td>
-<td style="text-align: right;">1.00</td>
-<td style="text-align: right;">1.00</td>
-<td style="text-align: right;">4.00</td>
-<td style="text-align: right;">3.00</td>
-<td style="text-align: right;">2.00</td>
-<td style="text-align: right;">1.00</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">CM71</td>
-<td style="text-align: right;">0.94</td>
 <td style="text-align: right;">0.98</td>
-<td style="text-align: right;">0.96</td>
-<td style="text-align: right;">3.25</td>
-<td style="text-align: right;">2.75</td>
-<td style="text-align: right;">3.25</td>
-<td style="text-align: right;">1.75</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">AIRZ97</td>
-<td style="text-align: right;">0.98</td>
-<td style="text-align: right;">0.98</td>
-<td style="text-align: right;">1.00</td>
-<td style="text-align: right;">3.70</td>
-<td style="text-align: right;">2.95</td>
-<td style="text-align: right;">2.45</td>
-<td style="text-align: right;">0.95</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">l1l4</td>
-<td style="text-align: right;">0.70</td>
-<td style="text-align: right;">0.90</td>
-<td style="text-align: right;">0.81</td>
-<td style="text-align: right;">2.05</td>
-<td style="text-align: right;">2.80</td>
-<td style="text-align: right;">2.55</td>
-<td style="text-align: right;">3.80</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">RNNA19</td>
-<td style="text-align: right;">0.84</td>
-<td style="text-align: right;">0.95</td>
-<td style="text-align: right;">0.89</td>
-<td style="text-align: right;">3.45</td>
-<td style="text-align: right;">2.20</td>
-<td style="text-align: right;">2.70</td>
-<td style="text-align: right;">3.45</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">ABC123</td>
 <td style="text-align: right;">0.91</td>
-<td style="text-align: right;">0.96</td>
-<td style="text-align: right;">0.95</td>
-<td style="text-align: right;">3.30</td>
-<td style="text-align: right;">2.80</td>
-<td style="text-align: right;">2.55</td>
-<td style="text-align: right;">2.55</td>
+<td style="text-align: right;">0.02</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Ordnassela</td>
-<td style="text-align: right;">0.96</td>
-<td style="text-align: right;">0.99</td>
-<td style="text-align: right;">0.97</td>
-<td style="text-align: right;">3.90</td>
-<td style="text-align: right;">2.15</td>
-<td style="text-align: right;">2.15</td>
-<td style="text-align: right;">1.90</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">BoJack</td>
-<td style="text-align: right;">0.90</td>
-<td style="text-align: right;">0.96</td>
-<td style="text-align: right;">0.93</td>
-<td style="text-align: right;">3.75</td>
-<td style="text-align: right;">1.75</td>
-<td style="text-align: right;">1.75</td>
-<td style="text-align: right;">2.50</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">banane</td>
-<td style="text-align: right;">0.90</td>
-<td style="text-align: right;">0.94</td>
-<td style="text-align: right;">0.95</td>
-<td style="text-align: right;">3.35</td>
-<td style="text-align: right;">1.85</td>
-<td style="text-align: right;">2.85</td>
-<td style="text-align: right;">1.60</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">JannikEichin</td>
-<td style="text-align: right;">1.00</td>
-<td style="text-align: right;">1.00</td>
-<td style="text-align: right;">1.00</td>
-<td style="text-align: right;">4.00</td>
-<td style="text-align: right;">3.00</td>
-<td style="text-align: right;">2.00</td>
-<td style="text-align: right;">1.00</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">ebdm2020</td>
-<td style="text-align: right;">0.91</td>
-<td style="text-align: right;">0.97</td>
-<td style="text-align: right;">0.94</td>
-<td style="text-align: right;">3.25</td>
-<td style="text-align: right;">1.75</td>
-<td style="text-align: right;">2.75</td>
-<td style="text-align: right;">2.00</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">VMM</td>
-<td style="text-align: right;">0.79</td>
-<td style="text-align: right;">0.88</td>
-<td style="text-align: right;">0.91</td>
-<td style="text-align: right;">3.50</td>
-<td style="text-align: right;">2.25</td>
-<td style="text-align: right;">2.50</td>
-<td style="text-align: right;">3.25</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">19970414</td>
-<td style="text-align: right;">1.00</td>
-<td style="text-align: right;">1.00</td>
-<td style="text-align: right;">1.00</td>
-<td style="text-align: right;">4.00</td>
-<td style="text-align: right;">3.00</td>
-<td style="text-align: right;">2.00</td>
-<td style="text-align: right;">1.00</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">UB2020</td>
-<td style="text-align: right;">0.98</td>
-<td style="text-align: right;">0.99</td>
-<td style="text-align: right;">1.00</td>
-<td style="text-align: right;">3.80</td>
-<td style="text-align: right;">2.55</td>
-<td style="text-align: right;">2.30</td>
-<td style="text-align: right;">1.05</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Ara_Tak1</td>
-<td style="text-align: right;">0.78</td>
-<td style="text-align: right;">0.79</td>
-<td style="text-align: right;">0.97</td>
-<td style="text-align: right;">3.80</td>
-<td style="text-align: right;">2.30</td>
-<td style="text-align: right;">2.05</td>
-<td style="text-align: right;">2.05</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">BVOA</td>
-<td style="text-align: right;">0.94</td>
-<td style="text-align: right;">0.97</td>
-<td style="text-align: right;">0.97</td>
-<td style="text-align: right;">3.75</td>
-<td style="text-align: right;">2.00</td>
-<td style="text-align: right;">2.25</td>
-<td style="text-align: right;">1.75</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Tuesday</td>
-<td style="text-align: right;">0.89</td>
-<td style="text-align: right;">0.94</td>
-<td style="text-align: right;">0.95</td>
-<td style="text-align: right;">4.55</td>
-<td style="text-align: right;">1.80</td>
-<td style="text-align: right;">1.80</td>
-<td style="text-align: right;">2.05</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">AKBR70</td>
-<td style="text-align: right;">0.91</td>
-<td style="text-align: right;">0.94</td>
-<td style="text-align: right;">0.96</td>
-<td style="text-align: right;">3.95</td>
-<td style="text-align: right;">2.20</td>
-<td style="text-align: right;">1.70</td>
-<td style="text-align: right;">2.20</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">MANK</td>
-<td style="text-align: right;">1.00</td>
-<td style="text-align: right;">1.00</td>
-<td style="text-align: right;">1.00</td>
-<td style="text-align: right;">4.00</td>
-<td style="text-align: right;">3.00</td>
-<td style="text-align: right;">2.00</td>
-<td style="text-align: right;">1.00</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">mycode</td>
+<td style="text-align: left;">AEL16</td>
 <td style="text-align: right;">0.96</td>
 <td style="text-align: right;">0.97</td>
 <td style="text-align: right;">0.99</td>
-<td style="text-align: right;">4.65</td>
-<td style="text-align: right;">2.40</td>
-<td style="text-align: right;">2.15</td>
-<td style="text-align: right;">1.15</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">AALP</td>
-<td style="text-align: right;">-0.32</td>
-<td style="text-align: right;">-0.11</td>
-<td style="text-align: right;">0.76</td>
-<td style="text-align: right;">0.55</td>
-<td style="text-align: right;">3.30</td>
-<td style="text-align: right;">2.55</td>
-<td style="text-align: right;">1.80</td>
+<td style="text-align: right;">0.03</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">kl83</td>
-<td style="text-align: right;">0.89</td>
+<td style="text-align: left;">brotundkäs</td>
+<td style="text-align: right;">0.95</td>
+<td style="text-align: right;">0.97</td>
 <td style="text-align: right;">0.98</td>
-<td style="text-align: right;">0.91</td>
-<td style="text-align: right;">2.80</td>
-<td style="text-align: right;">2.55</td>
-<td style="text-align: right;">2.80</td>
-<td style="text-align: right;">2.80</td>
+<td style="text-align: right;">0.03</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">R15AUR</td>
-<td style="text-align: right;">0.90</td>
-<td style="text-align: right;">0.96</td>
-<td style="text-align: right;">0.95</td>
-<td style="text-align: right;">4.65</td>
-<td style="text-align: right;">2.40</td>
-<td style="text-align: right;">1.15</td>
-<td style="text-align: right;">2.40</td>
+<td style="text-align: left;">JW2648</td>
+<td style="text-align: right;">0.91</td>
+<td style="text-align: right;">0.97</td>
+<td style="text-align: right;">0.94</td>
+<td style="text-align: right;">0.03</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">23081999</td>
-<td style="text-align: right;">0.75</td>
-<td style="text-align: right;">0.95</td>
-<td style="text-align: right;">0.79</td>
-<td style="text-align: right;">2.10</td>
-<td style="text-align: right;">2.60</td>
-<td style="text-align: right;">1.60</td>
-<td style="text-align: right;">3.85</td>
-</tr>
-</tbody>
-</table>
-</div>
-So, on average…
-<div class="layout-chunk" data-layout="l-body">
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: right;">achievement</th>
-<th style="text-align: right;">responselinearity</th>
-<th style="text-align: right;">bootstrapping</th>
-<th style="text-align: right;">weight1</th>
-<th style="text-align: right;">weight2</th>
-<th style="text-align: right;">weight3</th>
-<th style="text-align: right;">weight4</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
+<td style="text-align: left;">l76K</td>
 <td style="text-align: right;">0.85</td>
-<td style="text-align: right;">0.92</td>
-<td style="text-align: right;">0.93</td>
-<td style="text-align: right;">3.39</td>
-<td style="text-align: right;">2.42</td>
-<td style="text-align: right;">2.23</td>
-<td style="text-align: right;">2.17</td>
+<td style="text-align: right;">0.89</td>
+<td style="text-align: right;">0.95</td>
+<td style="text-align: right;">0.10</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PNMV</td>
+<td style="text-align: right;">0.94</td>
+<td style="text-align: right;">0.98</td>
+<td style="text-align: right;">0.96</td>
+<td style="text-align: right;">0.02</td>
 </tr>
 </tbody>
 </table>
