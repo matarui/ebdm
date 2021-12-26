@@ -29,20 +29,26 @@ Sessions take place Tuesdays, 16.15-17.45. Currently, the course is planned to b
 ::: l-body
 | # | Date     | Topic                         | Slides |
 |---| ---------|-------------------------------|--------|
-| 1 | 22.02.2022 | [Introduction](index.html) | [pdf](https://github.com/matarui/ebdm/raw/main/docs/presentations/EBDM_session1.pdf) |
-| 2 | 01.03.2022 | [The Scientific Method(s)](session2.html) | [pdf](index.html) |
-| 3 | 15.03.2022 | [Algorithms](session3.html) | [pdf](index.html) |
-| 4 | 22.03.2022 | [Algorithms](session4.html) | [pdf](index.html) |
-| 5 | 29.03.2022 | [Consensus](session5.html) | [pdf](index.html) |
-| 6 | 05.04.2022 | [Consensus](session6.html) | [pdf](index.html) |
-| 7 | 12.04.2022 | [Counterfactuals](session7.html) | [pdf](index.html) |
-| 8 | 19.04.2022 | [Counterfactuals](session8.html) | [pdf](index.html) |
-| 9 | 26.04.2022 | [Synthesis](session9.html) | [pdf](index.html) |
-|10 | 03.05.2022 | [Synthesis](session10.html) | [pdf](index.html) |
-|11 | 10.05.2022 | [Interventions](session11.html) | [pdf](index.html) |
-|12 | 17.05.2022 | [Interventions](session12.html) | [pdf](index.html) |
-|13 | 24.05.2022 | [Exam](exam.html) | |
+| 1 | 22.02.2022 | [The Scientific Method(s)](index.html) | [pdf](index.html) |
+| 2 | 01.03.2022 | [Algorithms](session3.html) | [pdf](index.html) |
+| 3 | 22.03.2022 | [Algorithms](session4.html) | [pdf](index.html) |
+| 4 | 29.03.2022 | [Consensus](session5.html) | [pdf](index.html) |
+| 5 | 05.04.2022 | [Consensus](session6.html) | [pdf](index.html) |
+| 6 | 12.04.2022 | [Counterfactuals](session7.html) | [pdf](index.html) |
+| 7 | 19.04.2022 | [Counterfactuals](session8.html) | [pdf](index.html) |
+| 8 | 26.04.2022 | [Synthesis](session9.html) | [pdf](index.html) |
+| 9 | 03.05.2022 | [Synthesis](session10.html) | [pdf](index.html) |
+|10 | 10.05.2022 | [Interventions](session11.html) | [pdf](index.html) |
+|11 | 17.05.2022 | [Interventions](session12.html) | [pdf](index.html) |
+|12 | 24.05.2022 | [Exam](exam.html) | |
 :::
+
+```{r, include=FALSE}
+
+# https://github.com/matarui/ebdm/raw/main/docs/presentations/EBDM_session1.pdf
+
+```
+
 
 # What is this course about?
 

@@ -10,34 +10,26 @@ navbar:
   right:
     - text: "Home"
       href: index.html
-    - text: "The Scientific Method(s)"
-      href: session2.html
-    - text: "Algorithms"
+    - text: "Sessions"
       menu:
+      - text: "The Scientific Method(s)"
+        href: session2.html
       - text: "The power of algorithms"
         href: session3.html
       - text: "The limits of algorithms"
         href: session4.html
-    - text: "Consensus"
-      menu:
       - text: "The wisdom of the crowd"
         href: session5.html
       - text: "The wisdom of experts"
         href: session6.html
-    - text: "Counterfactuals"
-      menu:
       - text: "Experiments"
         href: session7.html
       - text: "Alternatives to experiments"
         href: session8.html
-    - text: "Synthesis"
-      menu:
       - text: "Systematic reviews"
         href: session9.html
       - text: "Meta-analyses"
         href: session10.html
-    - text: "Interventions"
-      menu:
       - text: "Types of interventions"
         href: session11.html
       - text: "Implementation science"
