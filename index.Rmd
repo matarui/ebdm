@@ -24,7 +24,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Session information
 
-Sessions take place Tuesdays, 16.15-17.45. Currently, the course is planned to be held in person but a change to online is possible depending on the current epidemiological situation.
+Sessions take place Tuesdays, 16.15-17.45. Currently, the course is planned to be held in person but a change to an online format is possible depending on the current epidemiological situation.
 
 ::: l-body
 | # | Date     | Topic                         | Slides |
