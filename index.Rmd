@@ -30,18 +30,18 @@ Sessions take place Tuesdays, 16.15-17.45. Currently, the course is planned to b
 | # | Date     | Topic                         | Slides |
 |---| ---------|-------------------------------|--------|
 | 1 | 22.02.2022 | [Introduction](index.html) | [pdf](https://github.com/matarui/ebdm/raw/main/docs/presentations/EBDM_session1.pdf) |
-| 2 | 01.03.2021 | [The Scientific Method(s)](session2.html) | [pdf](https://github.com/matarui/ebdm/raw/main/docs/presentations/EBDM_session2.pdf) |
-| 3 | 15.03.2021 | [Algorithms](session3.html) | [pdf](https://github.com/matarui/ebdm/raw/main/docs/presentations/EBDM_session3.pdf) |
-| 4 | 22.03.2021 | [Algorithms](session4.html) | [pdf](https://github.com/matarui/ebdm/raw/main/docs/presentations/EBDM_session4.pdf) |
-| 5 | 29.03.2021 | [Consensus](session5.html) | [pdf](https://github.com/matarui/ebdm/raw/main/docs/presentations/EBDM_session5.pdf) |
-| 6 | 05.04.2021 | [Consensus](session6.html) | [pdf](https://github.com/matarui/ebdm/raw/main/docs/presentations/EBDM_session6.pdf) |
-| 7 | 12.04.2021 | [Counterfactuals](session7.html) | [pdf](https://github.com/matarui/ebdm/raw/main/docs/presentations/EBDM_session7.pdf) |
-| 8 | 19.04.2021 | [Counterfactuals](session8.html) | [pdf](https://github.com/matarui/ebdm/raw/main/docs/presentations/EBDM_session8.pdf) |
-| 9 | 26.04.2021 | [Synthesis](session9.html) | [pdf](https://github.com/matarui/ebdm/raw/main/docs/presentations/EBDM_session9.pdf) |
-|10 | 03.05.2021 | [Synthesis](session10.html) | [pdf](https://github.com/matarui/ebdm/raw/main/docs/presentations/EBDM_session10.pdf) |
-|11 | 10.05.2021 | [Interventions](session11.html) | [pdf](https://github.com/matarui/ebdm/raw/main/docs/presentations/EBDM_session11.pdf) |
-|12 | 17.05.2021 | [Interventions](session12.html) | [pdf](index.html) |
-|13 | 24.05.2021 | [Exam](exam.html) | |
+| 2 | 01.03.2022 | [The Scientific Method(s)](session2.html) | [pdf](index.html) |
+| 3 | 15.03.2022 | [Algorithms](session3.html) | [pdf](index.html) |
+| 4 | 22.03.2022 | [Algorithms](session4.html) | [pdf](index.html) |
+| 5 | 29.03.2022 | [Consensus](session5.html) | [pdf](index.html) |
+| 6 | 05.04.2022 | [Consensus](session6.html) | [pdf](index.html) |
+| 7 | 12.04.2022 | [Counterfactuals](session7.html) | [pdf](index.html) |
+| 8 | 19.04.2022 | [Counterfactuals](session8.html) | [pdf](index.html) |
+| 9 | 26.04.2022 | [Synthesis](session9.html) | [pdf](index.html) |
+|10 | 03.05.2022 | [Synthesis](session10.html) | [pdf](index.html) |
+|11 | 10.05.2022 | [Interventions](session11.html) | [pdf](index.html) |
+|12 | 17.05.2022 | [Interventions](session12.html) | [pdf](index.html) |
+|13 | 24.05.2022 | [Exam](exam.html) | |
 :::
 
 # What is this course about?
