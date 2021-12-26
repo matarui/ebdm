@@ -1,0 +1,94 @@
+---
+title: "Exercise: Policy Capturing"
+description: |
+  Can algorithms help YOU make better decisions?
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = T)
+```
+
+This exercise aims to help you learn about Brunswick's lens model and policy capturing. The goal is to use linear regression to model your own judgments so that you can answer the questions at the bottom of this page. If you didn't participate in the experiment you can still complete the exercise using one of your colleague's data. 
+
+You can type the commands below into a new R file to load the necessary R libraries and retrieve the data (please note that copy and pasting may not always work because incorrect characters are copied in this process). After that, you will have to write your own code to use regression to model your own ratings (but I provide some example code below)...
+
+## Loading packages
+You will need a couple of R packages to do some data wrangling and plot things. For this you will have to load them using the command library(PACKAGENAME).  
+
+NOTE: If you never used tidyverse before, you will have to install it first by using install.package("PACKAGENAME"). Once you have installed the packages, it will be sufficent to use library(PACKAGENAME) at the start of each R session - no need to install it again each time. 
+
+```{r,message=F}
+library(tidyverse)
+library(knitr)
+```
+
+## Reading in the data
+
+I have uploaded the data on github so R can read the file directly from there.
+
+```{r}
+data <- read.csv(url("https://github.com/matarui/ebdm/raw/main/docs/materials/data.csv"))
+```
+
+## Plotting all data
+Perhaps it is helpful to see all the data in one plot. The figure below plots the actual criterion on the x-axis against your ratings on the y-axis? Can you find the subplot with your own data? How did you do?
+
+```{r}
+ggplot(data,aes(x=crit,y=prediction)) +
+  geom_point() +
+  theme_minimal() +
+  facet_wrap(~code)
+```
+
+## Selecting YOUR data
+You can select your own data and plot it. In the example below I use the data from participant "JW2648"
+
+```{r}
+mydata<-data %>% 
+  filter(code=="JW2648") 
+
+ggplot(mydata,aes(x=crit,y=prediction)) +
+  geom_point() +
+  theme_minimal()
+```
+
+##  Modeling the ENVIRONMENT 
+Before you continue with modeling your data, perhaps it is helpful to understand the problem you were given (and recall how to run a regression in R). Each job candidate was described on 4 cues: Data skills, Language skills, Social skills, and Experience. On each cue, a candidate could score either "Ok" (0) or "Great" (1).
+Now, one can use a regression model to estimate the weight associated with each cue. In the model below, I am using a linear regression to assess how much weight to give each cue. 
+
+NOTE: I'm cheating a little bit because I'm taking out the intercept in the model (this is what the "-1" does in the formula below; I actually know (because I constructed this example) that the intercept is 0 and can be ignored - and removing the intercept (i.e., setting it to 0) is helpful later when modeling the data because the cues are more easily interpretable. 
+
+```{r}
+model_env=lm(crit~-1+Data+Language+Social+Experience,data=mydata)
+summary(model_env)
+```
+
+Can you interpret the coefficients presented above? What does the 4.000e+00 mean?
+
+Please note that you can also get a "prediction" from the model, that is, the rating that the model suggests each candidate should obtain given the candidate's cue profile - I do this below when I use the function predict(). Then, one can correlate the criterion (the values stored in mydata as the column "crit") and the prediction from the model - for which I use the function cor() below. 
+
+```{r}
+
+prediction<-predict(model_env)
+
+cor(mydata$crit,prediction)
+```
+
+The correlation between the model prediction and the criterion is 1! This suggests that the linear model captures the environment perfectly (perhaps you noticed above that R even gives you a warning "essentially perfect fit: summary may be unreliable"). Why is this?
+
+Well, I picked an "easy" environment in which each cue gives you a round number of rating points (say 4 for the cue Data, as indicated in the coefficient estimated at 4.000e+00; with the other cues receiving the weight 3, 2, and 1). Further, there is no noise around this criterion: As you can seen in the table below, the worst candidate, Joana, has 0 points, while the best candidate, Tina, with "Great" on all four cues (4+3+2+1), gets exactly 10 points. Everyone else gets something in between... 
+
+```{r,echo=F}
+kable(mydata %>% select(names,Data:Experience,crit))
+```
+
+## So, can you answer these questions?
+Now, if you use the logic above (and similar code) using your ratings, can you answer the following three questions?
+
+1) How well did YOUR "clinical" judgment do overall, that is, what is the correlation between your ratings and the criterion?
+2) How much weight did YOU give each cue?
+3) How much better/worse does a regression model of YOUR judgments, an "actuarial model", do relative to your "clinical" judgment? In other words, what is the correlation between the predictions of a model based on your ratings and the criterion?
+
+If you're able to answer the questions above, you could try doing the same based on data from a few other students, do you get similar or different results?
+
+NOTE: It's quite common to get some error messages when starting to use R, if you don't understand R's error messages, search Google for answers and potential solutions - it's what data analysts do ALL THE TIME! Of course, let me know through the FAQ on ADAM if you get stuck - I'll come to the rescue or walk you through it during one of the next sessions!!!

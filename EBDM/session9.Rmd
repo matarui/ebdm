@@ -1,0 +1,19 @@
+---
+title: "Synthesis"
+description: |
+  What is research synthesis?
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+![<span>Photo by <a href="https://unsplash.com/@luis_tosta?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Luis Tosta</a> on <a href="https://unsplash.com/s/photos/library?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>](photos/luis-tosta-COAbFWdOf5s-unsplash.jpg)
+
+# Research Synthesis
+
+Read the paper by Gurevitch et al. (2018) for a quick overview of the history of research synthesis (60 minutes). 
+
+### Recommended Reading
+
+Gurevitch, J., Koricheva, J., Nakagawa, S., & Stewart, G. (2018). Meta-analysis and the science of research synthesis. *Nature, 555*(7695), 175–182.  [http://doi.org/10.1038/nature25753](https://github.com/matarui/ebdm/raw/main/docs/literature/Gurevitch_2018_Nature.pdf)

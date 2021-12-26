@@ -1,0 +1,17 @@
+---
+title: "Consensus"
+description: |
+  The ignorance and wisdom of the crowd
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+![<span>Photo by <a href="https://unsplash.com/@chuttersnap?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">CHUTTERSNAP</a> on <a href="https://unsplash.com/s/photos/crowd?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>](photos/chuttersnap-gDDas5_ALRw-unsplash.jpg)
+
+# Wisdom of the crowd
+
+Listen to Mehdi Moussaid for an introduction to the wisdom of the crowd... 
+
+<iframe width="560" height="515" src="https://www.youtube.com/embed/cWTn73BZs8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

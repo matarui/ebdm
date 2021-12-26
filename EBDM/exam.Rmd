@@ -1,0 +1,25 @@
+---
+title: "Exam"
+description: |
+  What have you learned?
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+![<span>Photo by <a href="https://unsplash.com/@anniespratt?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Annie Spratt</a> on <a href="https://unsplash.com/s/photos/test?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>](photos/annie-spratt-JexAuNCfefs-unsplash.jpg)
+
+# Assessment
+
+The assessment will consist of an open-book exam involving 20 multiple-choice questions (see below). All questions will be in English. 
+
+The exam will take place over EvaExam on 25.05.2021, between 16:15 and 17:45. Additional information about the EvaExam system will be provided closer to the exam date.
+
+The grades will be communicated by email about two weeks after the exam (i.e., 07.06.2021) and students who would like to view their exam results should write an email to the instructor to communicate that they will attend the in-person meeting scheduled for 15.06.2021 (16:00-17:00). 
+
+### Multiple choice questions
+
+Multiple-choice questions will be of the type K-Prim: No correct answer, or several correct answers.
+
+Each question or incomplete statement is followed by four possible responses or statements. For each response or statement, a decision must be made as to whether it is right or wrong. Regardless of whether the question is grammatically formulated in the singular or the plural, one, two, three, four or even none of the answers may be correct. For each question, four correct answers equal 1 point, three correct equal .5 points, and less than 3 correct answers equal 0 points.

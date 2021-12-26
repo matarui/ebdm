@@ -1,0 +1,73 @@
+---
+title: "Exercise: Policy Capturing"
+description: |
+  Can algorithms help YOU make better decisions?
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = T)
+```
+
+## Load libraries
+```{r, message=F}
+library(tidyverse)
+library(knitr)
+```
+
+## Load data
+```{r }
+data <- read.csv(url("https://github.com/matarui/ebdm/raw/main/docs/materials/data.csv"))
+```
+
+Here's the data we're modeling...
+
+```{r}
+ggplot(data,aes(x=crit,y=prediction)) +
+  geom_point() +
+  theme_minimal() +
+  facet_wrap(~code)
+```
+
+
+1) How well did YOUR "clinical" judgment do overall, that is, what is the correlation between your ratings and the criterion?
+
+```{r}
+mydata<-data %>% 
+  filter(code=="JW2648") 
+
+mymodel=lm(prediction~-1+Data+Language+Social+Experience,data=mydata)
+summary(mymodel)
+
+cor(mydata$crit,mydata$prediction)
+```
+
+This amounts to *achievement*.
+
+2) How much weight did YOU give each cue?
+
+This amounts to the coefficients in the summary of the model above (e.g., Data, Language, Social, Experience).
+
+3) How much better/worse does a regression model of YOUR judgments, an "actuarial model", do relative to your "clinical" judgment? In other words, what is the correlation between the predictions of a model based on your ratings and the criterion?
+
+The performance of a paramorphic model of your judgments amounts to *bootstrapping*. The difference between this model and your clinical judgment is how much better the algorithm does relative to your clinical judgment. The *diff* is given for everyone in the table below... 
+
+```{r, echo = F}
+
+results<-data %>% 
+  group_by(code) %>% 
+  mutate(model=predict(lm(prediction~Data+Language+Social+Experience))) %>% 
+  summarize(achievement= cor(prediction,crit),
+            responselinearity=cor(prediction,model),
+            bootstrapping=cor(model,crit)) %>% 
+  mutate(diff=bootstrapping-achievement) %>% 
+  ungroup()
+
+```
+
+```{r,echo=F}
+results<-results %>% 
+  mutate_if(is.numeric, round,digits=2)
+
+kable(results)
+```
+

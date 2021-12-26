@@ -1,0 +1,15 @@
+---
+title: "Counterfactuals"
+description: |
+  What alternatives do we have to experiments?
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+![<span>Photo by <a href="https://unsplash.com/@supernov?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Edi Libedinsky</a> on <a href="https://unsplash.com/s/photos/binoculars?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>](photos/edi-libedinsky-1bhp9zBPHVE-unsplash.jpg)
+
+### Recommended Reading
+
+Varian, H. R. (2016). Causal inference in economics and marketing. *Proceedings of the National Academy of Sciences of the United States of America, 113*(27), 7310–7315. [http://doi.org/10.1073/pnas.1510479113](https://github.com/matarui/ebdm/raw/main/docs/literature/Varian_2016_PNAS.pdf)

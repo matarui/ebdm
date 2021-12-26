@@ -1,0 +1,20 @@
+---
+title: "Implementation science"
+description: |
+  How can interventions be implemented in real-world contexts?
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+![<span>Photo by <a href="https://unsplash.com/@glenncarstenspeters?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Glenn Carstens-Peters</a> on <a href="https://unsplash.com/s/photos/checklist?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>](photos/glenn-carstens-peters-RLw-UC03Gwc-unsplash.jpg)
+
+
+# Can psychology save lives?
+
+In this session, [Prof. Dr. Jutta Mata](https://www.sowi.uni-mannheim.de/en/mata/), University of Mannheim, will join us to tell us about how psychology can save lives! Jutta will also be available to answer questions about her work on health interventions and her role as a scientific expert in academic and non-academic contexts. 
+
+Please prepare 1 to 2 questions based on what you have learned throughout the semester about evidence-based decision making. 
+
+[![Jutta Mata](photos/juttamata.png)](https://www.sowi.uni-mannheim.de/en/mata/)
