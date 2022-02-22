@@ -29,7 +29,7 @@ Sessions take place Tuesdays, 16.15-17.45. Currently, the course is planned to b
 ::: l-body
 | # | Date     | Topic                         | Slides |
 |---| ---------|-------------------------------|--------|
-| 1 | 22.02.2022 | [The Scientific Method(s)](index.html) | [pdf](index.html) |
+| 1 | 22.02.2022 | [The Scientific Method(s)](session2.html) | [pdf](index.html) |
 | 2 | 01.03.2022 | [Algorithms](session3.html) | [pdf](index.html) |
 | 3 | 22.03.2022 | [Algorithms](session4.html) | [pdf](index.html) |
 | 4 | 29.03.2022 | [Consensus](session5.html) | [pdf](index.html) |
