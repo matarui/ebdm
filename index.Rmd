@@ -74,8 +74,8 @@ The course will cover broad theoretical principles of evidence-based decision ma
 
 This website is designed to help course participants get an overview of the course and access most course materials (e.g., recommended background readings and videos, additional non-mandatory readings). A number of other resources, however, are available. An [FAQ](https://adam.unibas.ch/goto_adam_crs_1230794.html) forum is available on ADAM. If technically possible, the portions of the online sessions involving presentation by the instructor will be recorded and made available after each session on [SWITCHtube](https://tube.switch.ch/channels/0661df59). Information about the exam is available on the [Exam](exam.html) tab on this webpage.  
 
-Course materials, such as readings or suggested preparation exercises, will be made available about one week before each session. Videos of the online sessions and associated slides will be posted **after** each session. 
+Course materials, such as readings or suggested preparation exercises, will be made available about one week before each session. The slides associated will be posted **after** each session but no video recording will be made available. 
 
-# Video recordings and SWITCHtube
+<!-- # Video recordings and SWITCHtube -->
 
-If technically possible, sessions involving presentation by the instructor will be recorded and made available after each session on [SWITCHtube](https://tube.switch.ch/channels/0661df59). All recordings will be deleted at the end of the semester. According to University of Basel's [regulations](https://www.unibas.ch/dam/jcr:9e482656-e333-42ec-bbd3-4639dedd3dc7/R_Ton-Bildaufnahmen_00.pdf) these **recordings** are for **personal use** only and should **not be further distributed** in any form.  
+<!-- If technically possible, sessions involving presentation by the instructor will be recorded and made available after each session on [SWITCHtube](https://tube.switch.ch/channels/0661df59). All recordings will be deleted at the end of the semester. According to University of Basel's [regulations](https://www.unibas.ch/dam/jcr:9e482656-e333-42ec-bbd3-4639dedd3dc7/R_Ton-Bildaufnahmen_00.pdf) these **recordings** are for **personal use** only and should **not be further distributed** in any form.   -->
