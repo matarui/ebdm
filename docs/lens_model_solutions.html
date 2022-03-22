@@ -2130,7 +2130,7 @@ Sessions
 <h2 id="load-data">Load data</h2>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>data</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/utils/read.table.html'>read.csv</a></span><span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/connections.html'>url</a></span><span class='op'>(</span><span class='st'>"https://github.com/matarui/ebdm/raw/main/docs/materials/data.csv"</span><span class='op'>)</span><span class='op'>)</span>
+<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>data</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/utils/read.table.html'>read.csv</a></span><span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/connections.html'>url</a></span><span class='op'>(</span><span class='st'>"https://github.com/matarui/ebdm/raw/main/materials/data.csv"</span><span class='op'>)</span><span class='op'>)</span>
 </code></pre>
 </div>
 </div>
@@ -2151,7 +2151,7 @@ Sessions
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span class='va'>mydata</span><span class='op'>&lt;-</span><span class='va'>data</span> <span class='op'><a href='https://magrittr.tidyverse.org/reference/pipe.html'>%&gt;%</a></span> 
-  <span class='fu'><a href='https://dplyr.tidyverse.org/reference/filter.html'>filter</a></span><span class='op'>(</span><span class='va'>code</span><span class='op'>==</span><span class='st'>"JW2648"</span><span class='op'>)</span> 
+  <span class='fu'><a href='https://dplyr.tidyverse.org/reference/filter.html'>filter</a></span><span class='op'>(</span><span class='va'>code</span><span class='op'>==</span><span class='st'>"KMT"</span><span class='op'>)</span> 
 
 <span class='va'>mymodel</span><span class='op'>=</span><span class='fu'><a href='https://rdrr.io/r/stats/lm.html'>lm</a></span><span class='op'>(</span><span class='va'>prediction</span><span class='op'>~</span><span class='op'>-</span><span class='fl'>1</span><span class='op'>+</span><span class='va'>Data</span><span class='op'>+</span><span class='va'>Language</span><span class='op'>+</span><span class='va'>Social</span><span class='op'>+</span><span class='va'>Experience</span>,data<span class='op'>=</span><span class='va'>mydata</span><span class='op'>)</span>
 <span class='fu'><a href='https://rdrr.io/r/base/summary.html'>summary</a></span><span class='op'>(</span><span class='va'>mymodel</span><span class='op'>)</span>
@@ -2163,26 +2163,26 @@ lm(formula = prediction ~ -1 + Data + Language + Social + Experience,
     data = mydata)
 
 Residuals:
-   Min     1Q Median     3Q    Max 
--1.500 -0.500  0.000  0.625  1.000 
+    Min      1Q  Median      3Q     Max 
+-5.1000 -0.3625  0.4750  1.7125  2.5500 
 
 Coefficients:
-           Estimate Std. Error t value Pr(&gt;|t|)    
-Data         3.5000     0.3651   9.585 5.65e-07 ***
-Language     2.0000     0.3651   5.477 0.000141 ***
-Social       2.5000     0.3651   6.847 1.78e-05 ***
-Experience   2.5000     0.3651   6.847 1.78e-05 ***
+           Estimate Std. Error t value Pr(&gt;|t|)   
+Data         3.7000     0.9469   3.907  0.00208 **
+Language     1.4500     0.9469   1.531  0.15163   
+Social       1.9500     0.9469   2.059  0.06185 . 
+Experience   2.9500     0.9469   3.115  0.00893 **
 ---
 Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
 
-Residual standard error: 0.8165 on 12 degrees of freedom
-Multiple R-squared:  0.9858,    Adjusted R-squared:  0.9811 
-F-statistic: 208.5 on 4 and 12 DF,  p-value: 5.632e-11</code></pre>
+Residual standard error: 2.117 on 12 degrees of freedom
+Multiple R-squared:  0.9058,    Adjusted R-squared:  0.8744 
+F-statistic: 28.84 on 4 and 12 DF,  p-value: 4.502e-06</code></pre>
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span class='fu'><a href='https://rdrr.io/r/stats/cor.html'>cor</a></span><span class='op'>(</span><span class='va'>mydata</span><span class='op'>$</span><span class='va'>crit</span>,<span class='va'>mydata</span><span class='op'>$</span><span class='va'>prediction</span><span class='op'>)</span>
 </code></pre>
 </div>
-<pre><code>[1] 0.9054188</code></pre>
+<pre><code>[1] 0.6549275</code></pre>
 </div>
 <p>This amounts to <em>achievement</em>.</p>
 <ol start="2" type="1">
@@ -2209,59 +2209,59 @@ F-statistic: 208.5 on 4 and 12 DF,  p-value: 5.632e-11</code></pre>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">0.o</td>
+<td style="text-align: left;">1893</td>
+<td style="text-align: right;">0.94</td>
+<td style="text-align: right;">0.98</td>
 <td style="text-align: right;">0.96</td>
-<td style="text-align: right;">0.97</td>
-<td style="text-align: right;">0.99</td>
-<td style="text-align: right;">0.03</td>
+<td style="text-align: right;">0.02</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">14897</td>
+<td style="text-align: left;">a2000&amp;</td>
+<td style="text-align: right;">0.98</td>
+<td style="text-align: right;">1.00</td>
+<td style="text-align: right;">0.99</td>
+<td style="text-align: right;">0.00</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">BrbSBD220306</td>
 <td style="text-align: right;">0.92</td>
 <td style="text-align: right;">0.97</td>
-<td style="text-align: right;">0.94</td>
-<td style="text-align: right;">0.02</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">abc</td>
-<td style="text-align: right;">0.89</td>
-<td style="text-align: right;">0.98</td>
-<td style="text-align: right;">0.91</td>
-<td style="text-align: right;">0.02</td>
+<td style="text-align: right;">0.95</td>
+<td style="text-align: right;">0.03</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">AEL16</td>
-<td style="text-align: right;">0.96</td>
-<td style="text-align: right;">0.97</td>
+<td style="text-align: left;">DMH</td>
+<td style="text-align: right;">0.81</td>
+<td style="text-align: right;">0.91</td>
+<td style="text-align: right;">0.89</td>
+<td style="text-align: right;">0.08</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Gennie</td>
+<td style="text-align: right;">0.93</td>
 <td style="text-align: right;">0.99</td>
-<td style="text-align: right;">0.03</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">brotundkäs</td>
-<td style="text-align: right;">0.95</td>
-<td style="text-align: right;">0.97</td>
-<td style="text-align: right;">0.98</td>
-<td style="text-align: right;">0.03</td>
+<td style="text-align: right;">0.94</td>
+<td style="text-align: right;">0.01</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">JW2648</td>
-<td style="text-align: right;">0.91</td>
-<td style="text-align: right;">0.97</td>
-<td style="text-align: right;">0.94</td>
-<td style="text-align: right;">0.03</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">l76K</td>
+<td style="text-align: left;">KMT</td>
+<td style="text-align: right;">0.65</td>
+<td style="text-align: right;">0.77</td>
 <td style="text-align: right;">0.85</td>
-<td style="text-align: right;">0.89</td>
-<td style="text-align: right;">0.95</td>
-<td style="text-align: right;">0.10</td>
+<td style="text-align: right;">0.20</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">MUEL</td>
+<td style="text-align: right;">0.93</td>
+<td style="text-align: right;">0.96</td>
+<td style="text-align: right;">0.97</td>
+<td style="text-align: right;">0.04</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">PNMV</td>
-<td style="text-align: right;">0.94</td>
+<td style="text-align: left;">Pendler2020</td>
+<td style="text-align: right;">0.83</td>
 <td style="text-align: right;">0.98</td>
-<td style="text-align: right;">0.96</td>
+<td style="text-align: right;">0.85</td>
 <td style="text-align: right;">0.02</td>
 </tr>
 </tbody>
