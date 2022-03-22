@@ -27,7 +27,7 @@ library(knitr)
 I have uploaded the data on github so R can read the file directly from there.
 
 ```{r}
-data <- read.csv(url("https://github.com/matarui/ebdm/raw/main/docs/materials/data.csv"))
+data <- read.csv(url("https://github.com/matarui/ebdm/raw/main/materials/data.csv"))
 ```
 
 ## Plotting all data
@@ -45,7 +45,7 @@ You can select your own data and plot it. In the example below I use the data fr
 
 ```{r}
 mydata<-data %>% 
-  filter(code=="JW2648") 
+  filter(code=="KMT") 
 
 ggplot(mydata,aes(x=crit,y=prediction)) +
   geom_point() +
