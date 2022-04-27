@@ -36,7 +36,7 @@ Sessions take place Tuesdays, 16.15-17.45. Currently, the course is planned to b
 | 5 | 05.04.2022 | [Consensus](session6.html) | [pdf](https://github.com/matarui/ebdm/raw/main/docs/presentations/EBDM_session5.pdf) |
 | 6 | 12.04.2022 | [Counterfactuals](session7.html) | [pdf](https://github.com/matarui/ebdm/raw/main/docs/presentations/EBDM_session6.pdf) |
 | 7 | 19.04.2022 | [Counterfactuals](session8.html) | [pdf](https://github.com/matarui/ebdm/raw/main/docs/presentations/EBDM_session7.pdf) |
-| 8 | 26.04.2022 | [Synthesis](session9.html) | [pdf](index.html) |
+| 8 | 26.04.2022 | [Synthesis](session9.html) | [pdf](https://github.com/matarui/ebdm/raw/main/docs/presentations/EBDM_session8.pdf) |
 | 9 | 03.05.2022 | [Synthesis](session10.html) | [pdf](index.html) |
 |10 | 10.05.2022 | [Interventions](session11.html) | [pdf](index.html) |
 |11 | 17.05.2022 | [Interventions](session12.html) | [pdf](index.html) |
