@@ -37,7 +37,7 @@ Sessions take place Mondays, 14.15-15.45.
 | 6 | 17.04.2023 | [Counterfactuals: Experiments](session7.html) | 
 | 7 | 24.04.2023 | [Counterfactuals: Alternatives to experiments](session8.html) | 
 | 8 | 08.05.2023 | [Synthesis](session9.html) | 
-| 9 | 15.05.2023 | [Interventions](session10.html) | 
+| 9 | 15.05.2023 | [Interventions](session11.html) | 
 |10 | 22.05.2023 | [Exam](exam.html) | 
 :::
 

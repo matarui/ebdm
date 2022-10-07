@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Assessment
 
-The assessment will consist of an exam. More information will be available at the start of the semester.
+The assessment will consist of a written exam consisting of multiple-choice questions. More information will be available at the start of the semester.
 
 ```{r, include=FALSE}
 # The exam will take place over EvaExam on 25.05.2021, between 16:15 and 17:45. Additional information about the EvaExam system will be provided closer to the exam date.

@@ -32,4 +32,4 @@ Session 3 provided an introduction to algorithmic decision-making, including a t
 
 If you'd like to get a short "hands-on" intro to conducting "policy capturing" yourself, I suggest you participate in the online experiment [“Job or Not?”](https://evidencebaseddm.formr.org) and then, using your own responses (or those of your colleagues), answer the three questions listed [here](lens_model.html).
 
-If you'd like to see a set of solutions, click [here](lens_model_solutions.html).
+<!-- If you'd like to see a set of solutions, click [here](lens_model_solutions.html). -->
