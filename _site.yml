@@ -16,7 +16,7 @@ navbar:
         href: session2.html
       - text: "The power of algorithms"
         href: session3.html
-      - text: "The limits of algorithms"
+      - text: "The problems of algorithms"
         href: session4.html
       - text: "The wisdom of the crowd"
         href: session5.html
@@ -28,12 +28,8 @@ navbar:
         href: session8.html
       - text: "Synthesis"
         href: session9.html
-      - text: "Synthesis: Guidelines"
-        href: session10.html
-      - text: "Types of interventions"
+      - text: "Interventions"
         href: session11.html
-      - text: "Implementation science"
-        href: session12.html
     - text: "Exam"
       href: exam.html
       search: true

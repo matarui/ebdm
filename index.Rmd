@@ -1,7 +1,7 @@
 ---
 title: "EBDM"
 description: |
-  Welcome to the website for *Evidence-based decision making* FS22 ([11230-01](https://vorlesungsverzeichnis.unibas.ch/de/home?id=263293))
+  Welcome to the website for *Evidence-based decision making* FS23 ([11230-01](https://vorlesungsverzeichnis.unibas.ch/de/home?id=263293))
   
   Instructor: [Rui Mata](https://psychologie.unibas.ch/de/personen/rui-mata/about-me/), University of Basel
   
@@ -24,23 +24,21 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Session information
 
-Sessions take place Tuesdays, 16.15-17.45. Currently, the course is planned to be held in person but a change to an online format is possible depending on the current epidemiological situation.
+Sessions take place Mondays, 14.15-15.45. 
 
 ::: l-body
-| # | Date     | Topic                         | Slides |
-|---| ---------|-------------------------------|--------|
-| 1 | 22.02.2022 | [The Scientific Method(s)](session2.html) | [pdf](https://github.com/matarui/ebdm/raw/main/docs/presentations/EBDM_session1.pdf) |
-| 2 | 01.03.2022 | [Algorithms](session3.html) | [pdf](https://github.com/matarui/ebdm/raw/main/docs/presentations/EBDM_session2.pdf) |
-| 3 | 22.03.2022 | [Algorithms](session4.html) | [pdf](https://github.com/matarui/ebdm/raw/main/docs/presentations/EBDM_session3.pdf) |
-| 4 | 29.03.2022 | [Consensus](session5.html) | [pdf](https://github.com/matarui/ebdm/raw/main/docs/presentations/EBDM_session4.pdf) |
-| 5 | 05.04.2022 | [Consensus](session6.html) | [pdf](https://github.com/matarui/ebdm/raw/main/docs/presentations/EBDM_session5.pdf) |
-| 6 | 12.04.2022 | [Counterfactuals](session7.html) | [pdf](https://github.com/matarui/ebdm/raw/main/docs/presentations/EBDM_session6.pdf) |
-| 7 | 19.04.2022 | [Counterfactuals](session8.html) | [pdf](https://github.com/matarui/ebdm/raw/main/docs/presentations/EBDM_session7.pdf) |
-| 8 | 26.04.2022 | [Synthesis](session9.html) | [pdf](https://github.com/matarui/ebdm/raw/main/docs/presentations/EBDM_session8.pdf) |
-| 9 | 03.05.2022 | [Synthesis](session10.html) | [pdf](https://github.com/matarui/ebdm/raw/main/docs/presentations/EBDM_session9.pdf) |
-|10 | 10.05.2022 | [Interventions](session11.html) | [pdf](https://github.com/matarui/ebdm/raw/main/docs/presentations/EBDM_session10.pdf) |
-|11 | 17.05.2022 | [Interventions](session12.html) | [pdf](https://github.com/matarui/ebdm/raw/main/docs/presentations/EBDM_session11.pdf) |
-|12 | 24.05.2022 | [Exam](exam.html) | |
+| # | Date     | Topic                         | 
+|---| ---------|-------------------------------|
+| 1 | 20.02.2023 | [The Scientific Method(s)](session2.html) | 
+| 2 | 06.03.2023 | [Algorithms: The power of algorithms](session3.html) | 
+| 3 | 13.03.2023 | [Algorithms: The problems of algorithms](session4.html) | 
+| 4 | 20.03.2023 | [Consensus: The wisdom of the crowd](session5.html) | 
+| 5 | 27.03.2023 | [Consensus: The wisdom of experts](session6.html) | 
+| 6 | 17.04.2023 | [Counterfactuals: Experiments](session7.html) | 
+| 7 | 24.04.2023 | [Counterfactuals: Alternatives to experiments](session8.html) | 
+| 8 | 08.05.2023 | [Synthesis](session9.html) | 
+| 9 | 15.05.2023 | [Interventions](session10.html) | 
+|10 | 22.05.2023 | [Exam](exam.html) | 
 :::
 
 
@@ -72,10 +70,4 @@ The course will cover broad theoretical principles of evidence-based decision ma
 
 # How should you use this website?
 
-This website is designed to help course participants get an overview of the course and access most course materials (e.g., recommended background readings and videos, additional non-mandatory readings). A number of other resources, however, are available. An [FAQ](https://adam.unibas.ch/goto_adam_crs_1230794.html) forum is available on ADAM. If technically possible, the portions of the online sessions involving presentation by the instructor will be recorded and made available after each session on [SWITCHtube](https://tube.switch.ch/channels/0661df59). Information about the exam is available on the [Exam](exam.html) tab on this webpage.  
-
-Course materials, such as readings or suggested preparation exercises, will be made available about one week before each session. The slides associated will be posted **after** each session but no video recording will be made available. 
-
-<!-- # Video recordings and SWITCHtube -->
-
-<!-- If technically possible, sessions involving presentation by the instructor will be recorded and made available after each session on [SWITCHtube](https://tube.switch.ch/channels/0661df59). All recordings will be deleted at the end of the semester. According to University of Basel's [regulations](https://www.unibas.ch/dam/jcr:9e482656-e333-42ec-bbd3-4639dedd3dc7/R_Ton-Bildaufnahmen_00.pdf) these **recordings** are for **personal use** only and should **not be further distributed** in any form.   -->
+This website is designed to help course participants get an overview of the course and access most course materials (e.g., recommended background readings and videos, additional non-mandatory readings). A number of other resources, however, are available. An [FAQ](https://adam.unibas.ch/goto_adam_crs_1230794.html) forum is available on ADAM. Information about the exam is available on the [Exam](exam.html) tab on this webpage.  

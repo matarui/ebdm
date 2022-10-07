@@ -2081,15 +2081,13 @@ Sessions
 <div class="nav-dropdown-content">
 <a href="session2.html">The Scientific Method(s)</a>
 <a href="session3.html">The power of algorithms</a>
-<a href="session4.html">The limits of algorithms</a>
+<a href="session4.html">The problems of algorithms</a>
 <a href="session5.html">The wisdom of the crowd</a>
 <a href="session6.html">The wisdom of experts</a>
 <a href="session7.html">Experiments</a>
 <a href="session8.html">Alternatives to experiments</a>
 <a href="session9.html">Synthesis</a>
-<a href="session10.html">Synthesis: Guidelines</a>
-<a href="session11.html">Types of interventions</a>
-<a href="session12.html">Implementation science</a>
+<a href="session11.html">Interventions</a>
 </div>
 </div>
 <a href="exam.html">Exam</a>
@@ -2114,20 +2112,41 @@ Sessions
 <nav class="l-text toc figcaption" id="TOC">
 <h3>Contents</h3>
 <ul>
-<li><a href="#loading-packages">Loading packages</a></li>
-<li><a href="#reading-in-the-data">Reading in the data</a></li>
-<li><a href="#plotting-all-data">Plotting all data</a></li>
-<li><a href="#selecting-your-data">Selecting YOUR data</a></li>
-<li><a href="#modeling-the-environment">Modeling the ENVIRONMENT</a></li>
-<li><a href="#so-can-you-answer-these-questions">So, can you answer these questions?</a></li>
+<li><a href="#loading-packages" id="toc-loading-packages">Loading
+packages</a></li>
+<li><a href="#reading-in-the-data" id="toc-reading-in-the-data">Reading
+in the data</a></li>
+<li><a href="#plotting-all-data" id="toc-plotting-all-data">Plotting all
+data</a></li>
+<li><a href="#selecting-your-data"
+id="toc-selecting-your-data">Selecting YOUR data</a></li>
+<li><a href="#modeling-the-environment"
+id="toc-modeling-the-environment">Modeling the ENVIRONMENT</a></li>
+<li><a href="#so-can-you-answer-these-questions"
+id="toc-so-can-you-answer-these-questions">So, can you answer these
+questions?</a></li>
 </ul>
 </nav>
 </div>
-<p>This exercise aims to help you learn about Brunswick’s lens model and policy capturing. The goal is to use linear regression to model your own judgments so that you can answer the questions at the bottom of this page. If you didn’t participate in the experiment you can still complete the exercise using one of your colleague’s data.</p>
-<p>You can type the commands below into a new R file to load the necessary R libraries and retrieve the data (please note that copy and pasting may not always work because incorrect characters are copied in this process). After that, you will have to write your own code to use regression to model your own ratings (but I provide some example code below)…</p>
+<p>This exercise aims to help you learn about Brunswick’s lens model and
+policy capturing. The goal is to use linear regression to model your own
+judgments so that you can answer the questions at the bottom of this
+page. If you didn’t participate in the experiment you can still complete
+the exercise using one of your colleague’s data.</p>
+<p>You can type the commands below into a new R file to load the
+necessary R libraries and retrieve the data (please note that copy and
+pasting may not always work because incorrect characters are copied in
+this process). After that, you will have to write your own code to use
+regression to model your own ratings (but I provide some example code
+below)…</p>
 <h2 id="loading-packages">Loading packages</h2>
-<p>You will need a couple of R packages to do some data wrangling and plot things. For this you will have to load them using the command library(PACKAGENAME).</p>
-<p>NOTE: If you never used tidyverse before, you will have to install it first by using install.package(“PACKAGENAME”). Once you have installed the packages, it will be sufficent to use library(PACKAGENAME) at the start of each R session - no need to install it again each time.</p>
+<p>You will need a couple of R packages to do some data wrangling and
+plot things. For this you will have to load them using the command
+library(PACKAGENAME).</p>
+<p>NOTE: If you never used tidyverse before, you will have to install it
+first by using install.package(“PACKAGENAME”). Once you have installed
+the packages, it will be sufficent to use library(PACKAGENAME) at the
+start of each R session - no need to install it again each time.</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://tidyverse.tidyverse.org'>tidyverse</a></span><span class='op'>)</span>
@@ -2136,7 +2155,8 @@ Sessions
 </div>
 </div>
 <h2 id="reading-in-the-data">Reading in the data</h2>
-<p>I have uploaded the data on github so R can read the file directly from there.</p>
+<p>I have uploaded the data on github so R can read the file directly
+from there.</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span class='va'>data</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/utils/read.table.html'>read.csv</a></span><span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/connections.html'>url</a></span><span class='op'>(</span><span class='st'>"https://github.com/matarui/ebdm/raw/main/materials/data.csv"</span><span class='op'>)</span><span class='op'>)</span>
@@ -2144,7 +2164,10 @@ Sessions
 </div>
 </div>
 <h2 id="plotting-all-data">Plotting all data</h2>
-<p>Perhaps it is helpful to see all the data in one plot. The figure below plots the actual criterion on the x-axis against your ratings on the y-axis? Can you find the subplot with your own data? How did you do?</p>
+<p>Perhaps it is helpful to see all the data in one plot. The figure
+below plots the actual criterion on the x-axis against your ratings on
+the y-axis? Can you find the subplot with your own data? How did you
+do?</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span class='fu'><a href='https://ggplot2.tidyverse.org/reference/ggplot.html'>ggplot</a></span><span class='op'>(</span><span class='va'>data</span>,<span class='fu'><a href='https://ggplot2.tidyverse.org/reference/aes.html'>aes</a></span><span class='op'>(</span>x<span class='op'>=</span><span class='va'>crit</span>,y<span class='op'>=</span><span class='va'>prediction</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span>
@@ -2156,7 +2179,8 @@ Sessions
 <p><img src="lens_model_files/figure-html5/unnamed-chunk-3-1.png" width="624" /></p>
 </div>
 <h2 id="selecting-your-data">Selecting YOUR data</h2>
-<p>You can select your own data and plot it. In the example below I use the data from participant “JW2648”</p>
+<p>You can select your own data and plot it. In the example below I use
+the data from participant “JW2648”</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span class='va'>mydata</span><span class='op'>&lt;-</span><span class='va'>data</span> <span class='op'><a href='https://magrittr.tidyverse.org/reference/pipe.html'>%&gt;%</a></span> 
@@ -2170,8 +2194,20 @@ Sessions
 <p><img src="lens_model_files/figure-html5/unnamed-chunk-4-1.png" width="624" /></p>
 </div>
 <h2 id="modeling-the-environment">Modeling the ENVIRONMENT</h2>
-<p>Before you continue with modeling your data, perhaps it is helpful to understand the problem you were given (and recall how to run a regression in R). Each job candidate was described on 4 cues: Data skills, Language skills, Social skills, and Experience. On each cue, a candidate could score either “Ok” (0) or “Great” (1). Now, one can use a regression model to estimate the weight associated with each cue. In the model below, I am using a linear regression to assess how much weight to give each cue.</p>
-<p>NOTE: I’m cheating a little bit because I’m taking out the intercept in the model (this is what the “-1” does in the formula below; I actually know (because I constructed this example) that the intercept is 0 and can be ignored - and removing the intercept (i.e., setting it to 0) is helpful later when modeling the data because the cues are more easily interpretable.</p>
+<p>Before you continue with modeling your data, perhaps it is helpful to
+understand the problem you were given (and recall how to run a
+regression in R). Each job candidate was described on 4 cues: Data
+skills, Language skills, Social skills, and Experience. On each cue, a
+candidate could score either “Ok” (0) or “Great” (1). Now, one can use a
+regression model to estimate the weight associated with each cue. In the
+model below, I am using a linear regression to assess how much weight to
+give each cue.</p>
+<p>NOTE: I’m cheating a little bit because I’m taking out the intercept
+in the model (this is what the “-1” does in the formula below; I
+actually know (because I constructed this example) that the intercept is
+0 and can be ignored - and removing the intercept (i.e., setting it to
+0) is helpful later when modeling the data because the cues are more
+easily interpretable.</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span class='va'>model_env</span><span class='op'>=</span><span class='fu'><a href='https://rdrr.io/r/stats/lm.html'>lm</a></span><span class='op'>(</span><span class='va'>crit</span><span class='op'>~</span><span class='op'>-</span><span class='fl'>1</span><span class='op'>+</span><span class='va'>Data</span><span class='op'>+</span><span class='va'>Language</span><span class='op'>+</span><span class='va'>Social</span><span class='op'>+</span><span class='va'>Experience</span>,data<span class='op'>=</span><span class='va'>mydata</span><span class='op'>)</span>
@@ -2200,8 +2236,14 @@ Residual standard error: 8.643e-16 on 12 degrees of freedom
 Multiple R-squared:      1, Adjusted R-squared:      1 
 F-statistic: 1.74e+32 on 4 and 12 DF,  p-value: &lt; 2.2e-16</code></pre>
 </div>
-<p>Can you interpret the coefficients presented above? What does the 4.000e+00 mean?</p>
-<p>Please note that you can also get a “prediction” from the model, that is, the rating that the model suggests each candidate should obtain given the candidate’s cue profile - I do this below when I use the function predict(). Then, one can correlate the criterion (the values stored in mydata as the column “crit”) and the prediction from the model - for which I use the function cor() below.</p>
+<p>Can you interpret the coefficients presented above? What does the
+4.000e+00 mean?</p>
+<p>Please note that you can also get a “prediction” from the model, that
+is, the rating that the model suggests each candidate should obtain
+given the candidate’s cue profile - I do this below when I use the
+function predict(). Then, one can correlate the criterion (the values
+stored in mydata as the column “crit”) and the prediction from the model
+- for which I use the function cor() below.</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span class='va'>prediction</span><span class='op'>&lt;-</span><span class='fu'><a href='https://rdrr.io/r/stats/predict.html'>predict</a></span><span class='op'>(</span><span class='va'>model_env</span><span class='op'>)</span>
@@ -2211,8 +2253,18 @@ F-statistic: 1.74e+32 on 4 and 12 DF,  p-value: &lt; 2.2e-16</code></pre>
 </div>
 <pre><code>[1] 1</code></pre>
 </div>
-<p>The correlation between the model prediction and the criterion is 1! This suggests that the linear model captures the environment perfectly (perhaps you noticed above that R even gives you a warning “essentially perfect fit: summary may be unreliable”). Why is this?</p>
-<p>Well, I picked an “easy” environment in which each cue gives you a round number of rating points (say 4 for the cue Data, as indicated in the coefficient estimated at 4.000e+00; with the other cues receiving the weight 3, 2, and 1). Further, there is no noise around this criterion: As you can seen in the table below, the worst candidate, Joana, has 0 points, while the best candidate, Tina, with “Great” on all four cues (4+3+2+1), gets exactly 10 points. Everyone else gets something in between…</p>
+<p>The correlation between the model prediction and the criterion is 1!
+This suggests that the linear model captures the environment perfectly
+(perhaps you noticed above that R even gives you a warning “essentially
+perfect fit: summary may be unreliable”). Why is this?</p>
+<p>Well, I picked an “easy” environment in which each cue gives you a
+round number of rating points (say 4 for the cue Data, as indicated in
+the coefficient estimated at 4.000e+00; with the other cues receiving
+the weight 3, 2, and 1). Further, there is no noise around this
+criterion: As you can seen in the table below, the worst candidate,
+Joana, has 0 points, while the best candidate, Tina, with “Great” on all
+four cues (4+3+2+1), gets exactly 10 points. Everyone else gets
+something in between…</p>
 <div class="layout-chunk" data-layout="l-body">
 <table>
 <thead>
@@ -2357,16 +2409,30 @@ F-statistic: 1.74e+32 on 4 and 12 DF,  p-value: &lt; 2.2e-16</code></pre>
 </tbody>
 </table>
 </div>
-<h2 id="so-can-you-answer-these-questions">So, can you answer these questions?</h2>
-<p>Now, if you use the logic above (and similar code) using your ratings, can you answer the following three questions?</p>
+<h2 id="so-can-you-answer-these-questions">So, can you answer these
+questions?</h2>
+<p>Now, if you use the logic above (and similar code) using your
+ratings, can you answer the following three questions?</p>
 <ol type="1">
-<li>How well did YOUR “clinical” judgment do overall, that is, what is the correlation between your ratings and the criterion?</li>
+<li>How well did YOUR “clinical” judgment do overall, that is, what is
+the correlation between your ratings and the criterion?</li>
 <li>How much weight did YOU give each cue?</li>
-<li>How much better/worse does a regression model of YOUR judgments, an “actuarial model”, do relative to your “clinical” judgment? In other words, what is the correlation between the predictions of a model based on your ratings and the criterion?</li>
+<li>How much better/worse does a regression model of YOUR judgments, an
+“actuarial model”, do relative to your “clinical” judgment? In other
+words, what is the correlation between the predictions of a model based
+on your ratings and the criterion?</li>
 </ol>
-<p>If you’re able to answer the questions above, you could try doing the same based on data from a few other students, do you get similar or different results?</p>
-<p>NOTE: It’s quite common to get some error messages when starting to use R, if you don’t understand R’s error messages, search Google for answers and potential solutions - it’s what data analysts do ALL THE TIME! Of course, let me know through the FAQ on ADAM if you get stuck - I’ll come to the rescue or walk you through it during one of the next sessions!!!</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<p>If you’re able to answer the questions above, you could try doing the
+same based on data from a few other students, do you get similar or
+different results?</p>
+<p>NOTE: It’s quite common to get some error messages when starting to
+use R, if you don’t understand R’s error messages, search Google for
+answers and potential solutions - it’s what data analysts do ALL THE
+TIME! Of course, let me know through the FAQ on ADAM if you get stuck -
+I’ll come to the rescue or walk you through it during one of the next
+sessions!!!</p>
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
