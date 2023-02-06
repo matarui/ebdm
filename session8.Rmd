@@ -10,6 +10,18 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ![<span>Photo by <a href="https://unsplash.com/@supernov?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Edi Libedinsky</a> on <a href="https://unsplash.com/s/photos/binoculars?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>](photos/edi-libedinsky-1bhp9zBPHVE-unsplash.jpg)
 
+# Counterfactuals, counterfactuals, counterfactuals everywhere
+
+There are many ways to make inferences but most (all?!?) forms of causal inference involve some form of counterfactual. Take some time to learn about the concept of counterfactuals. 
+
+<iframe width="560" height="515" src="https://www.youtube.com/embed/5eNhS0oaLHo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ### Recommended Reading
 
 Varian, H. R. (2016). Causal inference in economics and marketing. *Proceedings of the National Academy of Sciences of the United States of America, 113*(27), 7310–7315. [http://doi.org/10.1073/pnas.1510479113](https://github.com/matarui/ebdm/raw/main/docs/literature/Varian_2016_PNAS.pdf)
+
+### Further Reading
+
+Here's a popular science book on the "new" science of causal inference: 
+
+Pearl, J. & Mackenzie, D. (2018). *The book of why: The new science of cause and effect.* Basic Books. [https://www.basicbooks.com/titles/judea-pearl/the-book-of-why/9781541698963/](https://www.basicbooks.com/titles/judea-pearl/the-book-of-why/9781541698963/)

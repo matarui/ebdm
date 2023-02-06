@@ -50,16 +50,17 @@ pre.numberSource code > span > a:first-child::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {   }
+  { color: #00769e; background-color: #f1f3f5; }
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
+code span { color: #00769e; } /* Normal */
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { } /* Attribute */
+code span.at { color: #657422; } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
-code span.cf { color: #007ba5; } /* ControlFlow */
+code span.cf { color: #00769e; } /* ControlFlow */
 code span.ch { color: #20794d; } /* Char */
 code span.cn { color: #8f5902; } /* Constant */
 code span.co { color: #5e5e5e; } /* Comment */
@@ -73,9 +74,9 @@ code span.fl { color: #ad0000; } /* Float */
 code span.fu { color: #4758ab; } /* Function */
 code span.im { } /* Import */
 code span.in { color: #5e5e5e; } /* Information */
-code span.kw { color: #007ba5; } /* Keyword */
+code span.kw { color: #00769e; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
-code span.ot { color: #007ba5; } /* Other */
+code span.ot { color: #00769e; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
 code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
@@ -787,6 +788,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-article table.gt_table td,
   d-article table.gt_table th {
     border-bottom: none;
+    font-size: 100%;
   }
 
   .html-widget {
@@ -1028,10 +1030,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     position: relative;
     margin-bottom: 2.5em;
     margin-top: 1.5em;
-  }
-
-  .figure img {
-    width: 100%;
   }
 
   .figure .caption {
@@ -1863,9 +1861,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
+        const citeChild = $(this).children()[0]
+        // Do not process if @xyz has been used without escaping and without bibliography activated
+        // https://github.com/rstudio/distill/issues/466
+        if (citeChild === undefined) return true
+
+        if (citeChild.nodeName == "D-FOOTNOTE") {
+          var fn = citeChild
+          $(this).html(fn.shadowRoot.querySelector("sup"))
+          $(this).id = fn.id
+          fn.remove()
+        }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
-          return "<p>" + $('#ref-' + ref).html() + "</p>";
+          // Could use CSS.escape too here, we insure backward compatibility in navigator
+          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
         }).join("\n");
         window.tippy(this, {
           allowHTML: true,
@@ -1877,6 +1887,31 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
           placement: 'bottom-start'
         });
       });
+
+      // fix footnotes in tables (#411)
+      // replacing broken distill.pub feature
+      $('table d-footnote').each(function() {
+        // we replace internal showAtNode methode which is triggered when hovering a footnote
+        this.hoverBox.showAtNode = function(node) {
+          // ported from https://github.com/distillpub/template/pull/105/files
+          calcOffset = function(elem) {
+              let x = elem.offsetLeft;
+              let y = elem.offsetTop;
+              // Traverse upwards until an `absolute` element is found or `elem`
+              // becomes null.
+              while (elem = elem.offsetParent && elem.style.position != 'absolute') {
+                  x += elem.offsetLeft;
+                  y += elem.offsetTop;
+              }
+
+              return { left: x, top: y };
+          }
+          // https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop
+          const bbox = node.getBoundingClientRect();
+          const offset = calcOffset(node);
+          this.show([offset.left + bbox.width, offset.top + bbox.height]);
+        }
+      })
 
       // clear polling timer
       clearInterval(tid);
@@ -1976,6 +2011,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     // mark non-body figures created by knitr chunks as 100% width
     $('.layout-chunk').each(function(i, val) {
       var figures = $(this).find('img, .html-widget');
+      // ignore leaflet img layers (#106)
+      figures = figures.filter(':not(img[class*="leaflet"])')
       if ($(this).attr('data-layout') !== "l-body") {
         figures.css('width', '100%');
       } else {
@@ -1998,7 +2035,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     // get rid of index.html references in header
     if (window.location.protocol !== "file:") {
       $('.distill-site-header a[href]').each(function(i,val) {
-        $(this).attr('href', $(this).attr('href').replace("index.html", "./"));
+        $(this).attr('href', $(this).attr('href').replace(/^index[.]html/, "./"));
       });
     }
 
@@ -2037,7 +2074,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.18/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2112,68 +2149,34 @@ Sessions
 <nav class="l-text toc figcaption" id="TOC">
 <h3>Contents</h3>
 <ul>
-<li><a href="#what-is-the-scientific-method-and-can-we-trust-it"
-id="toc-what-is-the-scientific-method-and-can-we-trust-it">What is the
-scientific method? And can we trust it?</a></li>
-<li><a href="#what-should-we-do-to-fix-psychological-science"
-id="toc-what-should-we-do-to-fix-psychological-science">What should we
-do to fix (psychological) science?</a>
+<li><a href="#what-is-the-scientific-method-and-can-we-trust-it" id="toc-what-is-the-scientific-method-and-can-we-trust-it">What is the scientific method? And can we trust it?</a></li>
+<li><a href="#what-should-we-do-to-fix-psychological-science" id="toc-what-should-we-do-to-fix-psychological-science">What should we do to fix (psychological) science?</a>
 <ul>
-<li><a href="#recommended-reading"
-id="toc-recommended-reading">Recommended Reading</a></li>
-<li><a href="#further-suggestions" id="toc-further-suggestions">Further
-Suggestions</a></li>
+<li><a href="#recommended-reading" id="toc-recommended-reading">Recommended Reading</a></li>
+<li><a href="#further-readings" id="toc-further-readings">Further Readings</a></li>
 </ul></li>
 </ul>
 </nav>
 </div>
 <figure>
-<img src="photos/jon-tyson-hhq1Lxtuwd8-unsplash.jpg"
-alt="Sometimes it is good to start with a question or two… Photo by Jon Tyson on Unsplash" />
-<figcaption aria-hidden="true">Sometimes it is good to start with a
-question or two… <span>Photo by
-<a href="https://unsplash.com/@jontyson?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jon
-Tyson</a> on
-<a href="https://unsplash.com/s/photos/question?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></figcaption>
+<img src="photos/jon-tyson-hhq1Lxtuwd8-unsplash.jpg" alt="Sometimes it is good to start with a question or two… Photo by Jon Tyson on Unsplash" />
+<figcaption aria-hidden="true">Sometimes it is good to start with a question or two… <span>Photo by <a href="https://unsplash.com/@jontyson?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jon Tyson</a> on <a href="https://unsplash.com/s/photos/question?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></figcaption>
 </figure>
-<h1 id="what-is-the-scientific-method-and-can-we-trust-it">What is the
-scientific method? And can we trust it?</h1>
-<p>What do <strong>YOU</strong> think? Do you trust science and
-scientists? If so, why?</p>
-<p>Please watch Naomi Oreskes’ TED talk “Why we should trust scientists”
-(ca. 20 minutes) to learn more about the <strong>scientific
-method(s)</strong> and her thoughts on whether this ensures the
-trustworthiness of science and scientists.</p>
+<h1 id="what-is-the-scientific-method-and-can-we-trust-it">What is the scientific method? And can we trust it?</h1>
+<p>What do <strong>YOU</strong> think? Do you trust science and scientists? If so, why?</p>
+<p>In this session, we discuss how science works in general and some reasons we may find ourselves (dis)trusting science. We discuss issues surrounding the justification of knowledge and the scientific enterprise as well as the replication crisis in psychology (see below).</p>
+<p>As preparation, please watch Naomi Oreskes’ TED talk “Why we should trust scientists” (ca. 20 minutes) to learn more about the <strong>scientific method(s)</strong> and her thoughts on whether this ensures the trustworthiness of science and scientists.</p>
 <iframe width="560" height="515" src="https://www.youtube.com/embed/RxyQNEVOElU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
-<h1 id="what-should-we-do-to-fix-psychological-science">What should we
-do to fix (psychological) science?</h1>
-<p>As discussed in the introductory session, the behavioral sciences,
-such as psychology, have been in the news in the past few years for
-wrong reasons - think <strong>“replication crisis”</strong>! But what
-should we be doing to change the status quo? Read the paper by
-<strong>Munafò et al. (2017)</strong> (ca. 60 minutes) to learn about
-some emerging solutions.</p>
+<h1 id="what-should-we-do-to-fix-psychological-science">What should we do to fix (psychological) science?</h1>
+<p>As discussed in the introductory session, the behavioral sciences, such as psychology, have been in the news in the past few years for wrong reasons - think <strong>“replication crisis”</strong>! But what should we be doing to change the status quo? Read the paper by <strong>Munafò et al. (2017)</strong> (ca. 60 minutes) to learn about some emerging solutions.</p>
 <h3 id="recommended-reading">Recommended Reading</h3>
-<p>Munafò, M. R., Nosek, B. A., Bishop, D. V. M., Button, K. S.,
-Chambers, C. D., Sert, du, N. P., et al. (2017). A manifesto for
-reproducible science. <em>Nature Human Behaviour, 1</em>, 1–9. <a
-href="https://github.com/matarui/ebdm/raw/main/docs/literature/Munafo_2017_NHB.pdf">http://doi.org/10.1038/s41562-016-0021</a></p>
-<h3 id="further-suggestions">Further Suggestions</h3>
-<p>Are you interested in reading more about these topics? These books
-could be for you…</p>
-<p>Oreskes, N. (2019). <em>Why trust science?</em> Princeton: Oxford.
-Princeton University Press. <a
-href="https://www.jstor.org/stable/j.ctvfjczxx">https://www.jstor.org/stable/j.ctvfjczxx</a></p>
-<p>Ritchie, S. (2020). <em>Science fictions: Exposing fraud, bias,
-negligence and hype in science</em>. London: Bodley Head. <a
-href="https://www.sciencefictions.org">https://www.sciencefictions.org</a></p>
-<p>Rosling, H. (2018). <em>Factfulness. Ten reasons we’re wrong about
-the world - and why things are better than you think</em>. Sceptre:
-London. <a
-href="https://www.gapminder.org/factfulness-book/">https://www.gapminder.org/factfulness-book/</a></p>
-<div class="sourceCode" id="cb1"><pre
-class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<p>Munafò, M. R., Nosek, B. A., Bishop, D. V. M., Button, K. S., Chambers, C. D., Sert, du, N. P., et al. (2017). A manifesto for reproducible science. <em>Nature Human Behaviour, 1</em>, 1–9. <a href="https://github.com/matarui/ebdm/raw/main/docs/literature/Munafo_2017_NHB.pdf">http://doi.org/10.1038/s41562-016-0021</a></p>
+<h3 id="further-readings">Further Readings</h3>
+<p>Are you interested in reading more about these topics? These books could be for you…</p>
+<p>Oreskes, N. (2019). <em>Why trust science?</em> Princeton: Oxford. Princeton University Press. <a href="https://www.jstor.org/stable/j.ctvfjczxx">https://www.jstor.org/stable/j.ctvfjczxx</a></p>
+<p>Ritchie, S. (2020). <em>Science fictions: Exposing fraud, bias, negligence and hype in science</em>. London: Bodley Head. <a href="https://www.sciencefictions.org">https://www.sciencefictions.org</a></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

@@ -10,19 +10,22 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ![<span>Photo by <a href="https://unsplash.com/@chuttersnap?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">CHUTTERSNAP</a> on <a href="https://unsplash.com/s/photos/experiment?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>](photos/chuttersnap-UmncJq4KPcA-unsplash.jpg)
 
+# What is a Randomized Control Trial
+
+Randomized control trials are a type of experiment and are often said to be the gold standard for causal inference. Check this video of the Medical Research Council for a short introduction to RCTs (5 minutes). 
+
+<iframe width="560" height="515" src="https://www.youtube.com/embed/U6kVlRn6G0w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 # Standards...
 
-Experiments are often said to be the gold standard for causal inference. But what are key aspects of experimental studies and how should they be reported?
-
-Are you familiar with the "Consolidated Standards of Reporting Trials" (CONSORT) and the associated [website](http://www.consort-statement.org)?
+What are key aspects of RCT trials and how should they be reported? Are you familiar with the "Consolidated Standards of Reporting Trials" (CONSORT) and the associated [website](http://www.consort-statement.org)?
 
 Take a few minutes 30-60 minutes to look into the website, the history of CONSORT, and, most importantly, the CONSORT [checklist](http://www.consort-statement.org/download/Media/Default/Downloads/CONSORT%202010%20Checklist.doc). Do you find the checklist helpful? Which items of the checklist do you find most important, and why?
 
 [![Consort](photos/consort.png)](http://www.consort-statement.org)
 
-# An example of the importance of understanding RCTs
+### Further Reading
 
-You have probably have heard of the efficacy of different vaccines. But what does the "efficacy rate" actually mean? 
-Check out the video below to help discuss when/how the results of RCTs can be useful!
+Are you interested in the history and development of RCTs? This piece provides an interesting historical overview, including some discussion of limitations of RCTs. 
 
-<iframe width="560" height="515" src="https://www.youtube.com/embed/K3odScka55A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Bothwell, L.E., Greene, J.A., Podolsky, S.H., & Jones, D.S. (2016). Assessing the gold standard - Lessons from the history of RCTs. *New England Journal of Medicine, 2*, 374(22):2175-81. [doi: 10.1056/NEJMms1604593.](https://github.com/matarui/ebdm/raw/main/docs/literature/Bothwelletal_2016_NEJM.pdf)

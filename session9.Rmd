@@ -12,6 +12,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Research Synthesis
 
+Why do we need synthesis? 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nZR0xQmZVQg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 Read the paper by Gurevitch et al. (2018) for a quick overview of the history of research synthesis (60 minutes). 
 
 ### Recommended Reading
