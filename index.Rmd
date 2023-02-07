@@ -70,10 +70,10 @@ The course will cover broad theoretical principles of evidence-based decision ma
 
 # How should you use this website?
 
-This website is designed to help course participants get an overview of the course and access most course materials. Each session is structured such that some materials are available for prepaartion before the session (recommended readings, video). 
+This website is designed to help course participants get an overview of the course and access most course materials. 
 
-The slides of each presentation are available. However, the final version of the slides will only be made available *after* each session. 
+Each session is structured such that some materials are available for preparation before the session (recommended readings, youtube videos). In addition, the slides of each presentation are made available. However, note that the final version of the slides will only be made available *after* each session. 
 
-Finally, some additional resources, such as optional exercises or further readings are listed at the end of each session. 
+Finally, additional resources, such as optional exercises or background readings are listed at the end of each session for those that would like to learn more about the topic of the session. 
 
 Information about the exam is available on the [Exam](exam.html) tab on this webpage.  
