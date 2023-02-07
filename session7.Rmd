@@ -1,41 +1,37 @@
 ---
 title: "Counterfactuals"
 description: |
-  How should one conduct and report experiments?
+  What alternatives do we have to experiments?
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-![Experiments create counterfactuals... <br> <span>photo by <a href="https://unsplash.com/@chuttersnap?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">CHUTTERSNAP</a> on <a href="https://unsplash.com/s/photos/experiment?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>](photos/chuttersnap-UmncJq4KPcA-unsplash.jpg)
+![Searching for counterfactuals... <br> <span>photo by <a href="https://unsplash.com/@supernov?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Edi Libedinsky</a> on <a href="https://unsplash.com/s/photos/binoculars?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>](photos/edi-libedinsky-1bhp9zBPHVE-unsplash.jpg)
 
 ## Session Preparation
 
-### What is a Randomized Control Trial?
+### Counterfactuals, counterfactuals, counterfactuals everywhere
 
-Randomized control trials are a type of experiment and are often said to be the gold standard for causal inference. Check this video of the Medical Research Council for a short introduction to RCTs (5 minutes). 
+There are many ways to make inferences but most (all?!?) forms of causal inference involve some form of counterfactual. Take some time to learn about the concept of counterfactuals. 
 
-<iframe width="560" height="515" src="https://www.youtube.com/embed/U6kVlRn6G0w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="515" src="https://www.youtube.com/embed/5eNhS0oaLHo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-### Consolidated Standards of Reporting Trials (CONSORT)
+### Recommended Reading
 
-What are key aspects of RCT trials and how should they be reported? Are you familiar with the "Consolidated Standards of Reporting Trials" (CONSORT) and the associated [website](http://www.consort-statement.org)?
-
-Take a few minutes 30-60 minutes to look into the website, the history of CONSORT, and, most importantly, the CONSORT [checklist](http://www.consort-statement.org/download/Media/Default/Downloads/CONSORT%202010%20Checklist.doc). Do you find the checklist helpful? Which items of the checklist do you find most important, and why?
-
-[![Consort](photos/consort.png)](http://www.consort-statement.org)
+Varian, H. R. (2016). Causal inference in economics and marketing. *Proceedings of the National Academy of Sciences of the United States of America, 113*(27), 7310–7315. [http://doi.org/10.1073/pnas.1510479113](https://github.com/matarui/ebdm/raw/main/docs/literature/Varian_2016_PNAS.pdf)
 
 ## Session Slides
 
 Please note these slides are from FS22 ... updated versions for FS23 will be uploaded closer to the session date. 
 
-![Finding consensus](presentations/EBDM_session7.pdf){width=700px height=500px}
+![Finding consensus](presentations/EBDM_session8.pdf){width=700px height=500px}
 
 ## Additional Resources
 
 ### Further Reading
 
-Are you interested in the history and development of RCTs? This piece provides an interesting historical overview, including some discussion of limitations of RCTs. 
+Here's a popular science book on the "new" science of causal inference: 
 
-Bothwell, L.E., Greene, J.A., Podolsky, S.H., & Jones, D.S. (2016). Assessing the gold standard - Lessons from the history of RCTs. *New England Journal of Medicine, 2*, 374(22):2175-81. [doi: 10.1056/NEJMms1604593.](https://github.com/matarui/ebdm/raw/main/docs/literature/Bothwelletal_2016_NEJM.pdf)
+Pearl, J. & Mackenzie, D. (2018). *The book of why: The new science of cause and effect.* Basic Books. [https://www.basicbooks.com/titles/judea-pearl/the-book-of-why/9781541698963/](https://www.basicbooks.com/titles/judea-pearl/the-book-of-why/9781541698963/)

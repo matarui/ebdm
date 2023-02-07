@@ -90,27 +90,27 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_meta_tags-->
   <title>EBDM: Counterfactuals</title>
 
-  <meta property="description" itemprop="description" content="How should one conduct and report experiments?"/>
+  <meta property="description" itemprop="description" content="What alternatives do we have to experiments?"/>
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
   <meta property="og:title" content="EBDM: Counterfactuals"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="How should one conduct and report experiments?"/>
+  <meta property="og:description" content="What alternatives do we have to experiments?"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="EBDM"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
   <meta property="twitter:title" content="EBDM: Counterfactuals"/>
-  <meta property="twitter:description" content="How should one conduct and report experiments?"/>
+  <meta property="twitter:description" content="What alternatives do we have to experiments?"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["Counterfactuals"]},{"type":"character","attributes":{},"value":["How should one conduct and report experiments?"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["Counterfactuals"]},{"type":"character","attributes":{},"value":["What alternatives do we have to experiments?"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2094,7 +2094,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Counterfactuals","description":"How should one conduct and report experiments?","authors":[]}
+{"title":"Counterfactuals","description":"What alternatives do we have to experiments?","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2116,15 +2116,15 @@ Sessions
 <span class="down-arrow">&#x25BE;</span>
 </button>
 <div class="nav-dropdown-content">
-<a href="session2.html">The scientific method(s)</a>
-<a href="session3.html">The power of algorithms</a>
-<a href="session4.html">The problems of algorithms</a>
-<a href="session5.html">The wisdom of the crowd</a>
-<a href="session6.html">The wisdom of experts</a>
-<a href="session7.html">Experiments</a>
-<a href="session8.html">Alternatives to experiments</a>
-<a href="session9.html">Synthesis</a>
-<a href="session11.html">Interventions</a>
+<a href="session1.html">The scientific method(s)</a>
+<a href="session2.html">The power of algorithms</a>
+<a href="session3.html">The problems of algorithms</a>
+<a href="session4.html">The wisdom of the crowd</a>
+<a href="session5.html">The wisdom of experts</a>
+<a href="session6.html">Experiments</a>
+<a href="session7.html">Alternatives to experiments</a>
+<a href="session8.html">Synthesis</a>
+<a href="session9.html">Interventions</a>
 </div>
 </div>
 <a href="exam.html">Exam</a>
@@ -2140,7 +2140,7 @@ Sessions
 <h1>Counterfactuals</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>How should one conduct and report experiments?</p></p>
+<p><p>What alternatives do we have to experiments?</p></p>
 </div>
 
 
@@ -2151,8 +2151,8 @@ Sessions
 <ul>
 <li><a href="#session-preparation" id="toc-session-preparation">Session Preparation</a>
 <ul>
-<li><a href="#what-is-a-randomized-control-trial" id="toc-what-is-a-randomized-control-trial">What is a Randomized Control Trial?</a></li>
-<li><a href="#consolidated-standards-of-reporting-trials-consort" id="toc-consolidated-standards-of-reporting-trials-consort">Consolidated Standards of Reporting Trials (CONSORT)</a></li>
+<li><a href="#counterfactuals-counterfactuals-counterfactuals-everywhere" id="toc-counterfactuals-counterfactuals-counterfactuals-everywhere">Counterfactuals, counterfactuals, counterfactuals everywhere</a></li>
+<li><a href="#recommended-reading" id="toc-recommended-reading">Recommended Reading</a></li>
 </ul></li>
 <li><a href="#session-slides" id="toc-session-slides">Session Slides</a></li>
 <li><a href="#additional-resources" id="toc-additional-resources">Additional Resources</a>
@@ -2163,28 +2163,26 @@ Sessions
 </nav>
 </div>
 <figure>
-<img src="photos/chuttersnap-UmncJq4KPcA-unsplash.jpg" alt="Experiments create counterfactuals…   photo by CHUTTERSNAP on Unsplash" />
-<figcaption aria-hidden="true">Experiments create counterfactuals… <br> <span>photo by <a href="https://unsplash.com/@chuttersnap?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">CHUTTERSNAP</a> on <a href="https://unsplash.com/s/photos/experiment?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></figcaption>
+<img src="photos/edi-libedinsky-1bhp9zBPHVE-unsplash.jpg" alt="Searching for counterfactuals…   photo by Edi Libedinsky on Unsplash" />
+<figcaption aria-hidden="true">Searching for counterfactuals… <br> <span>photo by <a href="https://unsplash.com/@supernov?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Edi Libedinsky</a> on <a href="https://unsplash.com/s/photos/binoculars?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></figcaption>
 </figure>
 <h2 id="session-preparation">Session Preparation</h2>
-<h3 id="what-is-a-randomized-control-trial">What is a Randomized Control Trial?</h3>
-<p>Randomized control trials are a type of experiment and are often said to be the gold standard for causal inference. Check this video of the Medical Research Council for a short introduction to RCTs (5 minutes).</p>
-<iframe width="560" height="515" src="https://www.youtube.com/embed/U6kVlRn6G0w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+<h3 id="counterfactuals-counterfactuals-counterfactuals-everywhere">Counterfactuals, counterfactuals, counterfactuals everywhere</h3>
+<p>There are many ways to make inferences but most (all?!?) forms of causal inference involve some form of counterfactual. Take some time to learn about the concept of counterfactuals.</p>
+<iframe width="560" height="515" src="https://www.youtube.com/embed/5eNhS0oaLHo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
 </iframe>
-<h3 id="consolidated-standards-of-reporting-trials-consort">Consolidated Standards of Reporting Trials (CONSORT)</h3>
-<p>What are key aspects of RCT trials and how should they be reported? Are you familiar with the “Consolidated Standards of Reporting Trials” (CONSORT) and the associated <a href="http://www.consort-statement.org">website</a>?</p>
-<p>Take a few minutes 30-60 minutes to look into the website, the history of CONSORT, and, most importantly, the CONSORT <a href="http://www.consort-statement.org/download/Media/Default/Downloads/CONSORT%202010%20Checklist.doc">checklist</a>. Do you find the checklist helpful? Which items of the checklist do you find most important, and why?</p>
-<p><a href="http://www.consort-statement.org"><img src="photos/consort.png" alt="Consort" /></a></p>
+<h3 id="recommended-reading">Recommended Reading</h3>
+<p>Varian, H. R. (2016). Causal inference in economics and marketing. <em>Proceedings of the National Academy of Sciences of the United States of America, 113</em>(27), 7310–7315. <a href="https://github.com/matarui/ebdm/raw/main/docs/literature/Varian_2016_PNAS.pdf">http://doi.org/10.1073/pnas.1510479113</a></p>
 <h2 id="session-slides">Session Slides</h2>
 <p>Please note these slides are from FS22 … updated versions for FS23 will be uploaded closer to the session date.</p>
 <figure>
-<embed src="presentations/EBDM_session7.pdf" width="700" height="500" />
+<embed src="presentations/EBDM_session8.pdf" width="700" height="500" />
 <figcaption aria-hidden="true">Finding consensus</figcaption>
 </figure>
 <h2 id="additional-resources">Additional Resources</h2>
 <h3 id="further-reading">Further Reading</h3>
-<p>Are you interested in the history and development of RCTs? This piece provides an interesting historical overview, including some discussion of limitations of RCTs.</p>
-<p>Bothwell, L.E., Greene, J.A., Podolsky, S.H., &amp; Jones, D.S. (2016). Assessing the gold standard - Lessons from the history of RCTs. <em>New England Journal of Medicine, 2</em>, 374(22):2175-81. <a href="https://github.com/matarui/ebdm/raw/main/docs/literature/Bothwelletal_2016_NEJM.pdf">doi: 10.1056/NEJMms1604593.</a></p>
+<p>Here’s a popular science book on the “new” science of causal inference:</p>
+<p>Pearl, J. &amp; Mackenzie, D. (2018). <em>The book of why: The new science of cause and effect.</em> Basic Books. <a href="https://www.basicbooks.com/titles/judea-pearl/the-book-of-why/9781541698963/">https://www.basicbooks.com/titles/judea-pearl/the-book-of-why/9781541698963/</a></p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

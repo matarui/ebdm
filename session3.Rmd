@@ -1,48 +1,50 @@
 ---
 title: "Algorithms"
 description: |
-  Can algorithms make better decisions than humans?
+  What are the limits of algorithmic decision-making?
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-![Loving data...<br> <span>photo by <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Alexander Sinn</a> on <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>](photos/alexander-sinn-KgLtFCgfC28-unsplash.jpg)
+
+!["Excuse me, could please tell us the exact whereabouts of John Connor?" <br> <span>photo by <a href="https://unsplash.com/@mina_fc?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Mina FC</a> on <a href="https://unsplash.com/s/photos/stupid-robot?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+](photos/mina-fc-3QKsG0fDrC8-unsplash.jpg)
 
 ## Session Preparation
 
-### Paul Meehl
+### Weapons of math destruction!?!
 
-Paul Meehl was a pioneer in proposing the use of algorithmic decision-making in many areas of psychology, including clinical diagnosis and prognosis. He introduced the distinction between clinical and actuarial (algorithmic) judgment or prediction.
+Algorithmic decision-making is not without problems...
 
-Travel back to 1989 and experience a portion of Meehl's lecture at the University of Minnesota in which he introduces the issue of clinical vs. statistical prediction - click on the image below to find the lecture Philosophical Psychology Session #09, starting at timestamp 1:14:00).  
+Please watch Cathy O'Neil's TED talk "The era of blind faith in big data must end" (ca. 14 minutes) to learn more about the dark side of outsorcing our decisions to algorithms. 
 
-[![Paul Meehl](photos/meehl.png)](https://mediasite.csom.umn.edu/Mediasite/Play/682c9b2845514cf5b5a7d1b6defb9e171d)
+The video will serve as a starting point for a discussion on the limits of algorithmic decision-making.  
 
-### Clinical vs actuarial judgment
+<iframe width="560" height="515" src="https://www.youtube.com/embed/_2u_eHHzRto" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-In this session we will discuss Meehl's proposals and its implications for applied practice in the behavioral sciences and society at large. Please read the recommended reading below by **Dawes, Faust, and Meehl (1989)** (ca. 60 minutes) for an overview of Meehl and related work. 
+### Lessons from machine learning
 
-Dawes, R. M., Faust, D., & Meehl, P. E. (1989). Clinical versus actuarial judgment. *Science, 243*(4899), 1668–1674. [http://doi.org/10.2307/1703476](https://github.com/matarui/ebdm/raw/main/docs/literature/Dawes_1989_Science.pdf)
+How can the behavioral sciences use insights from machine learning to generate insights about human behavior? 
+
+Read **Yarkoni and Westfall (2017)** (ca. 120 minutes) to get an overview machine learning concepts and some of its pitfalls (e.g., overfitting) and associated solutions (e.g., cross-validation, regularization).
+
+Yarkoni, T., & Westfall, J. (2017). Choosing prediction over explanation in psychology: Lessons from machine learning. *Perspectives on Psychological Science, 12*(6), 1100–1122. [http://doi.org/10.1177/1745691617693393](https://github.com/matarui/ebdm/raw/main/docs/literature/Yarkoni_2017_PPS.pdf)
 
 ## Session Slides
 
 Please note these slides are from FS22 ... updated versions for FS23 will be uploaded closer to the session date. 
 
-![Algorithms for the win!](presentations/EBDM_session2.pdf){width=700px height=500px}
+![The problem(s) with algorithms](presentations/EBDM_session4.pdf){width=700px height=500px}
 
-## Additional Resources 
+## Additional Resources
 
-### Exercise
+### Further Readings 
 
-This session provides an introduction to algorithmic decision-making, including a tour of the lens model and policy capturing. If you'd like to get a short "hands-on" intro to conducting "policy capturing" yourself, I suggest you participate in the online experiment [“Job or Not?”](https://evidencebaseddm.formr.org) and then, using your own responses (or those of your colleagues), answer the three questions listed [here](lens_model.html).
+Are you interested in learning more about problems of machine learning, including the so-called "aligment problem"? This book could be a good starting point...
 
-<!-- If you'd like to see a set of solutions, click [here](lens_model_solutions.html). -->
+Christian, B. (2020). *The alignment problem.* New York: W.W. Norton & Company. [https://brianchristian.org/the-alignment-problem/](https://brianchristian.org/the-alignment-problem/)
 
-### Background Reading
 
-Are you interested in a scathing critique of clinical prediction? This classic could be of interest... 
-
-Dawes, R. (1994). *House of cards: Psychology and psychotherapy built on myth*. New York: Free Press.
 

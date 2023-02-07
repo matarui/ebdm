@@ -1,45 +1,48 @@
 ---
-title: "The Scientific Method(s)"
+title: "Algorithms"
 description: |
-  Is there such a thing as THE scientific method?
+  Can algorithms make better decisions than humans?
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-![Sometimes it is good to start with a question or two...<br> <span>photo by <a href="https://unsplash.com/@jontyson?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jon Tyson</a> on <a href="https://unsplash.com/s/photos/question?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>](photos/jon-tyson-hhq1Lxtuwd8-unsplash.jpg)
+![Loving data...<br> <span>photo by <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Alexander Sinn</a> on <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>](photos/alexander-sinn-KgLtFCgfC28-unsplash.jpg)
 
 ## Session Preparation
 
-### What is the scientific method? And can we trust it?
+### Paul Meehl
 
-What do **YOU** think? Do you trust science and scientists? If so, why? 
+Paul Meehl was a pioneer in proposing the use of algorithmic decision-making in many areas of psychology, including clinical diagnosis and prognosis. He introduced the distinction between clinical and actuarial (algorithmic) judgment or prediction.
 
-In this session, we discuss how science works in general and some reasons we may find ourselves (dis)trusting science. We discuss issues surrounding the justification of knowledge and the scientific enterprise as well as the replication crisis in psychology (see below). 
+Travel back to 1989 and experience a portion of Meehl's lecture at the University of Minnesota in which he introduces the issue of clinical vs. statistical prediction - click on the image below to find the lecture Philosophical Psychology Session #09, starting at timestamp 1:14:00).  
 
-As preparation, please watch Naomi Oreskes' TED talk "Why we should trust scientists" (ca. 20 minutes) to learn more about the **scientific method(s)** and her thoughts on whether this ensures the trustworthiness of science and scientists. 
+[![Paul Meehl](photos/meehl.png)](https://mediasite.csom.umn.edu/Mediasite/Play/682c9b2845514cf5b5a7d1b6defb9e171d)
 
-<iframe width="560" height="515" src="https://www.youtube.com/embed/RxyQNEVOElU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+### Clinical vs actuarial judgment
 
-### What should we do to fix (psychological) science?
+In this session we will discuss Meehl's proposals and its implications for applied practice in the behavioral sciences and society at large. Please read the recommended reading below by **Dawes, Faust, and Meehl (1989)** (ca. 60 minutes) for an overview of Meehl and related work. 
 
-As discussed in the introductory session, the behavioral sciences, such as psychology, have been in the news in the past few years for the wrong reasons - think **"replication crisis"**! But what should we be doing to change the status quo? Read the paper by **Munafò et al. (2017)** (ca. 60 minutes) to learn about some possible solutions. 
+Dawes, R. M., Faust, D., & Meehl, P. E. (1989). Clinical versus actuarial judgment. *Science, 243*(4899), 1668–1674. [http://doi.org/10.2307/1703476](https://github.com/matarui/ebdm/raw/main/docs/literature/Dawes_1989_Science.pdf)
 
-Munafò, M. R., Nosek, B. A., Bishop, D. V. M., Button, K. S., Chambers, C. D., Sert, du, N. P., et al. (2017). A manifesto for reproducible science. *Nature Human Behaviour, 1*, 1–9. [http://doi.org/10.1038/s41562-016-0021](https://github.com/matarui/ebdm/raw/main/docs/literature/Munafo_2017_NHB.pdf)
+## Session Slides
 
-## Session Slides 
+Please note these slides are from FS22 ... updated versions for FS23 will be uploaded closer to the session date. 
 
-![What is the scientific method?](presentations/EBDM_session1.pdf){width=700px height=500px}
+![Algorithms for the win!](presentations/EBDM_session2.pdf){width=700px height=500px}
 
 ## Additional Resources 
 
-### Background readings
-Are you interested in reading more about these topics? These books could be for you... 
+### Exercise
 
-Oreskes, N. (2019). *Why trust science?* Princeton: Oxford. Princeton University Press. [https://www.jstor.org/stable/j.ctvfjczxx](https://www.jstor.org/stable/j.ctvfjczxx)
+This session provides an introduction to algorithmic decision-making, including a tour of the lens model and policy capturing. If you'd like to get a short "hands-on" intro to conducting "policy capturing" yourself, I suggest you participate in the online experiment [“Job or Not?”](https://evidencebaseddm.formr.org) and then, using your own responses (or those of your colleagues), answer the three questions listed [here](lens_model.html).
 
-Ritchie, S. (2020). *Science fictions: Exposing fraud, bias, negligence and hype in science*. London: Bodley Head. [https://www.sciencefictions.org](https://www.sciencefictions.org)
+<!-- If you'd like to see a set of solutions, click [here](lens_model_solutions.html). -->
 
+### Background Reading
 
+Are you interested in a scathing critique of clinical prediction? This classic could be of interest... 
+
+Dawes, R. (1994). *House of cards: Psychology and psychotherapy built on myth*. New York: Free Press.
 

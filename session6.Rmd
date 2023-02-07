@@ -1,37 +1,41 @@
 ---
-title: "Consensus"
+title: "Counterfactuals"
 description: |
-  The wisdom of experts
+  How should one conduct and report experiments?
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-![Finding experts is no trivial business... <br> <span>photo by <a href="https://unsplash.com/@moraisr?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Rita Morais</a> on <a href="https://unsplash.com/s/photos/expert?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>](photos/rita-morais-fJLyQ81u80Y-unsplash.jpg)
+![Experiments create counterfactuals... <br> <span>photo by <a href="https://unsplash.com/@chuttersnap?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">CHUTTERSNAP</a> on <a href="https://unsplash.com/s/photos/experiment?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>](photos/chuttersnap-UmncJq4KPcA-unsplash.jpg)
 
 ## Session Preparation
 
-### Superforecasting
+### What is a Randomized Control Trial?
 
-Are good forecasters born or made? How can one best design teams to produce better forecasts? In this session, we cover work from the Good Judgment Project that has focused on answering these questions. Check out an interview by Phil Tetlock for an introduction to this work. 
+Randomized control trials are a type of experiment and are often said to be the gold standard for causal inference. Check this video of the Medical Research Council for a short introduction to RCTs (5 minutes). 
 
-<iframe width="560" height="515" src="https://www.youtube.com/embed/-07DJ7xVBis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="515" src="https://www.youtube.com/embed/U6kVlRn6G0w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Also, read **Mellers & Tetlock (2019).** (ca. 60 minutes) for an overview of the Good Judgment Project and its main insights. 
+### Consolidated Standards of Reporting Trials (CONSORT)
 
-Mellers, B. A. & Tetlock, P. E. (2019). From discipline-centered rivalries to solution-centered science. *American Psychologist, 74* (3), 290-300. [http://doi: 10.1037/amp0000429](https://github.com/matarui/ebdm/raw/main/docs/literature/Mannes_2014_JPSP.pdf)
+What are key aspects of RCT trials and how should they be reported? Are you familiar with the "Consolidated Standards of Reporting Trials" (CONSORT) and the associated [website](http://www.consort-statement.org)?
+
+Take a few minutes 30-60 minutes to look into the website, the history of CONSORT, and, most importantly, the CONSORT [checklist](http://www.consort-statement.org/download/Media/Default/Downloads/CONSORT%202010%20Checklist.doc). Do you find the checklist helpful? Which items of the checklist do you find most important, and why?
+
+[![Consort](photos/consort.png)](http://www.consort-statement.org)
 
 ## Session Slides
 
 Please note these slides are from FS22 ... updated versions for FS23 will be uploaded closer to the session date. 
 
-![Finding consensus](presentations/EBDM_session6.pdf){width=700px height=500px}
+![Finding consensus](presentations/EBDM_session7.pdf){width=700px height=500px}
 
 ## Additional Resources
 
 ### Further Reading
 
-A popular science book on the Good Judgment Project is available: 
+Are you interested in the history and development of RCTs? This piece provides an interesting historical overview, including some discussion of limitations of RCTs. 
 
-Tetlock, P.E. & Gardner, D. (2015). *Superforecasting: The art and science of prediction* Crown Publishers. [https://wsp.wharton.upenn.edu/book/superforecasting/](https://wsp.wharton.upenn.edu/book/superforecasting/)
+Bothwell, L.E., Greene, J.A., Podolsky, S.H., & Jones, D.S. (2016). Assessing the gold standard - Lessons from the history of RCTs. *New England Journal of Medicine, 2*, 374(22):2175-81. [doi: 10.1056/NEJMms1604593.](https://github.com/matarui/ebdm/raw/main/docs/literature/Bothwelletal_2016_NEJM.pdf)

@@ -1,37 +1,51 @@
 ---
-title: "Counterfactuals"
+title: "Synthesis"
 description: |
-  What alternatives do we have to experiments?
+  What is research synthesis?
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-![Searching for counterfactuals... <br> <span>photo by <a href="https://unsplash.com/@supernov?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Edi Libedinsky</a> on <a href="https://unsplash.com/s/photos/binoculars?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>](photos/edi-libedinsky-1bhp9zBPHVE-unsplash.jpg)
+![Knowledge is all around us... <br> <span>photo by <a href="https://unsplash.com/@luis_tosta?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Luis Tosta</a> on <a href="https://unsplash.com/s/photos/library?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>](photos/luis-tosta-COAbFWdOf5s-unsplash.jpg)
 
-## Session Preparation
+## Session Preparation 
 
-### Counterfactuals, counterfactuals, counterfactuals everywhere
+### What is research synthesis?
 
-There are many ways to make inferences but most (all?!?) forms of causal inference involve some form of counterfactual. Take some time to learn about the concept of counterfactuals. 
+Why do we need synthesis? 
 
-<iframe width="560" height="515" src="https://www.youtube.com/embed/5eNhS0oaLHo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nZR0xQmZVQg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-### Recommended Reading
+### A short primer on research synthesis
 
-Varian, H. R. (2016). Causal inference in economics and marketing. *Proceedings of the National Academy of Sciences of the United States of America, 113*(27), 7310–7315. [http://doi.org/10.1073/pnas.1510479113](https://github.com/matarui/ebdm/raw/main/docs/literature/Varian_2016_PNAS.pdf)
+Read the paper by Gurevitch et al. (2018) for a quick overview of the history of research synthesis (60 minutes). 
+
+Gurevitch, J., Koricheva, J., Nakagawa, S., & Stewart, G. (2018). Meta-analysis and the science of research synthesis. *Nature, 555*(7695), 175–182.  [http://doi.org/10.1038/nature25753](https://github.com/matarui/ebdm/raw/main/docs/literature/Gurevitch_2018_Nature.pdf)
+
+### PRISMA
+
+Are you familiar with the "Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA)" and the associated [website](http://prisma-statement.org)?
+
+Take a few minutes to look into the [website](http://prisma-statement.org/Default.aspx) and read the paper by Page et al. (2021) referenced below (60 minutes), paying particular attention to the checklist and flow diagrams presented. 
+
+Do you recognize important differences or similarities with the CONSORT guidelines? 
+
+[![Prisma](photos/prisma.png)](http://prisma-statement.org/)
+
+### Additional (optional) task
+
+Pick a systematic literature search and/or meta-analysis that you are familiar with or search for one using an literature database of your choice. To what extent does the report follow the PRISMA guidelines? 
+
+Page, M. J., McKenzie, J. E., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., et al. (2021). The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. BMJ, 372, n71. [http://doi.org/10.1136/bmj.n71](https://github.com/matarui/ebdm/raw/main/docs/literature/Page_2021_BMJ.pdf)
 
 ## Session Slides
 
 Please note these slides are from FS22 ... updated versions for FS23 will be uploaded closer to the session date. 
 
-![Finding consensus](presentations/EBDM_session8.pdf){width=700px height=500px}
+![Finding consensus](presentations/EBDM_session9.pdf){width=700px height=500px}
 
 ## Additional Resources
 
-### Further Reading
-
-Here's a popular science book on the "new" science of causal inference: 
-
-Pearl, J. & Mackenzie, D. (2018). *The book of why: The new science of cause and effect.* Basic Books. [https://www.basicbooks.com/titles/judea-pearl/the-book-of-why/9781541698963/](https://www.basicbooks.com/titles/judea-pearl/the-book-of-why/9781541698963/)
+TBA

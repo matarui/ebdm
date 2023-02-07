@@ -13,23 +13,23 @@ navbar:
     - text: "Sessions"
       menu:
       - text: "The scientific method(s)"
-        href: session2.html
+        href: session1.html
       - text: "The power of algorithms"
-        href: session3.html
+        href: session2.html
       - text: "The problems of algorithms"
-        href: session4.html
+        href: session3.html
       - text: "The wisdom of the crowd"
-        href: session5.html
+        href: session4.html
       - text: "The wisdom of experts"
-        href: session6.html
+        href: session5.html
       - text: "Experiments"
-        href: session7.html
+        href: session6.html
       - text: "Alternatives to experiments"
-        href: session8.html
+        href: session7.html
       - text: "Synthesis"
-        href: session9.html
+        href: session8.html
       - text: "Interventions"
-        href: session11.html
+        href: session9.html
     - text: "Exam"
       href: exam.html
       search: true
