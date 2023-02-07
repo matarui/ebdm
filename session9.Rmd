@@ -39,3 +39,10 @@ Pick a systematic literature search and/or meta-analysis that you are familiar w
 ### Recommended Reading
 
 Page, M. J., McKenzie, J. E., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., et al. (2021). The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. BMJ, 372, n71. [http://doi.org/10.1136/bmj.n71](https://github.com/matarui/ebdm/raw/main/docs/literature/Page_2021_BMJ.pdf)
+
+## Session Slides
+
+Please note these slides are from FS22 ... updated versions for FS23 will be uploaded closer to the session date. 
+
+![Finding consensus](presentations/EBDM_session9.pdf){width=700px height=500px}
+

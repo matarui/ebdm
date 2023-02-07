@@ -16,3 +16,8 @@ Michie, S., van Stralen, M. M., & West, R. (2011). The behaviour change wheel: A
 
 Bauer, M. S., Damschroder, L., Hagedorn, H., Smith, J., & Kilbourne, A. M. (2015). An introduction to implementation science for the non-specialist. *BMC Psychology, 3*(1), 65–12. [http://doi.org/10.1186/S40359-015-0089-9](https://github.com/matarui/ebdm/raw/main/docs/literature/Bauer_2015_BMCPsychology.pdf)
 
+## Session Slides
+
+Please note these slides are from FS22 ... updated versions for FS23 will be uploaded closer to the session date. 
+
+![Finding consensus](presentations/EBDM_session10.pdf){width=700px height=500px}

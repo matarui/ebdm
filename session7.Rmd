@@ -24,6 +24,12 @@ Take a few minutes 30-60 minutes to look into the website, the history of CONSOR
 
 [![Consort](photos/consort.png)](http://www.consort-statement.org)
 
+## Session Slides
+
+Please note these slides are from FS22 ... updated versions for FS23 will be uploaded closer to the session date. 
+
+![Finding consensus](presentations/EBDM_session7.pdf){width=700px height=500px}
+
 ### Further Reading
 
 Are you interested in the history and development of RCTs? This piece provides an interesting historical overview, including some discussion of limitations of RCTs. 

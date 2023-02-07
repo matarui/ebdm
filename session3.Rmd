@@ -30,7 +30,7 @@ Dawes, R. M., Faust, D., & Meehl, P. E. (1989). Clinical versus actuarial judgme
 
 Please note these slides are from FS22 ... updated versions for FS23 will be uploaded closer to the session date. 
 
-![Session 2](presentations/EBDM_session2.pdf){width=700px height=500px}
+![Algorithms for the win!](presentations/EBDM_session2.pdf){width=700px height=500px}
 
 ## Additional Resources 
 
