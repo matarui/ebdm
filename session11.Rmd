@@ -10,6 +10,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ![Pill or no pill, that is the question... <br> <span>photo by <a href="https://unsplash.com/@victoriabcphotographer?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Christina Victoria Craft</a> on <a href="https://unsplash.com/s/photos/pill?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>](photos/christina-victoria-craft-WHSnkIwWpec-unsplash.jpg)
 
+## Session Preparation
+
 ### Recommended Readings
 
 Michie, S., van Stralen, M. M., & West, R. (2011). The behaviour change wheel: A new method for characterising and designing behaviour change interventions. *Implementation Science, 6*(1), 42. [http://doi.org/10.1186/1748-5908-6-42](https://github.com/matarui/ebdm/raw/main/docs/literature/Michie_2011_ImplementationScience.pdf)
@@ -21,3 +23,7 @@ Bauer, M. S., Damschroder, L., Hagedorn, H., Smith, J., & Kilbourne, A. M. (2015
 Please note these slides are from FS22 ... updated versions for FS23 will be uploaded closer to the session date. 
 
 ![Finding consensus](presentations/EBDM_session10.pdf){width=700px height=500px}
+
+## Additional Resources
+
+TBA

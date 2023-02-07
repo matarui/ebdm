@@ -10,7 +10,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ![Knowledge is all around us... <br> <span>photo by <a href="https://unsplash.com/@luis_tosta?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Luis Tosta</a> on <a href="https://unsplash.com/s/photos/library?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>](photos/luis-tosta-COAbFWdOf5s-unsplash.jpg)
 
-# Research Synthesis
+## Session Preparation 
+
+### Research Synthesis
 
 Why do we need synthesis? 
 
@@ -22,7 +24,7 @@ Read the paper by Gurevitch et al. (2018) for a quick overview of the history of
 
 Gurevitch, J., Koricheva, J., Nakagawa, S., & Stewart, G. (2018). Meta-analysis and the science of research synthesis. *Nature, 555*(7695), 175–182.  [http://doi.org/10.1038/nature25753](https://github.com/matarui/ebdm/raw/main/docs/literature/Gurevitch_2018_Nature.pdf)
 
-# PRISMA
+### PRISMA
 
 Are you familiar with the "Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA)" and the associated [website](http://prisma-statement.org)?
 
@@ -46,3 +48,6 @@ Please note these slides are from FS22 ... updated versions for FS23 will be upl
 
 ![Finding consensus](presentations/EBDM_session9.pdf){width=700px height=500px}
 
+## Additional Resources
+
+TBA

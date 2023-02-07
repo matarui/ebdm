@@ -9,14 +9,15 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ![Experiments create counterfactuals... <br> <span>photo by <a href="https://unsplash.com/@chuttersnap?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">CHUTTERSNAP</a> on <a href="https://unsplash.com/s/photos/experiment?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>](photos/chuttersnap-UmncJq4KPcA-unsplash.jpg)
+## Session Preparation
 
-# What is a Randomized Control Trial
+### What is a Randomized Control Trial
 
 Randomized control trials are a type of experiment and are often said to be the gold standard for causal inference. Check this video of the Medical Research Council for a short introduction to RCTs (5 minutes). 
 
 <iframe width="560" height="515" src="https://www.youtube.com/embed/U6kVlRn6G0w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-# Standards...
+### Standards...
 
 What are key aspects of RCT trials and how should they be reported? Are you familiar with the "Consolidated Standards of Reporting Trials" (CONSORT) and the associated [website](http://www.consort-statement.org)?
 
@@ -29,6 +30,8 @@ Take a few minutes 30-60 minutes to look into the website, the history of CONSOR
 Please note these slides are from FS22 ... updated versions for FS23 will be uploaded closer to the session date. 
 
 ![Finding consensus](presentations/EBDM_session7.pdf){width=700px height=500px}
+
+## Additional Resources
 
 ### Further Reading
 

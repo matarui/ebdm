@@ -9,6 +9,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ![Sometimes it is good to start with a question or two...<br> <span>photo by <a href="https://unsplash.com/@jontyson?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jon Tyson</a> on <a href="https://unsplash.com/s/photos/question?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>](photos/jon-tyson-hhq1Lxtuwd8-unsplash.jpg)
+
 ## Session Preparation
 
 ### What is the scientific method? And can we trust it?
@@ -27,7 +28,7 @@ As discussed in the introductory session, the behavioral sciences, such as psych
 
 Munafò, M. R., Nosek, B. A., Bishop, D. V. M., Button, K. S., Chambers, C. D., Sert, du, N. P., et al. (2017). A manifesto for reproducible science. *Nature Human Behaviour, 1*, 1–9. [http://doi.org/10.1038/s41562-016-0021](https://github.com/matarui/ebdm/raw/main/docs/literature/Munafo_2017_NHB.pdf)
 
-## Slides 
+## Session Slides 
 
 ![What is the scientific method?](presentations/EBDM_session1.pdf){width=700px height=500px}
 

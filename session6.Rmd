@@ -9,8 +9,9 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ![Finding experts is no trivial business... <br> <span>photo by <a href="https://unsplash.com/@moraisr?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Rita Morais</a> on <a href="https://unsplash.com/s/photos/expert?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>](photos/rita-morais-fJLyQ81u80Y-unsplash.jpg)
+## Session Preparation
 
-## Superforecasting
+### Superforecasting
 
 Are good forecasters born or made? How can one best design teams to produce better forecasts? In this session, we cover work from the Good Judgment Project that has focused on answering these questions. Check out an interview by Phil Tetlock for an introduction to this work. 
 
@@ -27,6 +28,8 @@ Mellers, B. A. & Tetlock, P. E. (2019). From discipline-centered rivalries to so
 Please note these slides are from FS22 ... updated versions for FS23 will be uploaded closer to the session date. 
 
 ![Finding consensus](presentations/EBDM_session6.pdf){width=700px height=500px}
+
+## Additional Resources
 
 ### Further Reading
 

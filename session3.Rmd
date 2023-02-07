@@ -12,15 +12,15 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Session Preparation
 
-### Do algorithms make better decisions?
+### Paul Meehl
 
 Paul Meehl was a pioneer in proposing the use of algorithmic decision-making in many areas of psychology, including clinical diagnosis and prognosis. He introduced the distinction between clinical and actuarial (algorithmic) judgment or prediction.
 
-If you'd like, you can travel back to 1989 and experience a portion of Meehl's lecture at the University of Minnesota in which he introduces the issue of clinical vs. statistical prediction - click on the image below to find the lecture Philosophical Psychology Session #09, starting at timestamp 1:14:00).  
+Travel back to 1989 and experience a portion of Meehl's lecture at the University of Minnesota in which he introduces the issue of clinical vs. statistical prediction - click on the image below to find the lecture Philosophical Psychology Session #09, starting at timestamp 1:14:00).  
 
 [![Paul Meehl](photos/meehl.png)](https://mediasite.csom.umn.edu/Mediasite/Play/682c9b2845514cf5b5a7d1b6defb9e171d)
 
-### Recommended Reading
+### Clinical vs actuarial judgment
 
 In this session we will discuss Meehl's proposals and its implications for applied practice in the behavioral sciences and society at large. Please read the recommended reading below by **Dawes, Faust, and Meehl (1989)** (ca. 60 minutes) for an overview of Meehl and related work. 
 

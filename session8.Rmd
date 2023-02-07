@@ -10,7 +10,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ![Searching for counterfactuals... <br> <span>photo by <a href="https://unsplash.com/@supernov?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Edi Libedinsky</a> on <a href="https://unsplash.com/s/photos/binoculars?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>](photos/edi-libedinsky-1bhp9zBPHVE-unsplash.jpg)
 
-# Counterfactuals, counterfactuals, counterfactuals everywhere
+## Session Preparation
+
+### Counterfactuals, counterfactuals, counterfactuals everywhere
 
 There are many ways to make inferences but most (all?!?) forms of causal inference involve some form of counterfactual. Take some time to learn about the concept of counterfactuals. 
 
@@ -25,6 +27,8 @@ Varian, H. R. (2016). Causal inference in economics and marketing. *Proceedings 
 Please note these slides are from FS22 ... updated versions for FS23 will be uploaded closer to the session date. 
 
 ![Finding consensus](presentations/EBDM_session8.pdf){width=700px height=500px}
+
+## Additional Resources
 
 ### Further Reading
 

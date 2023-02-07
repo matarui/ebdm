@@ -72,7 +72,7 @@ The course will cover broad theoretical principles of evidence-based decision ma
 
 This website is designed to help course participants get an overview of the course and access most course materials. 
 
-Each session is structured such that some materials are available for preparation before the session (recommended readings, youtube videos). In addition, the slides of each presentation are made available. However, note that the final version of the slides will only be made available *after* each session. 
+Each session is structured such that some materials are available for preparation before the session (i.e., youtube videos, recommended readings) and students are expected to have consulted those before each session. In addition, the slides of each presentation are made available to give students an idea of the session content. Note that the final version of the slides will only be made available *after* each session. 
 
 Finally, additional resources, such as optional exercises or background readings are listed at the end of each session for those that would like to learn more about the topic of the session. 
 
