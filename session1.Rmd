@@ -30,7 +30,9 @@ Munafò, M. R., Nosek, B. A., Bishop, D. V. M., Button, K. S., Chambers, C. D., 
 
 ## Session Slides 
 
-![What is the scientific method?](presentations/EBDM_session1.pdf){width=700px height=500px}
+Please note these slides are work in progress ... updated (final!) versions will be uploaded **after** the session. 
+
+![The scientific method(s)](presentations/EBDM_session1.pdf){width=700px height=500px}
 
 ## Additional Resources 
 

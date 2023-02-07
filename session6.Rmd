@@ -28,9 +28,9 @@ Take a few minutes (30-60 minutes) to look into the website, the history of CONS
 
 ## Session Slides
 
-Please note these slides are from FS22 ... updated versions for FS23 will be uploaded closer to the session date. 
+Please note these slides are work in progress ... updated (final!) versions will be uploaded **after** the session. 
 
-![Finding consensus](presentations/EBDM_session7.pdf){width=700px height=500px}
+![Experiments](presentations/EBDM_session6.pdf){width=700px height=500px}
 
 ## Additional Resources
 

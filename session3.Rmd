@@ -34,9 +34,9 @@ Yarkoni, T., & Westfall, J. (2017). Choosing prediction over explanation in psyc
 
 ## Session Slides
 
-Please note these slides are from FS22 ... updated versions for FS23 will be uploaded closer to the session date. 
+Please note these slides are work in progress ... updated (final!) versions will be uploaded **after** the session. 
 
-![The problem(s) with algorithms](presentations/EBDM_session4.pdf){width=700px height=500px}
+![The problems of algorithms](presentations/EBDM_session3.pdf){width=700px height=500px}
 
 ## Additional Resources
 

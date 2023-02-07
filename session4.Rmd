@@ -26,9 +26,9 @@ Mannes, A. E., Soll, J. B., & Larrick, R. P. (2014). The wisdom of select crowds
 
 ## Session Slides
 
-Please note these slides are from FS22 ... updated versions for FS23 will be uploaded closer to the session date. 
+Please note these slides are work in progress ... updated (final!) versions will be uploaded **after** the session. 
 
-![Finding consensus](presentations/EBDM_session5.pdf){width=700px height=500px}
+![The wisdom of the crowd](presentations/EBDM_session4.pdf){width=700px height=500px}
 
 ## Additional Resources 
 

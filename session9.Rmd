@@ -22,9 +22,9 @@ Bauer, M. S., Damschroder, L., Hagedorn, H., Smith, J., & Kilbourne, A. M. (2015
 
 ## Session Slides
 
-Please note these slides are from FS22 ... updated versions for FS23 will be uploaded closer to the session date. 
+Please note these slides are work in progress ... updated (final!) versions will be uploaded **after** the session. 
 
-![Finding consensus](presentations/EBDM_session10.pdf){width=700px height=500px}
+![Interventions](presentations/EBDM_session9.pdf){width=700px height=500px}
 
 ## Additional Resources
 
