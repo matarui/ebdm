@@ -12,7 +12,11 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Assessment
 
-The assessment will consist of a written exam consisting of multiple-choice questions. More information will be available at the start of the semester.
+The assessment will take place 22.5.23, 14:15-15:45 and will consist of an in-person multiple-choice exam. 
+
+The exam will be implemented using the BYOD principle using EvaExam. 
+
+We will have a practice trial with this system on 24.04.23. Those students who experience problems or desire a paper-pencil version of the exam should make a direct request to the instructor at least 2 weeks before the final exam (22.5.23). 
 
 ```{r, include=FALSE}
 # The exam will take place over EvaExam on 25.05.2021, between 16:15 and 17:45. Additional information about the EvaExam system will be provided closer to the exam date.

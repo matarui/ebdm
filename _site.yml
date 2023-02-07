@@ -12,7 +12,7 @@ navbar:
       href: index.html
     - text: "Sessions"
       menu:
-      - text: "The Scientific Method(s)"
+      - text: "The scientific method(s)"
         href: session2.html
       - text: "The power of algorithms"
         href: session3.html

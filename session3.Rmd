@@ -8,31 +8,39 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-![<span>Photo by <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Alexander Sinn</a> on <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>](photos/alexander-sinn-KgLtFCgfC28-unsplash.jpg)
+![Loving data... <span>Photo by <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Alexander Sinn</a> on <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>](photos/alexander-sinn-KgLtFCgfC28-unsplash.jpg)
 
-# Do algorithms make better decisions?
+## Session Preparation
+
+### Do algorithms make better decisions?
 
 Paul Meehl was a pioneer in proposing the use of algorithmic decision-making in many areas of psychology, including clinical diagnosis and prognosis. He introduced the distinction between clinical and actuarial (algorithmic) judgment or prediction.
 
-If you'd like, you can travel back to 1989 amd experience a portion of Meehl's lecture at the University of Minnesota in which he introduces the issue of clinical vs. statistical prediction - click on the image below and find the lecture Philosophical Psychology Session #09 (look for timestamp 1:14:00).  
+If you'd like, you can travel back to 1989 and experience a portion of Meehl's lecture at the University of Minnesota in which he introduces the issue of clinical vs. statistical prediction - click on the image below to find the lecture Philosophical Psychology Session #09, starting at timestamp 1:14:00).  
 
 [![Paul Meehl](photos/meehl.png)](https://mediasite.csom.umn.edu/Mediasite/Play/682c9b2845514cf5b5a7d1b6defb9e171d)
 
-In this session we will discuss Meehl's proposals and its implications for applied practice in the behavioral sciences and society at large. Please read the recommended reading below by **Dawes, Faust, and Meehl (1989)** (ca. 60 minutes) for an overview of Meehl and related work. 
-
 ### Recommended Reading
+
+In this session we will discuss Meehl's proposals and its implications for applied practice in the behavioral sciences and society at large. Please read the recommended reading below by **Dawes, Faust, and Meehl (1989)** (ca. 60 minutes) for an overview of Meehl and related work. 
 
 Dawes, R. M., Faust, D., & Meehl, P. E. (1989). Clinical versus actuarial judgment. *Science, 243*(4899), 1668–1674. [http://doi.org/10.2307/1703476](https://github.com/matarui/ebdm/raw/main/docs/literature/Dawes_1989_Science.pdf)
 
+## Session Slides
+
+Please note these slides are from FS22 ... updated versions for FS23 will be uploaded closer to the session date. 
+
+![Session 2](presentations/EBDM_session2.pdf){width=700px height=500px}
+
+## Additional Resources 
+
 ### Exercise
 
-This session provides an introduction to algorithmic decision-making, including a tour of the lens model and policy capturing. 
-
-If you'd like to get a short "hands-on" intro to conducting "policy capturing" yourself, I suggest you participate in the online experiment [“Job or Not?”](https://evidencebaseddm.formr.org) and then, using your own responses (or those of your colleagues), answer the three questions listed [here](lens_model.html).
+This session provides an introduction to algorithmic decision-making, including a tour of the lens model and policy capturing. If you'd like to get a short "hands-on" intro to conducting "policy capturing" yourself, I suggest you participate in the online experiment [“Job or Not?”](https://evidencebaseddm.formr.org) and then, using your own responses (or those of your colleagues), answer the three questions listed [here](lens_model.html).
 
 <!-- If you'd like to see a set of solutions, click [here](lens_model_solutions.html). -->
 
-### Further Readings 
+### Background Reading
 
 Are you interested in a scathing critique of clinical prediction? This classic could be of interest... 
 
