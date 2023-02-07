@@ -9,7 +9,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
-![<span>Photo by <a href="https://unsplash.com/@mina_fc?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Mina FC</a> on <a href="https://unsplash.com/s/photos/stupid-robot?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+![Excuse me, could please tell me the exact whereabouts of John Connor? <br> <span>photo by <a href="https://unsplash.com/@mina_fc?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Mina FC</a> on <a href="https://unsplash.com/s/photos/stupid-robot?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 ](photos/mina-fc-3QKsG0fDrC8-unsplash.jpg)
 
 # Weapons of math destruction!?!

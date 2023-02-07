@@ -8,7 +8,7 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-![<span>Photo by <a href="https://unsplash.com/@moraisr?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Rita Morais</a> on <a href="https://unsplash.com/s/photos/expert?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>](photos/rita-morais-fJLyQ81u80Y-unsplash.jpg)
+![Finding experts is no trivial business... <br> <span>photo by <a href="https://unsplash.com/@moraisr?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Rita Morais</a> on <a href="https://unsplash.com/s/photos/expert?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>](photos/rita-morais-fJLyQ81u80Y-unsplash.jpg)
 
 ## Superforecasting
 

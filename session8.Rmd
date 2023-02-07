@@ -8,7 +8,7 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-![<span>Photo by <a href="https://unsplash.com/@supernov?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Edi Libedinsky</a> on <a href="https://unsplash.com/s/photos/binoculars?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>](photos/edi-libedinsky-1bhp9zBPHVE-unsplash.jpg)
+![Searching for counterfactuals... <br> <span>photo by <a href="https://unsplash.com/@supernov?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Edi Libedinsky</a> on <a href="https://unsplash.com/s/photos/binoculars?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>](photos/edi-libedinsky-1bhp9zBPHVE-unsplash.jpg)
 
 # Counterfactuals, counterfactuals, counterfactuals everywhere
 

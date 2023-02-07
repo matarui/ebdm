@@ -8,7 +8,7 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-![<span>Photo by <a href="https://unsplash.com/@luis_tosta?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Luis Tosta</a> on <a href="https://unsplash.com/s/photos/library?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>](photos/luis-tosta-COAbFWdOf5s-unsplash.jpg)
+![Knowledge is all around us... <br> <span>photo by <a href="https://unsplash.com/@luis_tosta?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Luis Tosta</a> on <a href="https://unsplash.com/s/photos/library?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>](photos/luis-tosta-COAbFWdOf5s-unsplash.jpg)
 
 # Research Synthesis
 
@@ -21,3 +21,21 @@ Read the paper by Gurevitch et al. (2018) for a quick overview of the history of
 ### Recommended Reading
 
 Gurevitch, J., Koricheva, J., Nakagawa, S., & Stewart, G. (2018). Meta-analysis and the science of research synthesis. *Nature, 555*(7695), 175–182.  [http://doi.org/10.1038/nature25753](https://github.com/matarui/ebdm/raw/main/docs/literature/Gurevitch_2018_Nature.pdf)
+
+# PRISMA
+
+Are you familiar with the "Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA)" and the associated [website](http://prisma-statement.org)?
+
+Take a few minutes to look into the [website](http://prisma-statement.org/Default.aspx) and read the paper by Page et al. (2021) referenced below (60 minutes), paying particular attention to the checklist and flow diagrams presented. 
+
+Do you recognize important differences or similarities with the CONSORT guidelines discussed in [Session 7](session7.html)? 
+
+[![Prisma](photos/prisma.png)](http://prisma-statement.org/)
+
+### Additional task
+
+Pick a systematic literature search and/or meta-analysis that you are familiar with or search for one using an literature database of your choice. To what extent does the report follow the PRISMA guidelines? 
+
+### Recommended Reading
+
+Page, M. J., McKenzie, J. E., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., et al. (2021). The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. BMJ, 372, n71. [http://doi.org/10.1136/bmj.n71](https://github.com/matarui/ebdm/raw/main/docs/literature/Page_2021_BMJ.pdf)
