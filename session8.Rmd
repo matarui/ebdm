@@ -20,7 +20,7 @@ Why do we need synthesis?
 
 ### A short primer on research synthesis
 
-Read the paper by Gurevitch et al. (2018) for a quick overview of the history of research synthesis (60 minutes). 
+Read the paper by **Gurevitch et al. (2018)** for a quick overview of the history of research synthesis (60 minutes). 
 
 Gurevitch, J., Koricheva, J., Nakagawa, S., & Stewart, G. (2018). Meta-analysis and the science of research synthesis. *Nature, 555*(7695), 175–182.  [http://doi.org/10.1038/nature25753](https://github.com/matarui/ebdm/raw/main/docs/literature/Gurevitch_2018_Nature.pdf)
 

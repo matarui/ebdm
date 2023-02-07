@@ -14,9 +14,13 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Wisdom of the crowd
 
-Check out this video by Mehdi Moussaid for an introduction to the wisdom of the crowd... 
+Check out this video by Mehdi Moussaid for an introduction to the wisdom of the crowd (ca. 14 minutes). 
 
 <iframe width="560" height="515" src="https://www.youtube.com/embed/cWTn73BZs8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### The wisdom of select crowds
+
+Read **Mannes, Soll, and Larrick (2014)** (ca. 120 minutes) to get an overview of theoretical and empirical work on wisdom of the crowds.
 
 Mannes, A. E., Soll, J. B., & Larrick, R. P. (2014). The wisdom of select crowds. *Journal of Personality and Social Psychology, 107*(2), 276–299. [http://doi.org/10.1037/a0036677](https://github.com/matarui/ebdm/raw/main/docs/literature/Mannes_2014_JPSP.pdf)
 

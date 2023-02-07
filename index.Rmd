@@ -34,15 +34,15 @@ Sessions take place Mondays, 14.15-15.45, Biozentrum, Maurice E. Müller Saal U1
 ::: l-body
 | # | Date     | Topic                         | 
 |---| ---------|-------------------------------|
-| 1 | 20.02.2023 | [The scientific method(s)](session2.html) | 
-| 2 | 06.03.2023 | [Algorithms: The power of algorithms](session3.html) | 
-| 3 | 13.03.2023 | [Algorithms: The problems of algorithms](session4.html) | 
-| 4 | 20.03.2023 | [Consensus: The wisdom of the crowd](session5.html) | 
-| 5 | 27.03.2023 | [Consensus: The wisdom of experts](session6.html) | 
-| 6 | 17.04.2023 | [Counterfactuals: Experiments](session7.html) | 
-| 7 | 24.04.2023 | [Counterfactuals: Alternatives to experiments](session8.html) | 
-| 8 | 08.05.2023 | [Synthesis](session9.html) | 
-| 9 | 15.05.2023 | [Interventions](session11.html) | 
+| 1 | 20.02.2023 | [The scientific method(s)](session1.html) | 
+| 2 | 06.03.2023 | [Algorithms: The power of algorithms](session2.html) | 
+| 3 | 13.03.2023 | [Algorithms: The problems of algorithms](session3.html) | 
+| 4 | 20.03.2023 | [Consensus: The wisdom of the crowd](session4.html) | 
+| 5 | 27.03.2023 | [Consensus: The wisdom of experts](session5.html) | 
+| 6 | 17.04.2023 | [Counterfactuals: Experiments](session6.html) | 
+| 7 | 24.04.2023 | [Counterfactuals: Alternatives to experiments](session7.html) | 
+| 8 | 08.05.2023 | [Synthesis](session8.html) | 
+| 9 | 15.05.2023 | [Interventions](session9.html) | 
 |10 | 22.05.2023 | [Exam](exam.html) | 
 :::
 

@@ -20,6 +20,8 @@ There are many ways to make inferences but most (all?!?) forms of causal inferen
 
 ### Recommended Reading
 
+Read **Varian (2016)** (ca. 120 minutes) to get an overview of causal inference strategies in economics and marketing from the Chief Economist at Google. 
+
 Varian, H. R. (2016). Causal inference in economics and marketing. *Proceedings of the National Academy of Sciences of the United States of America, 113*(27), 7310–7315. [http://doi.org/10.1073/pnas.1510479113](https://github.com/matarui/ebdm/raw/main/docs/literature/Varian_2016_PNAS.pdf)
 
 ## Session Slides

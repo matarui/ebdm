@@ -12,9 +12,11 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Session Preparation
 
-### Recommended Readings
+### The behaviour change wheel
 
 Michie, S., van Stralen, M. M., & West, R. (2011). The behaviour change wheel: A new method for characterising and designing behaviour change interventions. *Implementation Science, 6*(1), 42. [http://doi.org/10.1186/1748-5908-6-42](https://github.com/matarui/ebdm/raw/main/docs/literature/Michie_2011_ImplementationScience.pdf)
+
+### Implementation Science
 
 Bauer, M. S., Damschroder, L., Hagedorn, H., Smith, J., & Kilbourne, A. M. (2015). An introduction to implementation science for the non-specialist. *BMC Psychology, 3*(1), 65–12. [http://doi.org/10.1186/S40359-015-0089-9](https://github.com/matarui/ebdm/raw/main/docs/literature/Bauer_2015_BMCPsychology.pdf)
 
