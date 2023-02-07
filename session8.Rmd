@@ -14,21 +14,21 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### What is research synthesis?
 
-Why do we need synthesis? 
+Whatch this short introduction to research synthesis to learn more about it and we need it (ca. 5 minutes).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nZR0xQmZVQg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### A short primer on research synthesis
 
-Read the paper by **Gurevitch et al. (2018)** for a quick overview of the history of research synthesis (60 minutes). 
+Read the paper by **Gurevitch et al. (2018)** for a short overview of the history of research synthesis (60 minutes). 
 
 Gurevitch, J., Koricheva, J., Nakagawa, S., & Stewart, G. (2018). Meta-analysis and the science of research synthesis. *Nature, 555*(7695), 175–182.  [http://doi.org/10.1038/nature25753](https://github.com/matarui/ebdm/raw/main/docs/literature/Gurevitch_2018_Nature.pdf)
 
-### PRISMA
+### Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA)
 
 Are you familiar with the "Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA)" and the associated [website](http://prisma-statement.org)?
 
-Take a few minutes to look into the [website](http://prisma-statement.org/Default.aspx) and read the paper by Page et al. (2021) referenced below (60 minutes), paying particular attention to the checklist and flow diagrams presented. 
+Take a few minutes to look into the [website](http://prisma-statement.org/Default.aspx) and read the paper by **Page et al. (2021)** (60 minutes), paying particular attention to the checklist and flow diagrams presented. 
 
 Do you recognize important differences or similarities with the CONSORT guidelines? 
 
@@ -48,4 +48,6 @@ Please note these slides are from FS22 ... updated versions for FS23 will be upl
 
 ## Additional Resources
 
-TBA
+For a historical perspective on the development of a central form of research synthesis: meta-analysis. 
+
+Hunt, M. (1997). *How Science Takes Stock: The Story of Meta-Analysis*. Russell Sage Foundation. 

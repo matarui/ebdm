@@ -1,14 +1,14 @@
 ---
 title: "Interventions"
 description: |
-  A taxonomy of interventions and their implementation
+  A taxonomy of interventions and the science of their implementation
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-![Pill or no pill, that is the question... <br> <span>photo by <a href="https://unsplash.com/@victoriabcphotographer?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Christina Victoria Craft</a> on <a href="https://unsplash.com/s/photos/pill?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>](photos/christina-victoria-craft-WHSnkIwWpec-unsplash.jpg)
+![Pill or no pill, that is only part of the question... <br> <span>photo by <a href="https://unsplash.com/@victoriabcphotographer?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Christina Victoria Craft</a> on <a href="https://unsplash.com/s/photos/pill?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>](photos/christina-victoria-craft-WHSnkIwWpec-unsplash.jpg)
 
 ## Session Preparation
 
@@ -28,4 +28,4 @@ Please note these slides are from FS22 ... updated versions for FS23 will be upl
 
 ## Additional Resources
 
-TBA
+Nilsen, P., & Birken, S. A. (Eds.). (2020). Handbook on Implementation Science. Cheltenham, UK: Edward Elgar Publishing. 

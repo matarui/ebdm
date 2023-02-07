@@ -22,7 +22,7 @@ Randomized control trials are a type of experiment and are often said to be the 
 
 What are key aspects of RCT trials and how should they be reported? Are you familiar with the "Consolidated Standards of Reporting Trials" (CONSORT) and the associated [website](http://www.consort-statement.org)?
 
-Take a few minutes 30-60 minutes to look into the website, the history of CONSORT, and, most importantly, the CONSORT [checklist](http://www.consort-statement.org/download/Media/Default/Downloads/CONSORT%202010%20Checklist.doc). Do you find the checklist helpful? Which items of the checklist do you find most important, and why?
+Take a few minutes (30-60 minutes) to look into the website, the history of CONSORT, and, most importantly, the CONSORT [checklist](http://www.consort-statement.org/download/Media/Default/Downloads/CONSORT%202010%20Checklist.doc). Do you find the checklist helpful? Which items of the checklist do you find most important, and why?
 
 [![Consort](photos/consort.png)](http://www.consort-statement.org)
 
