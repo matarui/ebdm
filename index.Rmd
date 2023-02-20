@@ -80,6 +80,6 @@ Each session is structured such that some materials are available for preparatio
 
 Finally, additional resources, such as optional exercises or background readings are listed at the end of each session for those that would like to learn more about the topic of the session. 
 
-No video recordings of the sessions will be made available. 
+No video recordings of the in-person sessions will be made available. 
 
 Information about the exam is available on the [Exam](exam.html) tab on this webpage.  
