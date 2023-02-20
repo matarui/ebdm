@@ -46,7 +46,6 @@ Sessions take place Mondays, 14.15-15.45, Biozentrum, Maurice E. Müller Saal U1
 |10 | 22.05.2023 | [Exam](exam.html) | 
 :::
 
-
 # :books: What is this course about? 
 
 As the name implies, this course is about **evidence-based decision making**. The main premise of the course is that informed decisions require the use of evidence (i.e., data that has been processed in some way to generate knowledge or insight). 
