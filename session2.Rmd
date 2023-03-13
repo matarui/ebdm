@@ -36,7 +36,7 @@ Dawes, R. M., Faust, D., & Meehl, P. E. (1989). Clinical versus actuarial judgme
 
 This session provides an introduction to algorithmic decision-making, including a tour of the lens model and policy capturing. If you'd like to get a short "hands-on" intro to conducting "policy capturing" yourself, I suggest you participate in the online experiment [“Job or Not?”](https://evidencebaseddm.formr.org) and then, using your own responses (or those of your colleagues), answer the three questions listed [here](lens_model.html).
 
-<!-- If you'd like to see a set of solutions, click [here](lens_model_solutions.html). -->
+If you'd like to see a set of solutions, click [here](lens_model_solutions.html).
 
 ### Background Reading
 

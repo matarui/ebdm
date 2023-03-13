@@ -45,7 +45,7 @@ You can select your own data and plot it. In the example below I use the data fr
 
 ```{r}
 mydata<-data %>% 
-  filter(code=="KMT") 
+  filter(code=="SALT") 
 
 ggplot(mydata,aes(x=crit,y=prediction)) +
   geom_point() +
