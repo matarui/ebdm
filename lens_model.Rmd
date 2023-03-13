@@ -91,4 +91,4 @@ Now, if you use the logic above (and similar code) using your ratings, can you a
 
 If you're able to answer the questions above, you could try doing the same based on data from a few other students, do you get similar or different results?
 
-NOTE: It's quite common to get some error messages when starting to use R, if you don't understand R's error messages, search Google for answers and potential solutions - it's what data analysts do ALL THE TIME! Of course, let me know through the FAQ on ADAM if you get stuck - I'll come to the rescue or walk you through it during one of the next sessions!!!
+NOTE: It's quite common to get some error messages when starting to use R, if you don't understand R's error messages, search Google for answers and potential solutions - it's what data analysts do ALL THE TIME! Of course, let me know if you get stuck and I'll try to help!!!
