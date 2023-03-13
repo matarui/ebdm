@@ -16,7 +16,7 @@ library(knitr)
 
 ## Load data
 ```{r }
-data <- read.csv(url("https://github.com/matarui/ebdm/raw/main/materials/data.csv"))
+data <- read.csv(url("https://github.com/matarui/ebdm/raw/main/materials/data_2023.csv"))
 ```
 
 Here's the data we're modeling...

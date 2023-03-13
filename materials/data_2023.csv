@@ -1,0 +1,145 @@
+"code","candidate_txt","prediction","candidate","names","Data","Language","Social","Experience","crit","train"
+"anonymes Flusspferd","cand1",0,1,"Joana",0,0,0,0,0,0
+"anonymes Flusspferd","cand2",4,2,"Filipa",1,0,0,0,4,1
+"anonymes Flusspferd","cand3",3,3,"Simone",0,1,0,0,3,1
+"anonymes Flusspferd","cand4",6,4,"Ulrike",1,1,0,0,7,0
+"anonymes Flusspferd","cand5",3,5,"Ute",0,0,1,0,2,0
+"anonymes Flusspferd","cand6",6,6,"Rita",1,0,1,0,6,1
+"anonymes Flusspferd","cand7",6,7,"Bettina",0,1,1,0,5,0
+"anonymes Flusspferd","cand8",9,8,"Guilia",1,1,1,0,9,1
+"anonymes Flusspferd","cand9",1,9,"Fernande",0,0,0,1,1,1
+"anonymes Flusspferd","cand10",5,10,"Maria",1,0,0,1,5,0
+"anonymes Flusspferd","cand11",5,11,"Bela",0,1,0,1,4,0
+"anonymes Flusspferd","cand12",8,12,"Salome",1,1,0,1,8,1
+"anonymes Flusspferd","cand13",5,13,"Manuela",0,0,1,1,3,0
+"anonymes Flusspferd","cand14",8,14,"Dominque",1,0,1,1,7,0
+"anonymes Flusspferd","cand15",8,15,"Jule",0,1,1,1,6,0
+"anonymes Flusspferd","cand16",10,16,"Tina",1,1,1,1,10,0
+"SALT","cand1",0,1,"Joana",0,0,0,0,0,0
+"SALT","cand2",4,2,"Filipa",1,0,0,0,4,1
+"SALT","cand3",3,3,"Simone",0,1,0,0,3,1
+"SALT","cand4",7,4,"Ulrike",1,1,0,0,7,0
+"SALT","cand5",2,5,"Ute",0,0,1,0,2,0
+"SALT","cand6",6,6,"Rita",1,0,1,0,6,1
+"SALT","cand7",5,7,"Bettina",0,1,1,0,5,0
+"SALT","cand8",9,8,"Guilia",1,1,1,0,9,1
+"SALT","cand9",1,9,"Fernande",0,0,0,1,1,1
+"SALT","cand10",7,10,"Maria",1,0,0,1,5,0
+"SALT","cand11",4,11,"Bela",0,1,0,1,4,0
+"SALT","cand12",8,12,"Salome",1,1,0,1,8,1
+"SALT","cand13",3,13,"Manuela",0,0,1,1,3,0
+"SALT","cand14",7,14,"Dominque",1,0,1,1,7,0
+"SALT","cand15",7,15,"Jule",0,1,1,1,6,0
+"SALT","cand16",10,16,"Tina",1,1,1,1,10,0
+"lrlol","cand1",1,1,"Joana",0,0,0,0,0,0
+"lrlol","cand2",4,2,"Filipa",1,0,0,0,4,1
+"lrlol","cand3",4,3,"Simone",0,1,0,0,3,1
+"lrlol","cand4",7,4,"Ulrike",1,1,0,0,7,0
+"lrlol","cand5",4,5,"Ute",0,0,1,0,2,0
+"lrlol","cand6",7,6,"Rita",1,0,1,0,6,1
+"lrlol","cand7",6,7,"Bettina",0,1,1,0,5,0
+"lrlol","cand8",9,8,"Guilia",1,1,1,0,9,1
+"lrlol","cand9",1,9,"Fernande",0,0,0,1,1,1
+"lrlol","cand10",4,10,"Maria",1,0,0,1,5,0
+"lrlol","cand11",4,11,"Bela",0,1,0,1,4,0
+"lrlol","cand12",7,12,"Salome",1,1,0,1,8,1
+"lrlol","cand13",6,13,"Manuela",0,0,1,1,3,0
+"lrlol","cand14",6,14,"Dominque",1,0,1,1,7,0
+"lrlol","cand15",6,15,"Jule",0,1,1,1,6,0
+"lrlol","cand16",10,16,"Tina",1,1,1,1,10,0
+"AN21","cand1",1,1,"Joana",0,0,0,0,0,0
+"AN21","cand2",4,2,"Filipa",1,0,0,0,4,1
+"AN21","cand3",3,3,"Simone",0,1,0,0,3,1
+"AN21","cand4",6,4,"Ulrike",1,1,0,0,7,0
+"AN21","cand5",4,5,"Ute",0,0,1,0,2,0
+"AN21","cand6",4,6,"Rita",1,0,1,0,6,1
+"AN21","cand7",7,7,"Bettina",0,1,1,0,5,0
+"AN21","cand8",6,8,"Guilia",1,1,1,0,9,1
+"AN21","cand9",6,9,"Fernande",0,0,0,1,1,1
+"AN21","cand10",3,10,"Maria",1,0,0,1,5,0
+"AN21","cand11",3,11,"Bela",0,1,0,1,4,0
+"AN21","cand12",9,12,"Salome",1,1,0,1,8,1
+"AN21","cand13",7,13,"Manuela",0,0,1,1,3,0
+"AN21","cand14",5,14,"Dominque",1,0,1,1,7,0
+"AN21","cand15",9,15,"Jule",0,1,1,1,6,0
+"AN21","cand16",10,16,"Tina",1,1,1,1,10,0
+"bilbo","cand1",0,1,"Joana",0,0,0,0,0,0
+"bilbo","cand2",4,2,"Filipa",1,0,0,0,4,1
+"bilbo","cand3",2,3,"Simone",0,1,0,0,3,1
+"bilbo","cand4",7,4,"Ulrike",1,1,0,0,7,0
+"bilbo","cand5",2,5,"Ute",0,0,1,0,2,0
+"bilbo","cand6",5,6,"Rita",1,0,1,0,6,1
+"bilbo","cand7",8,7,"Bettina",0,1,1,0,5,0
+"bilbo","cand8",9,8,"Guilia",1,1,1,0,9,1
+"bilbo","cand9",2,9,"Fernande",0,0,0,1,1,1
+"bilbo","cand10",7,10,"Maria",1,0,0,1,5,0
+"bilbo","cand11",2,11,"Bela",0,1,0,1,4,0
+"bilbo","cand12",8,12,"Salome",1,1,0,1,8,1
+"bilbo","cand13",8,13,"Manuela",0,0,1,1,3,0
+"bilbo","cand14",8,14,"Dominque",1,0,1,1,7,0
+"bilbo","cand15",8,15,"Jule",0,1,1,1,6,0
+"bilbo","cand16",10,16,"Tina",1,1,1,1,10,0
+"eowyn","cand1",0,1,"Joana",0,0,0,0,0,0
+"eowyn","cand2",4,2,"Filipa",1,0,0,0,4,1
+"eowyn","cand3",3,3,"Simone",0,1,0,0,3,1
+"eowyn","cand4",7,4,"Ulrike",1,1,0,0,7,0
+"eowyn","cand5",2,5,"Ute",0,0,1,0,2,0
+"eowyn","cand6",6,6,"Rita",1,0,1,0,6,1
+"eowyn","cand7",5,7,"Bettina",0,1,1,0,5,0
+"eowyn","cand8",9,8,"Guilia",1,1,1,0,9,1
+"eowyn","cand9",1,9,"Fernande",0,0,0,1,1,1
+"eowyn","cand10",5,10,"Maria",1,0,0,1,5,0
+"eowyn","cand11",3,11,"Bela",0,1,0,1,4,0
+"eowyn","cand12",8,12,"Salome",1,1,0,1,8,1
+"eowyn","cand13",3,13,"Manuela",0,0,1,1,3,0
+"eowyn","cand14",7,14,"Dominque",1,0,1,1,7,0
+"eowyn","cand15",6,15,"Jule",0,1,1,1,6,0
+"eowyn","cand16",10,16,"Tina",1,1,1,1,10,0
+"Isadora Insight","cand1",0,1,"Joana",0,0,0,0,0,0
+"Isadora Insight","cand2",4,2,"Filipa",1,0,0,0,4,1
+"Isadora Insight","cand3",3,3,"Simone",0,1,0,0,3,1
+"Isadora Insight","cand4",6,4,"Ulrike",1,1,0,0,7,0
+"Isadora Insight","cand5",2,5,"Ute",0,0,1,0,2,0
+"Isadora Insight","cand6",5,6,"Rita",1,0,1,0,6,1
+"Isadora Insight","cand7",5,7,"Bettina",0,1,1,0,5,0
+"Isadora Insight","cand8",9,8,"Guilia",1,1,1,0,9,1
+"Isadora Insight","cand9",1,9,"Fernande",0,0,0,1,1,1
+"Isadora Insight","cand10",6,10,"Maria",1,0,0,1,5,0
+"Isadora Insight","cand11",4,11,"Bela",0,1,0,1,4,0
+"Isadora Insight","cand12",8,12,"Salome",1,1,0,1,8,1
+"Isadora Insight","cand13",3,13,"Manuela",0,0,1,1,3,0
+"Isadora Insight","cand14",7,14,"Dominque",1,0,1,1,7,0
+"Isadora Insight","cand15",6,15,"Jule",0,1,1,1,6,0
+"Isadora Insight","cand16",10,16,"Tina",1,1,1,1,10,0
+"drea","cand1",0,1,"Joana",0,0,0,0,0,0
+"drea","cand2",3,2,"Filipa",1,0,0,0,4,1
+"drea","cand3",2,3,"Simone",0,1,0,0,3,1
+"drea","cand4",5,4,"Ulrike",1,1,0,0,7,0
+"drea","cand5",1,5,"Ute",0,0,1,0,2,0
+"drea","cand6",4,6,"Rita",1,0,1,0,6,1
+"drea","cand7",4,7,"Bettina",0,1,1,0,5,0
+"drea","cand8",6,8,"Guilia",1,1,1,0,9,1
+"drea","cand9",1,9,"Fernande",0,0,0,1,1,1
+"drea","cand10",6,10,"Maria",1,0,0,1,5,0
+"drea","cand11",3,11,"Bela",0,1,0,1,4,0
+"drea","cand12",7,12,"Salome",1,1,0,1,8,1
+"drea","cand13",4,13,"Manuela",0,0,1,1,3,0
+"drea","cand14",8,14,"Dominque",1,0,1,1,7,0
+"drea","cand15",7,15,"Jule",0,1,1,1,6,0
+"drea","cand16",10,16,"Tina",1,1,1,1,10,0
+"18441900","cand1",0,1,"Joana",0,0,0,0,0,0
+"18441900","cand2",4,2,"Filipa",1,0,0,0,4,1
+"18441900","cand3",2,3,"Simone",0,1,0,0,3,1
+"18441900","cand4",6,4,"Ulrike",1,1,0,0,7,0
+"18441900","cand5",2,5,"Ute",0,0,1,0,2,0
+"18441900","cand6",6,6,"Rita",1,0,1,0,6,1
+"18441900","cand7",5,7,"Bettina",0,1,1,0,5,0
+"18441900","cand8",8,8,"Guilia",1,1,1,0,9,1
+"18441900","cand9",1,9,"Fernande",0,0,0,1,1,1
+"18441900","cand10",6,10,"Maria",1,0,0,1,5,0
+"18441900","cand11",4,11,"Bela",0,1,0,1,4,0
+"18441900","cand12",9,12,"Salome",1,1,0,1,8,1
+"18441900","cand13",5,13,"Manuela",0,0,1,1,3,0
+"18441900","cand14",9,14,"Dominque",1,0,1,1,7,0
+"18441900","cand15",7,15,"Jule",0,1,1,1,6,0
+"18441900","cand16",10,16,"Tina",1,1,1,1,10,0
