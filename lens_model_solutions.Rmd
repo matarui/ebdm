@@ -33,7 +33,7 @@ ggplot(data,aes(x=crit,y=prediction)) +
 
 ```{r}
 mydata<-data %>% 
-  filter(code=="KMT") 
+  filter(code=="SALT") 
 
 mymodel=lm(prediction~-1+Data+Language+Social+Experience,data=mydata)
 summary(mymodel)
