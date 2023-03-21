@@ -20,7 +20,7 @@ In this session, we cover work from the *Good Judgment Project* that has focused
 
 <iframe width="560" height="515" src="https://www.youtube.com/embed/-07DJ7xVBis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Mellers, B. A. & Tetlock, P. E. (2019). From discipline-centered rivalries to solution-centered science. *American Psychologist, 74* (3), 290-300. [http://doi: 10.1037/amp0000429](https://github.com/matarui/ebdm/raw/main/docs/literature/Mannes_2014_JPSP.pdf)
+Mellers, B. A. & Tetlock, P. E. (2019). From discipline-centered rivalries to solution-centered science. *American Psychologist, 74* (3), 290-300. [http://doi: 10.1037/amp0000429](https://github.com/matarui/ebdm/raw/main/docs/literature/MellersTetlock_2019_AP.pdf)
 
 ## Session Slides
 
