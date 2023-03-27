@@ -24,8 +24,6 @@ Mellers, B. A. & Tetlock, P. E. (2019). From discipline-centered rivalries to so
 
 ## Session Slides
 
-Please note these slides are work in progress ... updated (final!) versions will be uploaded **after** the session. 
-
 ![The wisdom of experts](presentations/EBDM_session5.pdf){width=700px height=500px}
 
 ## Additional Resources
