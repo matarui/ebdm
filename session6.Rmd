@@ -28,8 +28,6 @@ Please note that the [CONSORT](http://www.consort-statement.org) website has bee
 
 ## Session Slides
 
-Please note these slides are work in progress ... updated (final!) versions will be uploaded **after** the session. 
-
 ![Experiments](presentations/EBDM_session6.pdf){width=700px height=500px}
 
 ## Additional Resources
