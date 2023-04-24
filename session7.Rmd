@@ -26,8 +26,6 @@ Varian, H. R. (2016). Causal inference in economics and marketing. *Proceedings 
 
 ## Session Slides
 
-Please note these slides are work in progress ... updated (final!) versions will be uploaded **after** the session. 
-
 ![Alternatives to experiments](presentations/EBDM_session7.pdf){width=700px height=500px}
 
 ## Additional Resources
