@@ -42,8 +42,6 @@ Page, M. J., McKenzie, J. E., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulr
 
 ## Session Slides
 
-Please note these slides are work in progress ... updated (final!) versions will be uploaded **after** the session. 
-
 ![Synthesis](presentations/EBDM_session8.pdf){width=700px height=500px}
 
 ## Additional Resources
