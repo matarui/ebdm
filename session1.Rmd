@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ![Sometimes it is good to start with a question or two...<br> <span>photo by <a href="https://unsplash.com/@jontyson?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jon Tyson</a> on <a href="https://unsplash.com/s/photos/question?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>](photos/jon-tyson-hhq1Lxtuwd8-unsplash.jpg)
 
-## Session Preparation
+## Background Video
 
 ### What is the scientific method? And can we trust it?
 
@@ -22,6 +22,8 @@ As preparation, please watch Naomi Oreskes' TED talk "Why we should trust scient
 
 <iframe width="560" height="515" src="https://www.youtube.com/embed/RxyQNEVOElU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Required Reading
+
 ### What should we do to fix (psychological) science?
 
 As discussed in the introductory session, the behavioral sciences, such as psychology, have been in the news in the past few years for the wrong reasons - think **"replication crisis"**! But what should we be doing to change the status quo? Read the paper by **Munafò et al. (2017)** (ca. 60 minutes) to learn about some possible solutions. 
@@ -32,14 +34,12 @@ Munafò, M. R., Nosek, B. A., Bishop, D. V. M., Button, K. S., Chambers, C. D., 
 
 ![The scientific method(s)](presentations/EBDM_session1.pdf){width=700px height=500px}
 
-## Additional Resources 
+<!-- ### Background readings -->
+<!-- Are you interested in reading more about these topics? These books could be for you...  -->
 
-### Background readings
-Are you interested in reading more about these topics? These books could be for you... 
+<!-- Oreskes, N. (2019). *Why trust science?* Princeton: Oxford. Princeton University Press. [https://www.jstor.org/stable/j.ctvfjczxx](https://www.jstor.org/stable/j.ctvfjczxx) -->
 
-Oreskes, N. (2019). *Why trust science?* Princeton: Oxford. Princeton University Press. [https://www.jstor.org/stable/j.ctvfjczxx](https://www.jstor.org/stable/j.ctvfjczxx)
-
-Ritchie, S. (2020). *Science fictions: Exposing fraud, bias, negligence and hype in science*. London: Bodley Head. [https://www.sciencefictions.org](https://www.sciencefictions.org)
+<!-- Ritchie, S. (2020). *Science fictions: Exposing fraud, bias, negligence and hype in science*. London: Bodley Head. [https://www.sciencefictions.org](https://www.sciencefictions.org) -->
 
 
 

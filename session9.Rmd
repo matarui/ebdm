@@ -1,31 +1,40 @@
 ---
-title: "Interventions"
+title: "Synthesis"
 description: |
-  A taxonomy of interventions and the science of their implementation
+  Guidelines for and limitations of research synthesis
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-![Pill or no pill, that is only part of the question... <br> <span>photo by <a href="https://unsplash.com/@victoriabcphotographer?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Christina Victoria Craft</a> on <a href="https://unsplash.com/s/photos/pill?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>](photos/christina-victoria-craft-WHSnkIwWpec-unsplash.jpg)
+![Neatly packaged rubish is still rubish <br> <span>photo by <a href="https://unsplash.com/@poncho_nj?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Alfonso Navarro</a> on <a href="https://unsplash.com/photos/assorted-box-lot-on-brown-wooden-pallets-qph7tJfcDys?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></span>](photos/alfonso-navarro-qph7tJfcDys-unsplash.jpg)
 
-## Session Preparation
+  
+## Background Video
 
-### The behaviour change wheel
+### Bias detection
 
-Michie, S., van Stralen, M. M., & West, R. (2011). The behaviour change wheel: A new method for characterising and designing behaviour change interventions. *Implementation Science, 6*(1), 42. [http://doi.org/10.1186/1748-5908-6-42](https://github.com/matarui/ebdm/raw/main/docs/literature/Michie_2011_ImplementationScience.pdf)
+Watch this short introduction to bias detection in meta-analysis (ca. 15 minutes).
 
-### Implementation Science
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sjLCt4NxJJY?si=JzMWH9zmEUpgpxv6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Bauer, M. S., Damschroder, L., Hagedorn, H., Smith, J., & Kilbourne, A. M. (2015). An introduction to implementation science for the non-specialist. *BMC Psychology, 3*(1), 65–12. [http://doi.org/10.1186/S40359-015-0089-9](https://github.com/matarui/ebdm/raw/main/docs/literature/Bauer_2015_BMCPsychology.pdf)
+## Required Reading
+
+### Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA)
+
+Take a few minutes to look into the [website](http://prisma-statement.org/Default.aspx) and read the paper by **Page et al. (2021)** (60 minutes), paying particular attention to the checklist and flow diagrams presented. 
+
+Do you recognize important differences or similarities with the CONSORT guidelines? 
+
+[![Prisma](photos/prisma.png)](http://prisma-statement.org/)
 
 ## Session Slides
 
-Please note these slides are work in progress ... updated (final!) versions will be uploaded **after** the session. 
+![Synthesis](presentations/EBDM_session9.pdf){width=700px height=500px}
 
-![Interventions](presentations/EBDM_session9.pdf){width=700px height=500px}
+<!-- ## Additional Resources -->
 
-## Additional Resources
+<!-- For a historical perspective on the development of a central form of research synthesis: meta-analysis.  -->
 
-Nilsen, P., & Birken, S. A. (Eds.). (2020). Handbook on Implementation Science. Cheltenham, UK: Edward Elgar Publishing. 
+<!-- Hunt, M. (1997). *How Science Takes Stock: The Story of Meta-Analysis*. Russell Sage Foundation.  -->

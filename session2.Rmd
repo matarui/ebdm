@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ![Loving data...<br> <span>photo by <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Alexander Sinn</a> on <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>](photos/alexander-sinn-KgLtFCgfC28-unsplash.jpg)
 
-## Session Preparation
+## Background Video
 
 ### Paul Meehl
 
@@ -19,6 +19,8 @@ Paul Meehl was a pioneer in proposing the use of algorithmic decision-making in 
 Travel back to 1989 and experience a portion of Meehl's lecture at the University of Minnesota in which he introduces the issue of clinical vs. statistical prediction - click on the image below to find the lecture Philosophical Psychology Session #09, starting at timestamp 1:14:00).  
 
 [![Paul Meehl](photos/meehl.png)](https://mediasite.csom.umn.edu/Mediasite/Play/682c9b2845514cf5b5a7d1b6defb9e171d)
+
+## Required Reading
 
 ### Clinical vs actuarial judgment
 
@@ -30,17 +32,17 @@ Dawes, R. M., Faust, D., & Meehl, P. E. (1989). Clinical versus actuarial judgme
 
 ![The power of algorithms](presentations/EBDM_session2.pdf){width=700px height=500px}
 
-## Additional Resources 
+<!--## Additional Resources 
 
 ### Exercise
 
 This session provides an introduction to algorithmic decision-making, including a tour of the lens model and policy capturing. If you'd like to get a short "hands-on" intro to conducting "policy capturing" yourself, I suggest you participate in the online experiment [“Job or Not?”](https://evidencebaseddm.formr.org) and then, using your own responses (or those of your colleagues), answer the three questions listed [here](lens_model.html).
 
-If you'd like to see a set of solutions, click [here](lens_model_solutions.html).
+If you'd like to see a set of solutions, click [here](lens_model_solutions.html).-->
 
-### Background Reading
+<!-- ### Background Reading -->
 
-Are you interested in a scathing critique of clinical prediction? This classic could be of interest... 
+<!-- Are you interested in a scathing critique of clinical prediction? This classic could be of interest...  -->
 
-Dawes, R. (1994). *House of cards: Psychology and psychotherapy built on myth*. New York: Free Press.
+<!-- Dawes, R. (1994). *House of cards: Psychology and psychotherapy built on myth*. New York: Free Press. -->
 

@@ -28,8 +28,12 @@ navbar:
         href: session7.html
       - text: "Synthesis"
         href: session8.html
-      - text: "Interventions"
+      - text: "Synthesis"
         href: session9.html
+      - text: "Interventions"
+        href: session10.html
+      - text: "Interventions"
+        href: session11.html
     - text: "Exam"
       href: exam.html
       search: true

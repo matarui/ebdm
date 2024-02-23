@@ -458,8 +458,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
 
   <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet"/>
   <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
   <script src="site_libs/autocomplete-0.37.1/autocomplete.min.js"></script>
   <script src="site_libs/fuse-6.4.1/fuse.min.js"></script>
@@ -2074,7 +2074,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.18/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.24/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2124,7 +2124,9 @@ Sessions
 <a href="session6.html">Experiments</a>
 <a href="session7.html">Alternatives to experiments</a>
 <a href="session8.html">Synthesis</a>
-<a href="session9.html">Interventions</a>
+<a href="session9.html">Synthesis</a>
+<a href="session10.html">Interventions</a>
+<a href="session11.html">Interventions</a>
 </div>
 </div>
 <a href="exam.html">Exam</a>
@@ -2149,16 +2151,15 @@ Sessions
 <nav class="l-text toc figcaption" id="TOC">
 <h3>Contents</h3>
 <ul>
-<li><a href="#session-preparation" id="toc-session-preparation">Session Preparation</a>
+<li><a href="#background-video" id="toc-background-video">Background Video</a>
 <ul>
 <li><a href="#counterfactuals-counterfactuals-counterfactuals-everywhere" id="toc-counterfactuals-counterfactuals-counterfactuals-everywhere">Counterfactuals, counterfactuals, counterfactuals everywhere</a></li>
-<li><a href="#recommended-reading" id="toc-recommended-reading">Recommended Reading</a></li>
+</ul></li>
+<li><a href="#required-reading" id="toc-required-reading">Required Reading</a>
+<ul>
+<li><a href="#causal-inference" id="toc-causal-inference">Causal inference</a></li>
 </ul></li>
 <li><a href="#session-slides" id="toc-session-slides">Session Slides</a></li>
-<li><a href="#additional-resources" id="toc-additional-resources">Additional Resources</a>
-<ul>
-<li><a href="#further-reading" id="toc-further-reading">Further Reading</a></li>
-</ul></li>
 </ul>
 </nav>
 </div>
@@ -2166,12 +2167,13 @@ Sessions
 <img src="photos/edi-libedinsky-1bhp9zBPHVE-unsplash.jpg" alt="Searching for counterfactuals…   photo by Edi Libedinsky on Unsplash" />
 <figcaption aria-hidden="true">Searching for counterfactuals… <br> <span>photo by <a href="https://unsplash.com/@supernov?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Edi Libedinsky</a> on <a href="https://unsplash.com/s/photos/binoculars?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></figcaption>
 </figure>
-<h2 id="session-preparation">Session Preparation</h2>
+<h2 id="background-video">Background Video</h2>
 <h3 id="counterfactuals-counterfactuals-counterfactuals-everywhere">Counterfactuals, counterfactuals, counterfactuals everywhere</h3>
 <p>There are many ways to make inferences but most (all?!?) forms of causal inference involve some form of counterfactual. Take some time to think about the concept of counterfactuals by watching this short intro (5 minutes).</p>
 <iframe width="560" height="515" src="https://www.youtube.com/embed/5eNhS0oaLHo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
 </iframe>
-<h3 id="recommended-reading">Recommended Reading</h3>
+<h2 id="required-reading">Required Reading</h2>
+<h3 id="causal-inference">Causal inference</h3>
 <p>Read <strong>Varian (2016)</strong> (ca. 120 minutes) to get an overview of causal inference strategies in economics and marketing from the Chief Economist at Google, Hal Varian.</p>
 <p>Varian, H. R. (2016). Causal inference in economics and marketing. <em>Proceedings of the National Academy of Sciences of the United States of America, 113</em>(27), 7310–7315. <a href="https://github.com/matarui/ebdm/raw/main/docs/literature/Varian_2016_PNAS.pdf">http://doi.org/10.1073/pnas.1510479113</a></p>
 <h2 id="session-slides">Session Slides</h2>
@@ -2179,10 +2181,10 @@ Sessions
 <embed src="presentations/EBDM_session7.pdf" width="700" height="500" />
 <figcaption aria-hidden="true">Alternatives to experiments</figcaption>
 </figure>
-<h2 id="additional-resources">Additional Resources</h2>
-<h3 id="further-reading">Further Reading</h3>
-<p>Here’s a popular science book on the “new” science of causal inference:</p>
-<p>Pearl, J. &amp; Mackenzie, D. (2018). <em>The book of why: The new science of cause and effect.</em> Basic Books. <a href="https://www.basicbooks.com/titles/judea-pearl/the-book-of-why/9781541698963/">https://www.basicbooks.com/titles/judea-pearl/the-book-of-why/9781541698963/</a></p>
+<!-- ## Additional Resources -->
+<!-- ### Further Reading -->
+<!-- Here's a popular science book on the "new" science of causal inference:  -->
+<!-- Pearl, J. & Mackenzie, D. (2018). *The book of why: The new science of cause and effect.* Basic Books. [https://www.basicbooks.com/titles/judea-pearl/the-book-of-why/9781541698963/](https://www.basicbooks.com/titles/judea-pearl/the-book-of-why/9781541698963/) -->
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

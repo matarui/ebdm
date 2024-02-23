@@ -1,0 +1,29 @@
+---
+title: "Interventions"
+description: |
+  From nudging to an evidence-based taxonomy of interventions 
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+![Pill or no pill, that is only part of the question... <br> <span>photo by <a href="https://unsplash.com/@victoriabcphotographer?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Christina Victoria Craft</a> on <a href="https://unsplash.com/s/photos/pill?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>](photos/christina-victoria-craft-WHSnkIwWpec-unsplash.jpg)
+
+## Background Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OLBgjd8bbQw?si=UgQjJau1Kl56ItU9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Required Reading
+
+### The behaviour change wheel
+
+Michie, S., van Stralen, M. M., & West, R. (2011). The behaviour change wheel: A new method for characterising and designing behaviour change interventions. *Implementation Science, 6*(1), 42. [http://doi.org/10.1186/1748-5908-6-42](https://github.com/matarui/ebdm/raw/main/docs/literature/Michie_2011_ImplementationScience.pdf)
+
+## Session Slides
+
+![Interventions](presentations/EBDM_session10.pdf){width=700px height=500px}
+
+<!-- ## Additional Resources -->
+
+<!-- Nilsen, P., & Birken, S. A. (Eds.). (2020). Handbook on Implementation Science. Cheltenham, UK: Edward Elgar Publishing.  -->

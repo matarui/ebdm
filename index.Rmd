@@ -1,9 +1,9 @@
 ---
 title: "EBDM"
 description: |
-  Welcome to the website for *Evidence-based decision making* FS23 ([11230-01](https://vorlesungsverzeichnis.unibas.ch/de/home?id=263293))
+  Welcome to the website for *Evidence-based decision making* FS24 ([11230-01](https://vorlesungsverzeichnis.unibas.ch/de/home?id=280447))
   
-  Instructor: [Rui Mata](https://psychologie.unibas.ch/de/personen/rui-mata/about-me/), University of Basel
+  Instructors: [Loreen Tisdall](https://loreentisdall.github.io) and [Rui Mata](https://psychologie.unibas.ch/de/personen/rui-mata/about-me/), University of Basel
   
   **WEBSITE UNDER CONSTRUCTION:** Last updated `r format(Sys.time(), "%a %b %d %X %Y")`
 #site: distill::distill_website
@@ -29,21 +29,23 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # :busstop: Session information
 
-Sessions take place Mondays, 14.15-15.45, Biozentrum, Maurice E. Müller Saal U1.111. 
+Sessions take place Mondays, 14.15-15.45, Biozentrum, Maurice E. Müller Saal U1.111.  
 
 ::: l-body
 | # | Date     | Topic                         | 
 |---| ---------|-------------------------------|
-| 1 | 20.02.2023 | [The scientific method(s)](session1.html) | 
-| 2 | 06.03.2023 | [Algorithms: The power of algorithms](session2.html) | 
-| 3 | 13.03.2023 | [Algorithms: The problems of algorithms](session3.html) | 
-| 4 | 20.03.2023 | [Consensus: The wisdom of the crowd](session4.html) | 
-| 5 | 27.03.2023 | [Consensus: The wisdom of experts](session5.html) | 
-| 6 | 17.04.2023 | [Counterfactuals: Experiments](session6.html) | 
-| 7 | 24.04.2023 | [Counterfactuals: Alternatives to experiments](session7.html) | 
-| 8 | 08.05.2023 | [Synthesis](session8.html) | 
-| 9 | 15.05.2023 | [Interventions](session9.html) | 
-|10 | 22.05.2023 | [Exam](exam.html) | 
+| 1 | 26.02.2024 | [The scientific method(s)](session1.html) | 
+| 2 | 04.03.2024 | [Algorithms: The power of algorithms](session2.html) | 
+| 3 | 11.03.2024 | [Algorithms: The problems of algorithms](session3.html) | 
+| 4 | 18.03.2024 | [Consensus: The wisdom of the crowd](session4.html) | 
+| 5 | 25.03.2024 | [Consensus: The wisdom of experts](session5.html) | 
+| 6 | 08.04.2024 | [Counterfactuals: Experiments](session6.html) | 
+| 7 | 15.04.2024 | [Counterfactuals: Alternatives to experiments](session7.html) | 
+| 8 | 22.04.2024 | [Synthesis: Overview](session8.html) | 
+| 9 | 29.04.2024 | [Synthesis: Limitations](session9.html) | 
+| 10 | 06.05.2024 | [Interventions: A taxonomy](session10.html) | 
+| 11 | 13.05.2024 | [Interventions: Implementation](session11.html) | 
+| 12 | 27.05.2024 | [Exam](exam.html) | 
 :::
 
 # :books: What is this course about? 
@@ -74,11 +76,7 @@ The course will cover broad theoretical principles of evidence-based decision ma
 
 # :beginner: How should you use this website? 
 
-This website is designed to help course participants get an overview of the course and access most course materials. 
-
-Each session is structured such that some materials are available for preparation before the session (i.e., youtube videos, recommended readings) and students are expected to have consulted those before each session. In addition, the slides of each presentation are made available to give students an idea of the session content. Note that the final version of the slides will typically be made available *after* each session. 
-
-Finally, additional resources, such as optional exercises or background readings are listed at the end of each session for those that would like to learn more about the topic of the session. 
+This website is designed to help course participants get an overview of the course and access the course materials. Each session typically includes a background video, some required reading (typically 1 academic paper), and the course slides. Note that course slides may be updated after each session. 
 
 No video recordings of the in-person sessions will be made available. 
 

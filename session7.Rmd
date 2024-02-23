@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ![Searching for counterfactuals... <br> <span>photo by <a href="https://unsplash.com/@supernov?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Edi Libedinsky</a> on <a href="https://unsplash.com/s/photos/binoculars?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>](photos/edi-libedinsky-1bhp9zBPHVE-unsplash.jpg)
 
-## Session Preparation
+## Background Video
 
 ### Counterfactuals, counterfactuals, counterfactuals everywhere
 
@@ -18,7 +18,9 @@ There are many ways to make inferences but most (all?!?) forms of causal inferen
 
 <iframe width="560" height="515" src="https://www.youtube.com/embed/5eNhS0oaLHo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-### Recommended Reading
+## Required Reading
+
+### Causal inference 
 
 Read **Varian (2016)** (ca. 120 minutes) to get an overview of causal inference strategies in economics and marketing from the Chief Economist at Google, Hal Varian. 
 
@@ -28,10 +30,10 @@ Varian, H. R. (2016). Causal inference in economics and marketing. *Proceedings 
 
 ![Alternatives to experiments](presentations/EBDM_session7.pdf){width=700px height=500px}
 
-## Additional Resources
+<!-- ## Additional Resources -->
 
-### Further Reading
+<!-- ### Further Reading -->
 
-Here's a popular science book on the "new" science of causal inference: 
+<!-- Here's a popular science book on the "new" science of causal inference:  -->
 
-Pearl, J. & Mackenzie, D. (2018). *The book of why: The new science of cause and effect.* Basic Books. [https://www.basicbooks.com/titles/judea-pearl/the-book-of-why/9781541698963/](https://www.basicbooks.com/titles/judea-pearl/the-book-of-why/9781541698963/)
+<!-- Pearl, J. & Mackenzie, D. (2018). *The book of why: The new science of cause and effect.* Basic Books. [https://www.basicbooks.com/titles/judea-pearl/the-book-of-why/9781541698963/](https://www.basicbooks.com/titles/judea-pearl/the-book-of-why/9781541698963/) -->

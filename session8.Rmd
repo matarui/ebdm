@@ -10,13 +10,15 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ![Knowledge is all around us... <br> <span>photo by <a href="https://unsplash.com/@luis_tosta?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Luis Tosta</a> on <a href="https://unsplash.com/s/photos/library?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>](photos/luis-tosta-COAbFWdOf5s-unsplash.jpg)
 
-## Session Preparation 
+## Background Video
 
 ### What is research synthesis?
 
-Whatch this short introduction to research synthesis to learn more about it and we need it (ca. 5 minutes).
+Watch this short introduction to research synthesis to learn more about it and why we need it (ca. 5 minutes).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nZR0xQmZVQg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Required Reading
 
 ### A short primer on research synthesis
 
@@ -24,28 +26,12 @@ Read the paper by **Gurevitch et al. (2018)** for a short overview of the histor
 
 Gurevitch, J., Koricheva, J., Nakagawa, S., & Stewart, G. (2018). Meta-analysis and the science of research synthesis. *Nature, 555*(7695), 175–182.  [http://doi.org/10.1038/nature25753](https://github.com/matarui/ebdm/raw/main/docs/literature/Gurevitch_2018_Nature.pdf)
 
-### Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA)
-
-Are you familiar with the "Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA)" and the associated [website](http://prisma-statement.org)?
-
-Take a few minutes to look into the [website](http://prisma-statement.org/Default.aspx) and read the paper by **Page et al. (2021)** (60 minutes), paying particular attention to the checklist and flow diagrams presented. 
-
-Do you recognize important differences or similarities with the CONSORT guidelines? 
-
-[![Prisma](photos/prisma.png)](http://prisma-statement.org/)
-
-### Additional (optional) task
-
-Pick a systematic literature search and/or meta-analysis that you are familiar with or search for one using an literature database of your choice. To what extent does the report follow the PRISMA guidelines? 
-
-Page, M. J., McKenzie, J. E., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., et al. (2021). The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. BMJ, 372, n71. [http://doi.org/10.1136/bmj.n71](https://github.com/matarui/ebdm/raw/main/docs/literature/Page_2021_BMJ.pdf)
-
 ## Session Slides
 
 ![Synthesis](presentations/EBDM_session8.pdf){width=700px height=500px}
 
-## Additional Resources
+<!-- ## Additional Resources -->
 
-For a historical perspective on the development of a central form of research synthesis: meta-analysis. 
+<!-- For a historical perspective on the development of a central form of research synthesis: meta-analysis.  -->
 
-Hunt, M. (1997). *How Science Takes Stock: The Story of Meta-Analysis*. Russell Sage Foundation. 
+<!-- Hunt, M. (1997). *How Science Takes Stock: The Story of Meta-Analysis*. Russell Sage Foundation.  -->

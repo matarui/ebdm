@@ -1,0 +1,30 @@
+---
+title: "Interventions"
+description: |
+  Implementation science and the limits of evidence-based approaches
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+![From toy world to the real world... <br> <span>photo by <a href="https://unsplash.com/@jerry_318?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jerry Wang</a> on <a href="https://unsplash.com/photos/lego-toys-ARgNgdFXAS4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  </span>](photos/jerry-wang-ARgNgdFXAS4-unsplash.jpg)
+
+## Background Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ixg3g4-dmu0?si=arutPbpu8Sf9LgWw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Required Reading
+
+### Implementation Science
+
+Bauer, M. S., Damschroder, L., Hagedorn, H., Smith, J., & Kilbourne, A. M. (2015). An introduction to implementation science for the non-specialist. *BMC Psychology, 3*(1), 65–12. [http://doi.org/10.1186/S40359-015-0089-9](https://github.com/matarui/ebdm/raw/main/docs/literature/Bauer_2015_BMCPsychology.pdf)
+
+## Session Slides
+
+![Implementation Science](presentations/EBDM_session11.pdf){width=700px height=500px}
+
+<!-- ## Additional Resources -->
+
+<!-- Nilsen, P., & Birken, S. A. (Eds.). (2020). Handbook on Implementation Science. Cheltenham, UK: Edward Elgar Publishing.  -->

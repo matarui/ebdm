@@ -10,13 +10,15 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ![AAARHHHH! goes the crowd!... <br> <span>photo by <a href="https://unsplash.com/@chuttersnap?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">CHUTTERSNAP</a> on <a href="https://unsplash.com/s/photos/crowd?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>](photos/chuttersnap-gDDas5_ALRw-unsplash.jpg)
 
-## Session Preparation
+## Background Video
 
 ### Wisdom of the crowd
 
 Check out this video by Mehdi Moussaid for an introduction to the wisdom of the crowd (ca. 14 minutes). 
 
 <iframe width="560" height="515" src="https://www.youtube.com/embed/cWTn73BZs8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Required Reading
 
 ### The wisdom of select crowds
 
@@ -28,11 +30,11 @@ Mannes, A. E., Soll, J. B., & Larrick, R. P. (2014). The wisdom of select crowds
 
 ![The wisdom of the crowd](presentations/EBDM_session4.pdf){width=700px height=500px}
 
-## Additional Resources 
+<!-- ## Additional Resources  -->
 
-### Further Readings
+<!-- ### Further Readings -->
 
-Here's a popular science classic on the topic of wisdom of the crowds. 
+<!-- Here's a popular science classic on the topic of wisdom of the crowds.  -->
 
-Surowiecki, J. (2004). *The wisdom of crowds*. Anchor.
+<!-- Surowiecki, J. (2004). *The wisdom of crowds*. Anchor. -->
 
