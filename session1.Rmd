@@ -24,8 +24,6 @@ As preparation, please watch Naomi Oreskes' TED talk "Why we should trust scient
 
 ## Required Reading
 
-### What should we do to fix (psychological) science?
-
 As discussed in the introductory session, the behavioral sciences, such as psychology, have been in the news in the past few years for the wrong reasons - think **"replication crisis"**! But what should we be doing to change the status quo? Read the paper by **Munafò et al. (2017)** (ca. 60 minutes) to learn about some possible solutions. 
 
 Munafò, M. R., Nosek, B. A., Bishop, D. V. M., Button, K. S., Chambers, C. D., Sert, du, N. P., et al. (2017). A manifesto for reproducible science. *Nature Human Behaviour, 1*, 1–9. [http://doi.org/10.1038/s41562-016-0021](https://github.com/matarui/ebdm/raw/main/docs/literature/Munafo_2017_NHB.pdf)

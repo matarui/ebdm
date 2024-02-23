@@ -21,8 +21,6 @@ Watch this short introduction to bias detection in meta-analysis (ca. 15 minutes
 
 ## Required Reading
 
-### Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA)
-
 Take a few minutes to look into the [website](http://prisma-statement.org/Default.aspx) and read the paper by **Page et al. (2021)** (60 minutes), paying particular attention to the checklist and flow diagrams presented. 
 
 Do you recognize important differences or similarities with the CONSORT guidelines? 

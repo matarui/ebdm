@@ -14,25 +14,25 @@ navbar:
       menu:
       - text: "The scientific method(s)"
         href: session1.html
-      - text: "The power of algorithms"
+      - text: "Algorithms: The power of algorithms"
         href: session2.html
-      - text: "The problems of algorithms"
+      - text: "Algorithms: The problems of algorithms"
         href: session3.html
-      - text: "The wisdom of the crowd"
+      - text: "Consensus: The wisdom of the crowd"
         href: session4.html
-      - text: "The wisdom of experts"
+      - text: "Consensus: The wisdom of experts"
         href: session5.html
-      - text: "Experiments"
+      - text: "Counterfactuals: Experiments"
         href: session6.html
-      - text: "Alternatives to experiments"
+      - text: "Counterfactuals: Alternatives to experiments"
         href: session7.html
-      - text: "Synthesis"
+      - text: "Synthesis: Overview"
         href: session8.html
-      - text: "Synthesis"
+      - text: "Synthesis: Limitations"
         href: session9.html
-      - text: "Interventions"
+      - text: "Interventions: A taxonomy"
         href: session10.html
-      - text: "Interventions"
+      - text: "Interventions: Implementation"
         href: session11.html
     - text: "Exam"
       href: exam.html

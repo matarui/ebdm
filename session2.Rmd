@@ -22,8 +22,6 @@ Travel back to 1989 and experience a portion of Meehl's lecture at the Universit
 
 ## Required Reading
 
-### Clinical vs actuarial judgment
-
 In this session we will discuss Meehl's proposals and its implications for applied practice in the behavioral sciences and society at large. Please read the recommended reading below by **Dawes, Faust, and Meehl (1989)** (ca. 60 minutes) for an overview of Meehl and related work. 
 
 Dawes, R. M., Faust, D., & Meehl, P. E. (1989). Clinical versus actuarial judgment. *Science, 243*(4899), 1668–1674. [http://doi.org/10.2307/1703476](https://github.com/matarui/ebdm/raw/main/docs/literature/Dawes_1989_Science.pdf)

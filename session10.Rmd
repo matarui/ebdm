@@ -16,8 +16,6 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Required Reading
 
-### The behaviour change wheel
-
 Michie, S., van Stralen, M. M., & West, R. (2011). The behaviour change wheel: A new method for characterising and designing behaviour change interventions. *Implementation Science, 6*(1), 42. [http://doi.org/10.1186/1748-5908-6-42](https://github.com/matarui/ebdm/raw/main/docs/literature/Michie_2011_ImplementationScience.pdf)
 
 ## Session Slides

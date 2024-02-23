@@ -26,8 +26,6 @@ The video will serve as a starting point for a discussion on the limits of algor
 
 ## Required Reading
 
-### Lessons from machine learning
-
 How can the behavioral sciences use insights from machine learning to generate insights about human behavior? 
 
 Read **Yarkoni and Westfall (2017)** (ca. 120 minutes) to get an overview machine learning concepts and some of its pitfalls (e.g., overfitting) and associated solutions (e.g., cross-validation, regularization).
