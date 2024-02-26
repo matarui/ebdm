@@ -35,16 +35,16 @@ Sessions take place Mondays, 14.15-15.45, Biozentrum, Maurice E. Müller Saal U1
 | # | Date     | Topic                         |        |
 |---| ---------|-------------------------------|--------|
 | 1 | 26.02.2024 | [The scientific method(s)](session1.html) |[pdf](presentations/EBDM_session1.pdf)| 
-| 2 | 04.03.2024 | [Algorithms: The power of algorithms](session2.html) | |
-| 3 | 11.03.2024 | [Algorithms: The problems of algorithms](session3.html) | |
-| 4 | 18.03.2024 | [Consensus: The wisdom of the crowd](session4.html) | |
-| 5 | 25.03.2024 | [Consensus: The wisdom of experts](session5.html) | |
-| 6 | 08.04.2024 | [Counterfactuals: Experiments](session6.html) | |
-| 7 | 15.04.2024 | [Counterfactuals: Alternatives to experiments](session7.html) | |
-| 8 | 22.04.2024 | [Synthesis: Overview](session8.html) | |
-| 9 | 29.04.2024 | [Synthesis: Limitations](session9.html) | |
-| 10 | 06.05.2024 | [Interventions: A taxonomy](session10.html) | |
-| 11 | 13.05.2024 | [Interventions: Implementation](session11.html) | |
+| 2 | 04.03.2024 | [Algorithms: The power of algorithms](session2.html) |[pdf](presentations/EBDM_session2.pdf) |
+| 3 | 11.03.2024 | [Algorithms: The problems of algorithms](session3.html) |[pdf](presentations/EBDM_session3.pdf) |
+| 4 | 18.03.2024 | [Consensus: The wisdom of the crowd](session4.html) |[pdf](presentations/EBDM_session4.pdf) |
+| 5 | 25.03.2024 | [Consensus: The wisdom of experts](session5.html) |[pdf](presentations/EBDM_session5.pdf) |
+| 6 | 08.04.2024 | [Counterfactuals: Experiments](session6.html) |[pdf](presentations/EBDM_session6.pdf) |
+| 7 | 15.04.2024 | [Counterfactuals: Alternatives to experiments](session7.html) |[pdf](presentations/EBDM_session7.pdf) |
+| 8 | 22.04.2024 | [Synthesis: Overview](session8.html) |[pdf](presentations/EBDM_session8.pdf) |
+| 9 | 29.04.2024 | [Synthesis: Limitations](session9.html) |[pdf](presentations/EBDM_session9.pdf) |
+| 10 | 06.05.2024 | [Interventions: A taxonomy](session10.html) |[pdf](presentations/EBDM_session10.pdf) |
+| 11 | 13.05.2024 | [Interventions: Implementation](session11.html) |[pdf](presentations/EBDM_session11.pdf) |
 | 12 | 27.05.2024 | [Exam](exam.html) | |
 :::
 
